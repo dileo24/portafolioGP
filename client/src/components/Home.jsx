@@ -7,7 +7,7 @@ export default function Home() {
     <div className="homeContainer">
       <Navbar />
       <div className="container">
-        <h1>Hola</h1>
+        <h1 className="titulos">Hola</h1>
       </div>
       <Footer />
     </div>

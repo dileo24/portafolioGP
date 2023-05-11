@@ -1,3 +1,18 @@
 .homeContainer {
-  border: 1px solid red;
+  @include titulos;
+  @include titulos;
+
+  background-color: $fondoClaro;
+  .container {
+    height: 100vh;
+    flex-direction: column;
+
+    .titulos {
+      margin-top: 1rem;
+    }
+  }
+
+  Footer {
+    bottom: 0;
+  }
 }
