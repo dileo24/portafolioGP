@@ -31,6 +31,9 @@ export default function Navbar() {
               <a className="nav-link" href="./">
                 Pricing
               </a>
+              <a className="nav-link" href="#footer">
+                Footer
+              </a>
             </div>
           </div>
         </div>
