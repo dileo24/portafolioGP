@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../multimedia/logo2.PNG";
 
 export default function Navbar() {
   return (
@@ -6,7 +7,7 @@ export default function Navbar() {
       <nav className="navbar navbar-expand-lg ">
         <div className="container-fluid">
           <a className="navbar-brand" href="./">
-            GoPage
+            <img src={logo} alt="logo" className="logo" />
           </a>
           <button
             className="navbar-toggler"
