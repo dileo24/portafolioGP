@@ -15,7 +15,7 @@ export default function ButtonExt() {
   return (
     <div className="buttonContainer">
       <button
-        className={`buttonExt ${menuOpen ? "open" : ""}`}
+        className={`buttonExt ${menuOpen && "open"}`}
         onClick={handleButtonClick}
       >
         <img className="icono" src={iconoImage} alt="Icono" />

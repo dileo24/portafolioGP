@@ -1,4 +1,3 @@
-import "./App.scss";
 import { Routes, Route } from "react-router-dom";
 import PregFrec from "./components/PregFrec";
 import Home from "./components/Home";
