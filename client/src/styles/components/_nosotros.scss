@@ -1,0 +1,88 @@
+.nosotrosContainer {
+  height: 195vh;
+  color: black;
+
+  .inicio {
+    height: 100vh;
+    margin: 3.5rem 40vw 0 2.5rem;
+    .titulo-inicio {
+      font-size: 5.8rem;
+      font-weight: 400;
+    }
+    .descr-inicio {
+      margin: 0.6rem 5.5rem 4rem 0.25rem;
+      font-size: 1.28rem;
+      font-weight: 100;
+      line-height: 2.2rem;
+    }
+    .button-inicio {
+      margin-left: 0.25rem;
+      padding: 0.7rem 2.2rem;
+      height: auto;
+      width: fit-content;
+      background-color: $magenta;
+      color: white;
+      font-size: 1.1rem;
+      text-decoration: none;
+    }
+    .button-inicio:hover {
+      background-color: #ad3760;
+    }
+    .GP {
+      width: 64rem;
+      position: absolute;
+      top: 9rem;
+      right: 0;
+    }
+  }
+
+  .info {
+    background-color: rgb(230, 230, 230);
+    height: 95vh;
+    color: black;
+
+    .flex-info {
+      display: flex;
+      flex-direction: row;
+
+      .titulo-info {
+        width: 50%;
+        padding: 13rem 0 0 12.4rem;
+        font-size: 3.95rem;
+        font-weight: 700;
+      }
+
+      .descr-info {
+        width: 50%;
+        padding: 13rem 13rem 0 2rem;
+        font-size: 1.3rem;
+        line-height: 2.2rem;
+      }
+    }
+
+    .items-info {
+      display: flex;
+      flex-direction: row;
+      margin: 2.8rem 13rem 0 12.5rem;
+
+      .item-info:not(:last-child) {
+        padding-right: 1.5rem;
+        border-right: 1px solid black;
+      }
+
+      .item-info:not(:first-child) {
+        padding-left: 1.5rem;
+      }
+
+      .titulo-item {
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+      }
+
+      .descr-item {
+        font-size: 0.88rem;
+      }
+    }
+  }
+}

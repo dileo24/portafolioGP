@@ -2,13 +2,15 @@
   position: fixed;
   right: 2rem;
   bottom: 1rem;
-  
+
   .buttonExt {
     @include center;
     border-radius: 100%;
     height: 3rem;
     width: 3rem;
     margin-bottom: 1rem;
+    transform: rotate(90deg);
+    border-color: $magenta;
 
     .icono {
       height: 3rem;
