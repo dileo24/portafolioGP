@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import ButtonExt from "./ButtonExt";
 import Nosotros from "./Nosotros";
+import Proyectos from "./Proyectos";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <div className="home-subContainer">
         <Nosotros />
         <ButtonExt />
+        <Proyectos />
       </div>
       <Footer />
     </div>

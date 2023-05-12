@@ -1,23 +1,24 @@
 .nosotrosContainer {
-  height: 195vh;
+  height: auto;
   color: black;
 
   .inicio {
     height: 100vh;
-    margin: 3.5rem 40vw 0 2.5rem;
+
     .titulo-inicio {
-      font-size: 5.8rem;
+      font-size: 5.8vw;
       font-weight: 400;
+      margin: 3.5vw 0 0 2.5rem;
     }
     .descr-inicio {
-      margin: 0.6rem 5.5rem 4rem 0.25rem;
+      margin: 0.6rem 45rem 4rem 2.75rem;
       font-size: 1.28rem;
       font-weight: 100;
       line-height: 2.2rem;
-      width: 60%;
+      // width: 60%;
     }
     .button-inicio {
-      margin-left: 0.25rem;
+      margin-left: 2.75rem;
       padding: 0.7rem 2.2rem;
       height: auto;
       width: fit-content;
@@ -33,22 +34,18 @@
       position: absolute;
       width: 66%;
       height: 100%;
-      top: 10vh;
+      top: 20vh;
       right: 0;
       .GP {
         width: 65vw;
         height: auto;
-        /* width: 64rem;
-      position: absolute;
-      top: 9rem;
-      right: 0; */
       }
     }
   }
 
   .info {
     background-color: rgb(230, 230, 230);
-    height: 95vh;
+    height: auto;
     color: black;
 
     .flex-info {
@@ -74,6 +71,7 @@
       display: flex;
       flex-direction: row;
       margin: 2.8rem 13rem 0 12.5rem;
+      padding-bottom: 6rem;
 
       .item-info:not(:last-child) {
         padding-right: 1.5rem;
@@ -94,5 +92,15 @@
         font-size: 0.88rem;
       }
     }
+  }
+}
+
+// Monitor chico
+@media only screen and (max-width: 1430px) {
+  .descr-inicio {
+    margin-right: 35rem !important;
+  }
+  .GPcontainer {
+    top: 25vh !important;
   }
 }

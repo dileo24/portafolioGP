@@ -7,7 +7,9 @@ export default function Nosotros() {
   return (
     <div className="nosotrosContainer">
       <div className="inicio">
-        <h1 className="titulo-inicio">Creamos soluciones a tu medida</h1>
+        <h1 className="titulo-inicio">
+          Creamos soluciones <br /> a tu medida
+        </h1>
         <p className="descr-inicio">
           En GoPage entendemos que cada cliente es diferente y tiene necesidades
           únicas. Por eso, nos adaptamos a tus requerimientos y creamos

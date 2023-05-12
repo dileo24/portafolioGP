@@ -1,4 +1,4 @@
-// Lauti
+// Joaco
 
 import React from "react";
 
