@@ -1,18 +1,12 @@
 .homeContainer {
-  @include titulos;
+  // @include titulos;
   background-color: $fondoClaro;
-  
-  .container {
-    height: 100vh;
-    width: 100vw;
+
+  .home-subContainer {
     flex-direction: column;
 
     .titulos {
       margin-top: 1rem;
     }
-  }
-
-  Footer {
-    bottom: 0;
   }
 }

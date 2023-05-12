@@ -3,13 +3,15 @@
   width: 100%;
   background-color: white;
   box-shadow: 0px 3px 1rem -2px rgba(0, 0, 0, 0.5);
-  .navbar-brand {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    .logo {
-      border: 1px solid red;
-      width: 12rem;
+  .navbar {
+    --bs-navbar-padding-y: none;
+    .navbar-brand {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .logo {
+        width: 12rem;
+      }
     }
   }
 }

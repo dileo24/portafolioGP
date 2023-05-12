@@ -20,9 +20,9 @@ export default function ButtonExt() {
         onClick={handleButtonClick}
       >
         {menuOpen ? (
-          <img className="icono" src={iconoImage} alt="Icono" />
-        ) : (
           <img className="icono" src={iconoImageCerrado} alt="Icono" />
+        ) : (
+          <img className="icono" src={iconoImage} alt="Icono" />
         )}
       </button>
       {menuOpen && (
