@@ -18,7 +18,9 @@ export default function Nosotros() {
         <a className="button-inicio" href="#info">
           COMENCEMOS
         </a>
-        <img src={GP} alt="GP" className="GP" />
+        <div className="GPcontainer">
+          <img src={GP} alt="GP" className="GP" />
+        </div>
       </div>
 
       <div id="info" className="info">

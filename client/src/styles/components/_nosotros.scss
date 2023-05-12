@@ -14,6 +14,7 @@
       font-size: 1.28rem;
       font-weight: 100;
       line-height: 2.2rem;
+      width: 60%;
     }
     .button-inicio {
       margin-left: 0.25rem;
@@ -28,11 +29,20 @@
     .button-inicio:hover {
       background-color: #ad3760;
     }
-    .GP {
-      width: 64rem;
+    .GPcontainer {
+      position: absolute;
+      width: 66%;
+      height: 100%;
+      top: 10vh;
+      right: 0;
+      .GP {
+        width: 65vw;
+        height: auto;
+        /* width: 64rem;
       position: absolute;
       top: 9rem;
-      right: 0;
+      right: 0; */
+      }
     }
   }
 
