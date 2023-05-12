@@ -1,25 +1,23 @@
-.buttonContainer {
+.buttonContainerr {
   position: fixed;
   right: 2rem;
   bottom: 1rem;
-  
+
   .buttonExt {
     @include center;
     border-radius: 100%;
     height: 3rem;
     width: 3rem;
     margin-bottom: 1rem;
-
+    border: 2px solid $magenta;
+    transition: all 0.3s;
     .icono {
       height: 3rem;
       transition: all 0.3s;
     }
 
     &.open {
-      border-color: gray;
-      .icono {
-        filter: invert(50%);
-      }
+      border-color: $magentaClaro;
     }
   }
 
@@ -29,6 +27,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: transform 0.5s;
 
     .circle {
       width: 3rem;
@@ -38,8 +37,13 @@
       margin-bottom: 1rem;
       .icono {
         height: 3rem;
-        transition: 0.3s;
       }
+    }
+  }
+
+  &.open {
+    .menu {
+      transform: translateY(0%);
     }
   }
 }

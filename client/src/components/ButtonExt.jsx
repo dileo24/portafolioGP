@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import iconoImage from "../multimedia/iconoMenu.png";
+import iconoImageCerrado from "../multimedia/iconoMenuCerrado.png";
 import iconoWpp from "../multimedia/icon-wpp.png";
 import iconoIg from "../multimedia/icon-instagram.png";
 import iconoLd from "../multimedia/icon-linkedin.png";
@@ -13,12 +14,16 @@ export default function ButtonExt() {
   };
 
   return (
-    <div className="buttonContainer">
+    <div className="buttonContainerr">
       <button
         className={`buttonExt ${menuOpen && "open"}`}
         onClick={handleButtonClick}
       >
-        <img className="icono" src={iconoImage} alt="Icono" />
+        {menuOpen ? (
+          <img className="icono" src={iconoImage} alt="Icono" />
+        ) : (
+          <img className="icono" src={iconoImageCerrado} alt="Icono" />
+        )}
       </button>
       {menuOpen && (
         <div className="menu">
