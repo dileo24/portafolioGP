@@ -28,7 +28,7 @@ export default function Nosotros() {
       <div id="info" className="info">
         <div className="flex-info">
           <h1 className="titulo-info">
-            GoPage <br /> Desarrollo web
+            <span>G</span>o<span>P</span>age <br /> Desarrollo web
           </h1>
 
           <p className="descr-info">

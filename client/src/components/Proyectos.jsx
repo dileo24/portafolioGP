@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Proyectos() {
   return (
-    <div className="proyectosContainer">
+    <div id="proyectos" className="proyectosContainer">
       <div className="titulo-proyectos">
         Descubre más sobre <br /> nuestros trabajos
       </div>

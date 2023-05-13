@@ -3,16 +3,16 @@
   color: black;
 
   .inicio {
-    height: 100vh;
-    background-color: white;
+    height: 120vh;
+    background-color: rgba(255, 255, 255, 0);
     color: black;
     .titulo-inicio {
       font-size: 5.8vw;
       font-weight: 400;
-      padding: 5.5rem 0 0 2.5rem;
+      padding: 7.5rem 0 0 2.5rem;
     }
     .descr-inicio {
-      margin: 1.5rem 45rem 4rem 2.75rem;
+      margin: 1.5rem 44rem 4rem 2.75rem;
       font-size: 1.28rem;
       font-weight: 100;
       line-height: 2.2rem;
@@ -26,10 +26,10 @@
     }
     .GPcontainer {
       position: absolute;
-      top: 6rem;
-      right: 0;
+      top: 10rem;
+      right: 1rem;
       .GP {
-        width: 60vw;
+        width: 65vw;
         height: auto;
       }
     }
@@ -49,6 +49,9 @@
         width: 50%;
         font-size: 4.9vw;
         font-weight: 700;
+      }
+      .titulo-info span {
+        color: $magenta;
       }
 
       .descr-info {
@@ -88,6 +91,9 @@
 
 // Monitor chico
 @media only screen and (max-width: 1430px) {
+  .inicio {
+    height: 100vh !important;
+  }
   .descr-inicio {
     margin-right: 40rem !important;
     font-size: 1.2rem !important;

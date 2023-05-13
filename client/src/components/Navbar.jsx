@@ -6,7 +6,7 @@ export default function Navbar() {
     <div className="navContainer">
       <nav className="navbar navbar-expand-lg ">
         <div className="container-fluid">
-          <a className="navbar-brand" href="./">
+          <a className="navbar-brand" href="#">
             <img src={logo} alt="logo" className="logo" />
           </a>
           <button
@@ -22,17 +22,17 @@ export default function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <a className="nav-link active" aria-current="page" href="./">
-                Home
+              <a className="nav-link active" aria-current="page" href="#info">
+                Nosotros
               </a>
-              <a className="nav-link" href="./">
-                Features
+              <a className="nav-link" href="#proyectos">
+                Portafolio
               </a>
-              <a className="nav-link" href="./">
-                Pricing
+              <a className="nav-link" href="#planes">
+                Planes
               </a>
-              <a className="nav-link" href="#footer">
-                Footer
+              <a className="nav-link" href="#contacto">
+                Contacto
               </a>
             </div>
           </div>

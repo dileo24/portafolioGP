@@ -12,8 +12,13 @@
     border: 2px solid $magenta;
     transition: all 0.3s;
     .icono {
-      height: 3rem;
+      height: 2.5rem;
       transition: all 0.3s;
+      transform: rotate(90deg);
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
     }
 
     &.open {

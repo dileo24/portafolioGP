@@ -1,19 +1,35 @@
 .navContainer {
-  height: 4rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
   width: 100%;
   background-color: rgb(255, 255, 255);
   position: fixed;
   z-index: 9999;
-  box-shadow: 0px 3px 1rem -2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 0.8rem 0px rgba(0, 0, 0, 0.207);
   .navbar {
+    width: 100%;
     --bs-navbar-padding-y: none;
     .navbar-brand {
       display: flex;
       align-items: center;
       justify-content: center;
       .logo {
-        width: 12rem;
+        width: 10rem;
+        margin-left: 1rem;
       }
     }
+  }
+}
+
+.navbar-collapse {
+  display: flex !important;
+  flex-basis: auto;
+  position: absolute;
+  right: 0;
+  margin-right: 1rem;
+
+  .nav-link {
+    font-size: 1.3rem;
   }
 }
