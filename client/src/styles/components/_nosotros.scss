@@ -26,12 +26,10 @@
     }
     .GPcontainer {
       position: absolute;
-      width: 66%;
-      height: 100%;
       top: 10vh;
       right: 0;
       .GP {
-        width: 65vw;
+        width: 60vw;
         height: auto;
       }
     }
@@ -95,6 +93,6 @@
     margin-right: 35rem !important;
   }
   .GPcontainer {
-    top: 25vh !important;
+    top: 20vh !important;
   }
 }
