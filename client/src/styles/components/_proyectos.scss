@@ -1,0 +1,68 @@
+.proyectosContainer {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+
+  .titulo-proyectos {
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 1.5rem;
+    font-size: 3.95rem;
+    font-weight: 700;
+    width: 40rem;
+    line-height: 4.5rem;
+  }
+
+  .descr-proyectos {
+    margin-bottom: 7rem;
+    font-size: 1.4rem;
+    font-weight: lighter;
+  }
+
+  .cards-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  .card {
+    height: 15rem;
+    width: 25rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    background-image: url("../../multimedia/santor.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+  }
+
+  .card:hover {
+    height: 16rem;
+    width: 27rem;
+  }
+
+  .button-proyectos {
+    @include botones;
+    margin: auto;
+    margin-bottom: 3rem;
+  }
+
+  .button-proyectos:hover {
+    background-color: #ad3760;
+  }
+
+  .cards {
+    // border-bottom: 1px solid rgb(0, 0, 0);
+    padding-bottom: 9rem;
+    margin-bottom: 3rem;
+  }
+}
