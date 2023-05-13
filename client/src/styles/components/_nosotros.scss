@@ -9,7 +9,7 @@
     .titulo-inicio {
       font-size: 5.8vw;
       font-weight: 400;
-      padding: 5.5vw 0 0 2.5rem;
+      padding: 5.5rem 0 0 2.5rem;
     }
     .descr-inicio {
       margin: 0.6rem 45rem 4rem 2.75rem;
@@ -26,7 +26,7 @@
     }
     .GPcontainer {
       position: absolute;
-      top: 10vh;
+      top: 6rem;
       right: 0;
       .GP {
         width: 60vw;
@@ -90,9 +90,45 @@
 // Monitor chico
 @media only screen and (max-width: 1430px) {
   .descr-inicio {
-    margin-right: 35rem !important;
+    margin-right: 40rem !important;
+    font-size: 1.2rem !important;
   }
   .GPcontainer {
-    top: 20vh !important;
+    // top: 10rem !important;
   }
+}
+
+// Monitor más chico
+@media only screen and (max-width: 1340px) {
+  .inicio {
+    padding-top: 2rem;
+  }
+  .descr-inicio {
+    margin-right: 35rem !important;
+    font-size: 1.1rem !important;
+  }
+  .GPcontainer {
+    top: 10rem !important;
+  }
+}
+
+// Monitor aún más chico
+@media only screen and (max-width: 1200px) {
+  .inicio {
+    padding-top: 4rem;
+  }
+  .descr-inicio {
+    margin-right: 28rem !important;
+    font-size: 1rem !important;
+  }
+  .GPcontainer {
+    top: 15rem !important;
+  }
+  .GP {
+    width: 67vw !important;
+  }
+}
+
+// Tablets
+@media only screen and (max-width: 992px) {
 }

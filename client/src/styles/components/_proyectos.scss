@@ -31,23 +31,32 @@
   }
 
   .card {
-    height: 15rem;
-    width: 25rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: 18vw;
+    width: 28vw;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
     border-radius: 0.5rem;
     background-image: url("../../multimedia/santor.png");
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
   }
 
   .card:hover {
-    height: 16rem;
-    width: 27rem;
+    margin-top: -2rem;
+    box-shadow: 0 50px 50px rgba(0, 0, 0, 0.2);
+    // height: 16rem;
+    // width: 27rem;
+    filter: brightness(75%);
+    -webkit-filter: brightness(75%);
   }
 
   .button-proyectos {
