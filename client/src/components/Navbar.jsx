@@ -6,7 +6,7 @@ export default function Navbar() {
     <div className="navContainer">
       <nav className="navbar navbar-expand-lg ">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="./">
             <img src={logo} alt="logo" className="logo" />
           </a>
           <button
@@ -21,8 +21,8 @@ export default function Navbar() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div className="navbar-nav">
-              <a className="nav-link active" aria-current="page" href="#info">
+            <nav className="navbar-nav">
+              <a className="nav-link" aria-current="page" href="#info">
                 Nosotros
               </a>
               <a className="nav-link" href="#proyectos">
@@ -34,7 +34,7 @@ export default function Navbar() {
               <a className="nav-link" href="#contacto">
                 Contacto
               </a>
-            </div>
+            </nav>
           </div>
         </div>
       </nav>

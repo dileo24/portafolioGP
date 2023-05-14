@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Proyectos() {
   return (
-    <div id="proyectos" className="proyectosContainer">
+    <section id="proyectos" className="proyectosContainer">
       <div className="titulo-proyectos">
         Descubre más sobre <br /> nuestros trabajos
       </div>
@@ -33,6 +33,6 @@ export default function Proyectos() {
           VER MÁS
         </a> */}
       </div>
-    </div>
+    </section>
   );
 }

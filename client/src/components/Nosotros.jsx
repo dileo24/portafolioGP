@@ -25,7 +25,7 @@ export default function Nosotros() {
         </div>
       </div>
 
-      <div id="info" className="info">
+      <section id="info" className="info">
         <div className="flex-info">
           <h1 className="titulo-info">
             <span>G</span>o<span>P</span>age <br /> Desarrollo web
@@ -73,7 +73,7 @@ export default function Nosotros() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 }

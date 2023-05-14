@@ -13,9 +13,10 @@
     }
     .descr-inicio {
       margin: 1.5rem 44rem 4rem 2.75rem;
-      font-size: $descripcion;
+      font-size: $descrSize;
       font-weight: 100;
-      line-height: 2.2rem;
+      // line-height: 2.2rem;
+      line-height: $descrLineHeight;
     }
     .button-inicio {
       @include botones;
@@ -55,9 +56,9 @@
       .descr-info {
         width: 50%;
         padding-left: 2rem;
-        font-size: $descripcion;
+        font-size: $descrSize;
         font-weight: 400;
-        line-height: 2.2rem;
+        line-height: $descrLineHeight;
       }
     }
 

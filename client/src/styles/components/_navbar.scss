@@ -33,3 +33,9 @@
     font-size: 1.3rem;
   }
 }
+
+.active {
+  color: $magenta !important;
+  // border-bottom: 3px solid $magenta !important;
+  // font-weight: bolder;
+}

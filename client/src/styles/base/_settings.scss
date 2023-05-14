@@ -1,7 +1,8 @@
 $magentaClaro: #a50b419c;
 $magenta: #b70543;
 $fondoClaro: #f2f2f2;
-$descripcion: 1.4vw;
+$descrSize: 1.4vw;
+$descrLineHeight: 2.6vw;
 
 @mixin center {
   display: flex;
@@ -47,4 +48,12 @@ $descripcion: 1.4vw;
   width: 50%;
   font-size: 4vw;
   font-weight: 700;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 5rem;
 }

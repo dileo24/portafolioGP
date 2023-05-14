@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Planes() {
   return (
-    <div id="planes" className="planesContainer">
+    <section id="planes" className="planesContainer">
       <div className="planesYPrecios">
         <div className="text">
           <p className="titulo">Planes y Precios</p>
@@ -69,6 +69,6 @@ export default function Planes() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
