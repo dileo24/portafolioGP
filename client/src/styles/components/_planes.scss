@@ -1,7 +1,22 @@
 .planesContainer {
   border: 1px solid red;
   .planesYPrecios {
-    border: 1px solid green;
     background-color: #e6e6e6;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    @include centerCol;
+    .text {
+      width: 40vw;
+      .titulo {
+        @include tituloMediano;
+        text-align: center;
+        width: 100%;
+      }
+      p {
+        font-size: $tamañoSubtitulos;
+        text-align: center;
+        font-weight: 300;
+      }
+    }
   }
 }
