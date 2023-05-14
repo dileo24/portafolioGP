@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Planes() {
   return (
-    <div className="planesContainer">
+    <div id="planes" className="planesContainer">
       <div className="planesYPrecios">
         <div className="text">
           <p className="titulo">Planes y Precios</p>
