@@ -88,39 +88,42 @@
   }
 }
 
-// Monitor chico
+///// Responsive /////
+
+// Monitor M
 @media only screen and (max-width: 1430px) {
-  .inicio {
-    height: 108vh !important;
-  }
   .descr-inicio {
-    margin-right: 37rem !important;
-    // font-size: 1.2rem !important;
-    line-height: 30px !important;
+    margin-right: 36rem !important;
+  }
+  .inicio {
+    height: 110vh !important;
+  }
+  // Monitor M alto
+  @media only screen and (min-height: 740px) {
+    .inicio {
+      height: 100vh !important;
+    }
+  }
+  // Monitor M estricto
+  @media only screen and (min-width: 1350px) {
+    .inicio {
+      height: 108vh !important;
+    }
   }
 }
 
-// // Monitor más chico
-// @media only screen and (max-width: 1370px) {
-//   .inicio {
-//     padding-top: 2vw;
-//   }
-//   .descr-inicio {
-//     margin-right: 35rem !important;
-//     font-size: 1.6vw !important;
-//   }
-//   .GPcontainer {
-//     top: 16vw !important;
-//   }
-// }
-
-// // Monitor aún más chico
-// @media only screen and (max-width: 1200px) {
-//   .descr-inicio {
-//     margin-right: 28rem !important;
-//     font-size: 1rem !important;
-//   }
-// }
+// Monitor S
+@media only screen and (max-width: 1200px) {
+  .descr-inicio {
+    margin-right: 31rem !important;
+  }
+  // Monitor S alto
+  @media only screen and (min-height: 590px) {
+    .GPcontainer {
+      top: 12rem !important;
+    }
+  }
+}
 
 // Tablets
 @media only screen and (max-width: 992px) {
