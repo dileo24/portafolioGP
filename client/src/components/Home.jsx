@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import ButtonExt from "./ButtonExt";
 import Nosotros from "./Nosotros";
 import Proyectos from "./Proyectos";
+import Planes from "./Planes";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <Nosotros />
         <ButtonExt />
         <Proyectos />
+        <Planes />
       </div>
       <Footer />
     </div>
