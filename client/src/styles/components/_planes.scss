@@ -1,5 +1,4 @@
 .planesContainer {
-  border: 1px solid red;
   .planesYPrecios {
     background-color: #e6e6e6;
     padding-top: 3.5rem;
@@ -17,6 +16,16 @@
         text-align: center;
         font-weight: 300;
       }
+    }
+  }
+  .planes {
+    @include centerRow;
+    padding: 4rem 3rem;
+    justify-content: space-between;
+    .plan {
+      width: 35.5rem;
+      height: 40rem;
+      border: 1px solid red;
     }
   }
 }

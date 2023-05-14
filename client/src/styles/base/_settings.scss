@@ -16,6 +16,13 @@ $tamañoSubtitulos: 1.6rem;
   align-items: center;
 }
 
+@mixin centerRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 @mixin titulos {
   color: $magenta;
 }
