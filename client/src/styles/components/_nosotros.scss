@@ -13,7 +13,7 @@
     }
     .descr-inicio {
       margin: 1.5rem 44rem 4rem 2.75rem;
-      font-size: $tamañoSubtitulos;
+      font-size: $descripcion;
       font-weight: 100;
       line-height: 2.2rem;
     }
@@ -55,7 +55,7 @@
       .descr-info {
         width: 50%;
         padding-left: 2rem;
-        font-size: $tamañoSubtitulos;
+        font-size: $descripcion;
         font-weight: 400;
         line-height: 2.2rem;
       }
@@ -91,37 +91,36 @@
 // Monitor chico
 @media only screen and (max-width: 1430px) {
   .inicio {
-    height: 100vh !important;
+    height: 108vh !important;
   }
   .descr-inicio {
-    margin-right: 40rem !important;
-    font-size: 1.2rem !important;
+    margin-right: 37rem !important;
+    // font-size: 1.2rem !important;
     line-height: 30px !important;
-    margin-top: 0.6rem !important;
   }
 }
 
-// Monitor más chico
-@media only screen and (max-width: 1370px) {
-  .inicio {
-    padding-top: 2vw;
-  }
-  .descr-inicio {
-    margin-right: 35rem !important;
-    font-size: 1.6vw !important;
-  }
-  .GPcontainer {
-    top: 16vw !important;
-  }
-}
+// // Monitor más chico
+// @media only screen and (max-width: 1370px) {
+//   .inicio {
+//     padding-top: 2vw;
+//   }
+//   .descr-inicio {
+//     margin-right: 35rem !important;
+//     font-size: 1.6vw !important;
+//   }
+//   .GPcontainer {
+//     top: 16vw !important;
+//   }
+// }
 
-// Monitor aún más chico
-@media only screen and (max-width: 1200px) {
-  .descr-inicio {
-    margin-right: 28rem !important;
-    font-size: 1rem !important;
-  }
-}
+// // Monitor aún más chico
+// @media only screen and (max-width: 1200px) {
+//   .descr-inicio {
+//     margin-right: 28rem !important;
+//     font-size: 1rem !important;
+//   }
+// }
 
 // Tablets
 @media only screen and (max-width: 992px) {
