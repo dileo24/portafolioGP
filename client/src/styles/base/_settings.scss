@@ -34,3 +34,9 @@ $fondoClaro: #f2f2f2;
   -o-border-radius: 0.5rem;
   text-decoration: none;
 }
+
+@mixin tituloMediano {
+  width: 50%;
+  font-size: 4vw;
+  font-weight: 700;
+}

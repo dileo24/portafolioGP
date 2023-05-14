@@ -46,9 +46,7 @@
       display: flex;
       flex-direction: row;
       .titulo-info {
-        width: 50%;
-        font-size: 4.9vw;
-        font-weight: 700;
+        @include tituloMediano;
       }
       .titulo-info span {
         color: $magenta;

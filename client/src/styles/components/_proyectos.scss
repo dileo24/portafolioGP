@@ -9,10 +9,8 @@
     text-align: center;
     margin-top: 8rem;
     margin-bottom: 1.5rem;
-    font-size: 3.95rem;
-    font-weight: 700;
-    width: 40rem;
     line-height: 4.5rem;
+    @include tituloMediano;
   }
 
   .descr-proyectos {
