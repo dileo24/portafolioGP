@@ -1,0 +1,114 @@
+.planesContainer {
+  padding-bottom: 3rem;
+  .planesYPrecios {
+    background-color: $grisClaro;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    @include centerCol;
+    .text {
+      width: 40vw;
+      .titulo {
+        @include tituloMediano;
+        text-align: center;
+        width: 100%;
+        color: black;
+      }
+      p {
+        color: black;
+        font-size: $descrSize;
+        text-align: center;
+        font-weight: 300;
+      }
+    }
+  }
+  .planes {
+    @include centerRow;
+    padding: 1rem 3rem 3rem 3rem;
+    justify-content: space-evenly;
+    .plan {
+      @include centerCol;
+      justify-content: flex-start;
+      width: 28rem;
+      height: 55rem;
+      color: black;
+      .nombrePlan {
+        margin: 1rem 0 0.5rem 0;
+        font-size: 2.5rem;
+      }
+      .text {
+        text-align: center;
+      }
+      .detalles {
+        margin-top: 1rem;
+        height: 41rem;
+        padding: 4rem 2rem;
+        position: relative;
+        border-radius: 0.5rem;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+        background-color: rgb(238, 238, 238);
+        .precio {
+          @include centerCol;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+
+          .precioNum {
+            font-size: 3.2rem;
+            font-weight: bolder;
+            color: $magenta;
+          }
+          .prec {
+            @include centerRow;
+            .moneda {
+              color: black;
+              font-size: 3.2rem;
+              font-weight: bolder;
+            }
+          }
+          .aclaracion {
+            font-size: 1rem;
+            font-weight: bolder;
+            color: $grisOscuro;
+          }
+        }
+      }
+      button {
+        margin-top: 1.5rem;
+        width: 100%;
+        height: 8vh;
+        font-size: 1.7rem;
+        border: 1.5px solid black;
+        color: $grisOscuro;
+        border-radius: 0.5rem;
+        transition: all 0.2s;
+      }
+      button:hover {
+        background-color: $magenta;
+        color: white;
+        border: 1.5px solid $magenta;
+      }
+      .ORObtn {
+        background-color: $magenta;
+        color: white;
+      }
+      .ORObtn:hover {
+        background-color: $magentaFuerte;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .planesContainer {
+    .planes {
+      .plan {
+        width: 23rem;
+        height: 55rem;
+        .detalles {
+          padding: 2rem 1rem;
+        }
+      }
+    }
+  }
+}

@@ -1,15 +1,16 @@
 import React from "react";
+import logo from "../multimedia/logo2.PNG";
 
 export default function Navbar() {
   return (
     <div className="navContainer">
-      <nav class="navbar navbar-expand-lg ">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            Navbar
+      <nav className="navbar navbar-expand-lg ">
+        <div className="container-fluid">
+          <a className="navbar-brand" href="./">
+            <img src={logo} alt="logo" className="logo" />
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup"
@@ -17,21 +18,23 @@ export default function Navbar() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">
-                Home
+          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <nav className="navbar-nav">
+              <a className="nav-link" aria-current="page" href="#info">
+                Nosotros
               </a>
-              <a class="nav-link" href="#">
-                Features
+              <a className="nav-link" href="#proyectos">
+                Portafolio
               </a>
-              <a class="nav-link" href="#">
-                Pricing
+              <a className="nav-link" href="#planes">
+                Planes
               </a>
-              <a class="nav-link disabled">Disabled</a>
-            </div>
+              <a className="nav-link" href="#contacto">
+                Contacto
+              </a>
+            </nav>
           </div>
         </div>
       </nav>

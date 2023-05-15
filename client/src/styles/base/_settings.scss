@@ -1,5 +1,11 @@
+$magentaClaro: #a50b419c;
 $magenta: #b70543;
+$magentaFuerte: #ff0059;
 $fondoClaro: #f2f2f2;
+$grisClaro: #e7e7e7;
+$grisOscuro: #808080;
+$descrSize: 1.4vw;
+$descrLineHeight: 2.6vw;
 
 @mixin center {
   display: flex;
@@ -14,6 +20,39 @@ $fondoClaro: #f2f2f2;
   align-items: center;
 }
 
-@mixin titulos {
-  color: $magenta;
+@mixin centerRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin botones {
+  padding: 0.7rem 2.2rem;
+  height: auto;
+  width: fit-content;
+  background-color: $magenta;
+  color: white;
+  font-size: 1.1rem;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  text-decoration: none;
+}
+
+@mixin tituloMediano {
+  width: 50%;
+  font-size: 4vw;
+  font-weight: 700;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 5rem;
 }
