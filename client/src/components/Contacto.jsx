@@ -67,6 +67,7 @@ export default function Contacto() {
                 type="number"
                 id="cel"
                 name="cel"
+                className="celIn"
                 required
                 placeholder="Celular"
               />
