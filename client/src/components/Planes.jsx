@@ -19,7 +19,7 @@ export default function Planes() {
       <span></span>
       <div className="planes">
         <div className="plan">
-          <p className="nombrePlan bronce">BRONCE</p>
+          <p className="nombrePlan">BRONCE</p>
           <p className="text">
             Plan ideal para su primera página, una opción económica pero
             perfectamente funcional en la que mostrar toda su informacion,
@@ -54,10 +54,12 @@ export default function Planes() {
               <p className="aclaracion">(Precio final)</p>
             </div>
           </div>
-          <button>LO QUIERO</button>
+          <a href="#contacto">
+            <button>LO QUIERO</button>
+          </a>
         </div>
         <div className="plan planOro">
-          <p className="nombrePlan oro">ORO</p>
+          <p className="nombrePlan">ORO</p>
           <p className="text">
             Plan especializado para comercios en constante movimiento de
             clientes, precios, información... Mejorará ampliamente el control de
@@ -105,10 +107,12 @@ export default function Planes() {
               <p className="aclaracion">(Precio final)</p>
             </div>
           </div>
-          <button className="ORObtn">LO QUIERO</button>
+          <a href="#contacto">
+            <button className="ORObtn">LO QUIERO</button>
+          </a>
         </div>
         <div className="plan">
-          <p className="nombrePlan plata">PLATA</p>
+          <p className="nombrePlan">PLATA</p>
           <p className="text">
             Plan enfocado en pequeñas empresas que necesitan hacer un listado de
             productos o servicios especificos, ideal para llegar de mejor manera
@@ -150,7 +154,9 @@ export default function Planes() {
               <p className="aclaracion">(Precio final)</p>
             </div>
           </div>
-          <button>LO QUIERO</button>
+          <a href="#contacto">
+            <button>LO QUIERO</button>
+          </a>
         </div>
       </div>
     </section>
