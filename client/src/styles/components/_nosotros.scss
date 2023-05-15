@@ -91,7 +91,7 @@
 
 ///// Responsive /////
 
-// Monitor M
+// Monitores anchos
 @media only screen and (max-width: 1430px) {
   .descr-inicio {
     margin-right: 36rem !important;
@@ -99,25 +99,25 @@
   .inicio {
     height: 110vh !important;
   }
-  // Monitor M alto
+  // altos
   @media only screen and (min-height: 740px) {
     .inicio {
       height: 100vh !important;
     }
   }
-  // Monitor M estricto
+  // estricto
   @media only screen and (min-width: 1350px) {
     .inicio {
       height: 108vh !important;
     }
   }
-  // Monitor M bajo
+  // bajos
   @media only screen and (min-height: 650px) and (max-height: 740px) {
     .inicio {
       height: 120vh !important;
     }
   }
-  // Monitor M muy bajo
+  // muy bajos
   @media only screen and (min-height: 300px) and (max-height: 650px) {
     .inicio {
       height: 140vh !important;
@@ -125,12 +125,12 @@
   }
 }
 
-// Monitor S
+// Monitores delgados (estricto)
 @media only screen and (max-width: 1200px) {
   .descr-inicio {
     margin-right: 31rem !important;
   }
-  // Monitor S alto
+  // altos
   @media only screen and (min-height: 590px) {
     .GPcontainer {
       top: 12rem !important;
