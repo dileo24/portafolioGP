@@ -67,7 +67,7 @@ export default function Planes() {
               Vista responsive (adaptable a celulares, tablets, computadora).
               <br />
               <br />
-              Formularios ilimitados (contacto, cotizacion, etc).
+              Formularios ilimitados (contacto, cotización, etc).
               <br />
               <br />
               Tema claro y oscuro.
