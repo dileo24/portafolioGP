@@ -27,7 +27,7 @@ export default function Contacto() {
           <input
             type="hidden"
             name="_next"
-            value="http://localhost:3000/#info"
+            value="https://gopage.vercel.app/#contacto"
           />
           <div className="inputS">
             <div className="sect">
