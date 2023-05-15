@@ -14,7 +14,7 @@ export default function Contacto() {
           netlify="true"
         >
           <div className="text">
-            <p className="titulo">Hablanos un poco más de vos...</p>
+            <h1 className="titulo">Hablanos un poco más de vos...</h1>
             <p className="parrafo">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sit
               mollitia vel iusto? Voluptate magnam quis, harum ipsum optio

@@ -5,9 +5,9 @@ import React from "react";
 export default function Proyectos() {
   return (
     <section id="proyectos" className="proyectosContainer">
-      <div className="titulo-proyectos">
+      <h1 className="titulo-proyectos">
         Descubre más sobre <br /> nuestros trabajos
-      </div>
+      </h1>
       <div className="descr-proyectos">
         Aquí podrás ver y elegir entre todos nuestros trabajos realizados.
       </div>
