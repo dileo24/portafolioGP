@@ -51,6 +51,10 @@
     -moz-border-radius: 0.5rem;
     -ms-border-radius: 0.5rem;
     -o-border-radius: 0.5rem;
+    span {
+      display: none;
+      overflow: hidden;
+    }
   }
 
   .card:hover {

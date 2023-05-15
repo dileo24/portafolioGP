@@ -17,17 +17,26 @@ export default function Proyectos() {
             href="https://san-tor.vercel.app/index.html"
             className="card"
             target="_blank"
-          ></a>
+            rel="noreferrer"
+          >
+            <span>url</span>
+          </a>
           <a
             href="https://san-tor.vercel.app/index.html"
             className="card"
             target="_blank"
-          ></a>
+            rel="noreferrer"
+          >
+            <span>url</span>
+          </a>
           <a
             href="https://san-tor.vercel.app/index.html"
             className="card"
             target="_blank"
-          ></a>
+            rel="noreferrer"
+          >
+            <span>url</span>
+          </a>
         </div>
         {/* <a className="button-proyectos" href="">
           VER MÁS
