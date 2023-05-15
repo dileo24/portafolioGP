@@ -91,7 +91,7 @@
 
 ///// Responsive /////
 
-// Monitores anchos (Televisores no: los TV tienen más de 1430px)
+// Hasta monitores anchos (Televisores no: los TV tienen más de 1430px)
 @media only screen and (max-width: 1430px) {
   .descr-inicio {
     margin-right: 36rem !important;
@@ -125,7 +125,7 @@
   }
 }
 
-// Monitores delgados (estricto)
+// Hasta monitores delgados (también adquieren las propiedades de los monitores anchos)
 @media only screen and (max-width: 1200px) {
   .descr-inicio {
     margin-right: 31rem !important;
