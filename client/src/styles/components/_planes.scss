@@ -1,6 +1,6 @@
 .planesContainer {
   .planesYPrecios {
-    background-color: #e6e6e6;
+    background-color: $grisClaro;
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
     @include centerCol;
@@ -23,9 +23,37 @@
     padding: 4rem 3rem;
     justify-content: space-between;
     .plan {
-      width: 35.5rem;
-      height: 40rem;
-      border: 1px solid red;
+      @include centerCol;
+      justify-content: start;
+      width: 30rem;
+      height: 50rem;
+      .nombrePlan {
+        font-size: 2.5rem;
+      }
+      .detalles {
+        margin-top: 1rem;
+        border: 2px solid black;
+        height: 41rem;
+        padding: 3rem 3rem;
+        position: relative;
+
+        .precio {
+          @include centerCol;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          .precioNum {
+            font-size: 3.5rem;
+            font-weight: bolder;
+          }
+          .aclaracion {
+            font-size: 1.5rem;
+            font-weight: bolder;
+            color: $grisOscuro;
+          }
+        }
+      }
     }
   }
 }
