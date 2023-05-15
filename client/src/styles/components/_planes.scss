@@ -10,8 +10,10 @@
         @include tituloMediano;
         text-align: center;
         width: 100%;
+        color: black;
       }
       p {
+        color: black;
         font-size: $descrSize;
         text-align: center;
         font-weight: 300;
@@ -27,6 +29,7 @@
       justify-content: start;
       width: 28rem;
       height: 55rem;
+      color: black;
       .nombrePlan {
         font-size: 2.5rem;
         margin-bottom: 0;
@@ -57,9 +60,9 @@
           .prec {
             @include centerRow;
             .moneda {
+              color: black;
               font-size: 3.2rem;
               font-weight: bolder;
-              color: black;
             }
           }
           .aclaracion {

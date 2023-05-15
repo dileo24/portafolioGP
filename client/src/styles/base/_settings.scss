@@ -27,10 +27,6 @@ $descrLineHeight: 2.6vw;
   align-items: center;
 }
 
-@mixin titulos {
-  color: $magenta;
-}
-
 @mixin botones {
   padding: 0.7rem 2.2rem;
   height: auto;
