@@ -1,6 +1,7 @@
 // Joaco
 
 import React from "react";
+import check from "../multimedia/check.png";
 
 export default function Planes() {
   return (
@@ -15,30 +16,36 @@ export default function Planes() {
           </p>
         </div>
       </div>
-
+      <span></span>
       <div className="planes">
         <div className="plan">
           <p className="nombrePlan">BRONCE</p>
           <p className="text">
             Plan ideal para su primera página, una opción económica pero
-            perfectamente funcional en la que mostrar toda su
-            informacion/productos/formas de contacto.
+            perfectamente funcional en la que mostrar toda su informacion,
+            productos y formas de contacto.
           </p>
           <div className="detalles">
-            <p className="text">
-              Diseño tipo landing page o multipágina.
-              <br />
-              <br />
-              Hasta 4 secciones.
-              <br />
-              <br />
-              Vista responsive (adaptable a celulares, tablets, computadora).
-              <br />
-              <br />
-              Formulario de contacto.
-              <br />
-              <br />
-            </p>
+            <div className="lista">
+              <p>
+                <img src={check} alt="check" className="check" />
+                Diseño tipo landing page o multipágina.
+                <br />
+                <br />
+                <img src={check} alt="check" className="check" />
+                Hasta 4 secciones.
+                <br />
+                <br />
+                <img src={check} alt="check" className="check" />
+                Vista responsive (adaptable a celulares, tablets, computadora).
+                <br />
+                <br />
+                <img src={check} alt="check" className="check" />
+                Formulario de contacto.
+                <br />
+                <br />
+              </p>
+            </div>
             <div className="precio">
               <div className="prec">
                 <p className="moneda"> AR$</p>
@@ -47,9 +54,11 @@ export default function Planes() {
               <p className="aclaracion">(Precio final)</p>
             </div>
           </div>
-          <button>LO QUIERO</button>
+          <a href="#contacto">
+            <button>LO QUIERO</button>
+          </a>
         </div>
-        <div className="plan">
+        <div className="plan planOro">
           <p className="nombrePlan">ORO</p>
           <p className="text">
             Plan especializado para comercios en constante movimiento de
@@ -57,29 +66,39 @@ export default function Planes() {
             venta y podrá usted mismo gestionar cada dato!
           </p>
           <div className="detalles">
-            <p className="text">
-              Diseño tipo landing page o multipágina.
-              <br />
-              <br />
-              Hasta 8 secciones.
-              <br />
-              <br />
-              Vista responsive (adaptable a celulares, tablets, computadora).
-              <br />
-              <br />
-              Formularios ilimitados (contacto, cotizacion, etc).
-              <br />
-              <br />
-              Tema claro y oscuro.
-              <br />
-              <br />
-              Carga de información mas abundante (estilo Ecommerce por ejemplo).
-              <br />
-              <br />
-              Autogestionable y sistema de registro/inicio de sesión.
-              <br />
-              <br />
-            </p>
+            <div className="lista">
+              <p>
+                <img src={check} alt="check" className="check" />
+                Diseño tipo landing page o multipágina.
+                <br />
+                <br />
+                <img src={check} alt="check" className="check" />
+                Hasta 8 secciones.
+                <br />
+                <br />
+                <img src={check} alt="check" className="check" />
+                Vista responsive (adaptable a celulares, tablets, computadora).
+                <br />
+                <br />
+                <img src={check} alt="check" className="check" />
+                Formularios ilimitados (contacto, cotizacion, etc).
+                <br />
+                <br />
+                <img src={check} alt="check" className="check" />
+                Tema claro y oscuro.
+                <br />
+                <br />
+                <img src={check} alt="check" className="check" />
+                Carga de información mas abundante (estilo Ecommerce por
+                ejemplo).
+                <br />
+                <br />
+                <img src={check} alt="check" className="check" />
+                Autogestionable y sistema de registro/inicio de sesión.
+                <br />
+                <br />
+              </p>
+            </div>
             <div className="precio">
               <div className="prec">
                 <p className="moneda"> AR$</p>
@@ -88,7 +107,9 @@ export default function Planes() {
               <p className="aclaracion">(Precio final)</p>
             </div>
           </div>
-          <button className="ORObtn">LO QUIERO</button>
+          <a href="#contacto">
+            <button className="ORObtn">LO QUIERO</button>
+          </a>
         </div>
         <div className="plan">
           <p className="nombrePlan">PLATA</p>
@@ -98,24 +119,33 @@ export default function Planes() {
             al cliente y agilizar procesos de ventas
           </p>
           <div className="detalles">
-            <p className="text">
-              Diseño tipo landing page o multipágina.
-              <br />
-              <br />
-              Hasta 6 secciones.
-              <br />
-              <br />
-              Vista responsive (adaptable a celulares, tablets, computadora).
-              <br />
-              <br />
-              Hasta 3 formularios (contacto, cotizacion, etc).
-              <br />
-              <br />
-              Tema claro y oscuro.
-              <br />
-              <br />
-              Carga de información mas abundante (estilo Ecommerce por ejemplo).
-            </p>
+            <div className="lista">
+              <p>
+                <img src={check} alt="check" className="check" />
+                Diseño tipo landing page o multipágina.
+                <br />
+                <br />
+                <img src={check} alt="check" className="check" />
+                Hasta 6 secciones.
+                <br />
+                <br />
+                <img src={check} alt="check" className="check" />
+                Vista responsive (adaptable a celulares, tablets, computadora).
+                <br />
+                <br />
+                <img src={check} alt="check" className="check" />
+                Hasta 3 formularios (contacto, cotizacion, etc).
+                <br />
+                <br />
+                <img src={check} alt="check" className="check" />
+                Tema claro y oscuro.
+                <br />
+                <br />
+                <img src={check} alt="check" className="check" />
+                Carga de información mas abundante (estilo Ecommerce por
+                ejemplo).
+              </p>
+            </div>
             <div className="precio">
               <div className="prec">
                 <p className="moneda"> AR$</p>
@@ -124,7 +154,9 @@ export default function Planes() {
               <p className="aclaracion">(Precio final)</p>
             </div>
           </div>
-          <button>LO QUIERO</button>
+          <a href="#contacto">
+            <button>LO QUIERO</button>
+          </a>
         </div>
       </div>
     </section>
