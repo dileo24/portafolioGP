@@ -73,7 +73,7 @@ export default function Planes() {
               Tema claro y oscuro.
               <br />
               <br />
-              Carga de información mas abundante (estilo Ecommerce por ejemplo).
+              Carga de información más abundante (estilo Ecommerce por ejemplo).
               <br />
               <br />
               Autogestionable y sistema de registro/inicio de sesión.
