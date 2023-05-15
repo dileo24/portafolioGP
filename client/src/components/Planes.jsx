@@ -44,7 +44,7 @@ export default function Planes() {
                 <p className="moneda"> AR$</p>
                 <p className="precioNum">40.000 </p>
               </div>
-              <p className="aclaracion">(Pago único)</p>
+              <p className="aclaracion">(Precio final)</p>
             </div>
           </div>
           <button>LO QUIERO</button>
@@ -85,7 +85,7 @@ export default function Planes() {
                 <p className="moneda"> AR$</p>
                 <p className="precioNum">100.000 </p>
               </div>
-              <p className="aclaracion">(Pago único)</p>
+              <p className="aclaracion">(Precio final)</p>
             </div>
           </div>
           <button className="ORObtn">LO QUIERO</button>
@@ -121,7 +121,7 @@ export default function Planes() {
                 <p className="moneda"> AR$</p>
                 <p className="precioNum">60.000 </p>
               </div>
-              <p className="aclaracion">(Pago único)</p>
+              <p className="aclaracion">(Precio final)</p>
             </div>
           </div>
           <button>LO QUIERO</button>

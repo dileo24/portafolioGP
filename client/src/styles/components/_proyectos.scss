@@ -1,13 +1,14 @@
 .proyectosContainer {
-  height: 120vh;
+  /* height: 120vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   color: black;
+  margin-bottom: 7rem;
 
   .titulo-proyectos {
     text-align: center;
-    margin-top: 8rem;
+    margin-top: 5rem;
     margin-bottom: 1.5rem;
     line-height: 4.5rem;
     @include tituloMediano;
@@ -75,4 +76,17 @@
   // .button-proyectos:hover {
   //   background-color: #ad3760;
   // }
+}
+
+@media only screen and (max-width: 1500px) {
+  .proyectosContainer {
+    margin-bottom: 6rem;
+
+    .titulo-proyectos {
+      margin-top: 3rem;
+    }
+    .descr-proyectos {
+      margin-bottom: 4rem;
+    }
+  }
 }
