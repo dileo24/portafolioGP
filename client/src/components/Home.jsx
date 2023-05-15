@@ -5,6 +5,7 @@ import ButtonExt from "./ButtonExt";
 import Nosotros from "./Nosotros";
 import Proyectos from "./Proyectos";
 import Planes from "./Planes";
+import Contacto from "./Contacto";
 
 export default function Home() {
   /* class active por secciones */
@@ -33,6 +34,7 @@ export default function Home() {
         <ButtonExt />
         <Proyectos />
         <Planes />
+        <Contacto />
       </div>
       <Footer />
     </div>
