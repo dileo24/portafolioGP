@@ -11,7 +11,7 @@ export default function Contacto() {
           action="https://formsubmit.co/gopagearg@gmail.com"
           method="POST"
           name="contacto-santor"
-          netlify
+          netlify="true"
         >
           <div className="text">
             <p className="titulo">Hablanos un poco más de vos...</p>
@@ -22,13 +22,13 @@ export default function Contacto() {
               eius officia?
             </p>
           </div>
+          <input type="hidden" name="_subject" value="Go Page Portafolio" />
+          <input type="hidden" name="_captcha" value="false" />
           <input
             type="hidden"
-            name="_subject"
-            value="Nuevo correo desde Santor"
+            name="_next"
+            value="http://localhost:3000/#info"
           />
-          <input type="hidden" name="_captcha" value="false" />
-          <input type="hidden" name="_next" value="http://localhost:3000/" />
           <div className="inputS">
             <div className="sect">
               <input
@@ -79,14 +79,12 @@ export default function Contacto() {
               />
             </div>
 
-            <div class="inputMsj">
-              <textarea
-                id="message"
-                name="message"
-                required
-                placeholder="Cuéntenos sobre su empresa/negocio y lo que le gustaría conseguir con su página..."
-              ></textarea>
-            </div>
+            <textarea
+              id="message"
+              name="message"
+              required
+              placeholder="Cuéntenos sobre su empresa/negocio y lo que le gustaría conseguir con su página..."
+            ></textarea>
 
             <input type="submit" value="Enviar" className="btnEnviar" />
           </div>

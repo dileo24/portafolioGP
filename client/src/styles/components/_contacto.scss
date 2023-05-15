@@ -69,6 +69,7 @@
             background-color: transparent;
             border-radius: 0.5rem;
             resize: none;
+            color: white;
           }
           input::placeholder {
             color: rgba(255, 255, 255, 0.623);
@@ -82,6 +83,7 @@
           height: 20vh;
           resize: none;
           border: 2px solid white;
+          color: white;
           background-color: transparent;
         }
         textarea::placeholder {
