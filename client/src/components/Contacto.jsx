@@ -16,10 +16,10 @@ export default function Contacto() {
           <div className="text">
             <h1 className="titulo">Hablanos un poco más de vos...</h1>
             <p className="parrafo">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sit
-              mollitia vel iusto? Voluptate magnam quis, harum ipsum optio
-              doloremque ipsa dolores eum, cumque temporibus nisi ducimus ipsam
-              eius officia?
+              ¿Listo para dar el siguiente paso? Nuestro equipo está esperando
+              para brindarte la orientación que necesites, mientras tanto
+              contanos un poco de qué tenés pensado para tu proyecto. ¡Te
+              esperamos!
             </p>
           </div>
           <input type="hidden" name="_subject" value="Go Page Portafolio" />
@@ -67,6 +67,7 @@ export default function Contacto() {
                 type="number"
                 id="cel"
                 name="cel"
+                className="celIn"
                 required
                 placeholder="Celular"
               />

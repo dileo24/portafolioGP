@@ -27,25 +27,32 @@ export default function ButtonExt() {
       </button>
       {menuOpen && (
         <div className="menu">
-          <a className="circle" href="#" target="_blank">
+          <a
+            className="circle"
+            href="https://wa.me/+543516863857"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={iconoWpp} alt="imgWpp" className="icono" />
           </a>
           <a
             className="circle"
             href="https://www.instagram.com/gopagearg/"
             target="_blank"
+            rel="noreferrer"
           >
-            <img src={iconoIg} alt="imgWpp" className="icono" />
+            <img src={iconoIg} alt="insta" className="icono" />
           </a>
           <a
             className="circle"
             href="https://www.linkedin.com/company/gopage-disweb/"
             target="_blank"
+            rel="noreferrer"
           >
-            <img src={iconoLd} alt="imgWpp" className="icono" />
+            <img src={iconoLd} alt="linkedin" className="icono" />
           </a>
-          <a className="circle" href="#" target="_blank">
-            <img src={ayuda} alt="imgWpp" className="icono" />
+          <a className="circle" href="./" target="_blank" rel="noreferrer">
+            <img src={ayuda} alt="ayuda" className="icono" />
           </a>
         </div>
       )}

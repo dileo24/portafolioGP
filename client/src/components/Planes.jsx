@@ -63,40 +63,30 @@ export default function Planes() {
             clientes, precios, información... Mejorará ampliamente el control de
             venta y podrá usted mismo gestionar cada dato!
           </p>
-          <div className="detalles detallesOro">
-            <div className="lista">
-              <p>
-                <img src={check} alt="check" className="check" />
-                Diseño tipo landing page o multipágina.
-                <br />
-                <br />
-                <img src={check} alt="check" className="check" />
-                Hasta 8 secciones.
-                <br />
-                <br />
-                <img src={check} alt="check" className="check" />
-                Vista responsive (adaptable a celulares, tablets, computadora).
-                <br />
-                <br />
-                <img src={check} alt="check" className="check" />
-                Formularios ilimitados (contacto, cotizacion, etc).
-                <br />
-                <br />
-                <img src={check} alt="check" className="check" />
-                Tema claro y oscuro.
-                <br />
-                <br />
-                <img src={check} alt="check" className="check" />
-                Carga de información mas abundante (estilo Ecommerce por
-                ejemplo).
-                <br />
-                <br />
-                <img src={check} alt="check" className="check" />
-                Autogestionable y sistema de registro/inicio de sesión.
-                <br />
-                <br />
-              </p>
-            </div>
+          <div className="detalles">
+            <p className="text">
+              Diseño tipo landing page o multipágina.
+              <br />
+              <br />
+              Hasta 8 secciones.
+              <br />
+              <br />
+              Vista responsive (adaptable a celulares, tablets, computadora).
+              <br />
+              <br />
+              Formularios ilimitados (contacto, cotizacion, etc).
+              <br />
+              <br />
+              Tema claro y oscuro.
+              <br />
+              <br />
+              Carga de información mas abundante (estilo Ecommerce por ejemplo).
+              <br />
+              <br />
+              Autogestionable y sistema de registro/inicio de sesión.
+              <br />
+              <br />
+            </p>
             <div className="precio">
               <div className="prec">
                 <p className="moneda"> AR$</p>
