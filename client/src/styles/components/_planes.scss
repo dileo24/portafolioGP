@@ -136,6 +136,9 @@
 
 @media only screen and (max-width: 1500px) {
   .planesContainer {
+    span {
+      margin-bottom: 5rem;
+    }
     .planes {
       .plan {
         width: 23rem;
