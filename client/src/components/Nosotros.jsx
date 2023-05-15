@@ -43,33 +43,38 @@ export default function Nosotros() {
           <div className="item-info">
             <div className="titulo-item">Orden</div>
             <div className="descr-item">
-              Duis autem vel eum iriure dolor endrerit in vutate velit esse
-              moleonsequat, vel illum dolore eusd feugiat nulla facilisis at
-              vero eros et accumsan et iusto.
+              Desde la planificación hasta la ejecución, valoramos la estructura
+              y la eficiencia, asegurando de que cada detalle esté en su lugar y
+              permitiéndonos entregar resultados de calidad y superar las
+              expectativas de nuestros clientes.
             </div>
           </div>
           <div className="item-info">
             <div className="titulo-item">Flexibilidad</div>
             <div className="descr-item">
-              Duis autem vel eum iriure dolor endrerit in vutate velit esse
-              moleonsequat, vel illum dolore eusd feugiat nulla facilisis at
-              vero eros et accumsan et iusto.
+              Entendemos que cada cliente y cada proyecto son únicos, por eso
+              nos ajustamos a tus necesidades y preferencias, ofreciendo
+              soluciones personalizadas y creando una experiencia satisfactoria
+              y sin complicaciones. Tu satisfacción es nuestra prioridad.
             </div>
           </div>
           <div className="item-info">
             <div className="titulo-item">Profesionalismo</div>
             <div className="descr-item">
-              Lorem ipsum dolor sit amet, conseetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolor magna aliquam erat
-              volutpat.
+              Valoramos la integridad, la confidencialidad y la transparencia en
+              todo lo que hacemos. Puedes confiar en que serás atendido por
+              expertos altamente capacitados, comprometidos con brindarte un
+              servicio excepcional y resultados más que satisfactorios.
             </div>
           </div>
           <div className="item-info">
             <div className="titulo-item">Creatividad</div>
             <div className="descr-item">
-              Ut wisi enim ad minim veniam, quis nostrud exerci tation
-              ullamcorper scipit lobortis nisl ut aliquip ex ea comodo
-              consequat.
+              Nuestro equipo de profesionales creativos está constantemente
+              buscando nuevas ideas y soluciones originales para llevar tus
+              proyectos al siguiente nivel. Con nuestra pasión por la
+              innovación, podemos ofrecerte propuestas frescas y sorprendentes
+              que marcarán la diferencia en tu industria.
             </div>
           </div>
         </div>
