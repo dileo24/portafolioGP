@@ -20,8 +20,9 @@ export default function Planes() {
         <div className="plan">
           <p className="nombrePlan">BRONCE</p>
           <p className="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            quod maiores saepe doloremque sequi dicta?
+            Plan ideal para su primera página, una opción económica pero
+            perfectamente funcional en la que mostrar toda su
+            informacion/productos/formas de contacto.
           </p>
           <div className="detalles">
             <p className="text">
@@ -51,8 +52,9 @@ export default function Planes() {
         <div className="plan">
           <p className="nombrePlan">ORO</p>
           <p className="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            quod maiores saepe doloremque sequi dicta?
+            Plan especializado para comercios en constante movimiento de
+            clientes, precios, información... Mejorará ampliamente el control de
+            venta y podrá usted mismo gestionar cada dato!
           </p>
           <div className="detalles">
             <p className="text">
@@ -74,25 +76,26 @@ export default function Planes() {
               Carga de información mas abundante (estilo Ecommerce por ejemplo).
               <br />
               <br />
-              Autogestionable (y sistema de registro/inicio de sesión).
+              Autogestionable y sistema de registro/inicio de sesión.
               <br />
               <br />
             </p>
             <div className="precio">
               <div className="prec">
                 <p className="moneda"> AR$</p>
-                <p className="precioNum">40.000 </p>
+                <p className="precioNum">100.000 </p>
               </div>
               <p className="aclaracion">(Pago único)</p>
             </div>
           </div>
-          <button>LO QUIERO</button>
+          <button className="ORObtn">LO QUIERO</button>
         </div>
         <div className="plan">
           <p className="nombrePlan">PLATA</p>
           <p className="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            quod maiores saepe doloremque sequi dicta?
+            Plan enfocado en pequeñas empresas que necesitan hacer un listado de
+            productos o servicios especificos, ideal para llegar de mejor manera
+            al cliente y agilizar procesos de ventas
           </p>
           <div className="detalles">
             <p className="text">
@@ -116,7 +119,7 @@ export default function Planes() {
             <div className="precio">
               <div className="prec">
                 <p className="moneda"> AR$</p>
-                <p className="precioNum">40.000 </p>
+                <p className="precioNum">60.000 </p>
               </div>
               <p className="aclaracion">(Pago único)</p>
             </div>

@@ -23,7 +23,11 @@
 
     &.open {
       border-color: $magentaClaro;
+      background-color: $grisClaro;
     }
+  }
+  .buttonExt:hover {
+    background-color: $grisClaro;
   }
 
   .menu {

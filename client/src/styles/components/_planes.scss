@@ -1,8 +1,8 @@
 .planesContainer {
   .planesYPrecios {
     background-color: $grisClaro;
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
     @include centerCol;
     .text {
       width: 40vw;
@@ -20,7 +20,7 @@
   }
   .planes {
     @include centerRow;
-    padding: 4rem 3rem;
+    padding: 1rem 3rem 3rem 3rem;
     justify-content: space-evenly;
     .plan {
       @include centerCol;
@@ -29,18 +29,18 @@
       height: 55rem;
       .nombrePlan {
         font-size: 2.5rem;
+        margin-bottom: 0;
       }
       .text {
         text-align: center;
       }
       .detalles {
-        margin-top: 1rem;
-        /* border: 2px solid black; */
+        margin-top: 0.5rem;
         height: 41rem;
         padding: 4rem 2rem;
         position: relative;
         border-radius: 0.5rem;
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
         background-color: rgb(238, 238, 238);
         .precio {
           @include centerCol;
@@ -56,18 +56,16 @@
           }
           .prec {
             @include centerRow;
-            /* width: 80%;
-            justify-content: space-evenly; */
-            .aclaracion {
-              font-size: 1rem;
-              font-weight: bolder;
-              color: $grisOscuro;
-            }
             .moneda {
               font-size: 3.2rem;
               font-weight: bolder;
               color: black;
             }
+          }
+          .aclaracion {
+            font-size: 1rem;
+            font-weight: bolder;
+            color: $grisOscuro;
           }
         }
       }
@@ -77,13 +75,6 @@
         height: 8vh;
         font-size: 1.7rem;
         border: 1.5px solid black;
-        /* border-image: repeating-linear-gradient(
-            to right,
-            black,
-            $magenta,
-            black
-          )
-          1; */
         color: $grisOscuro;
         border-radius: 0.5rem;
         transition: all 0.2s;
@@ -92,6 +83,28 @@
         background-color: $magenta;
         color: white;
         border: 1.5px solid $magenta;
+      }
+      .ORObtn {
+        background-color: $magenta;
+        color: white;
+        border: none;
+      }
+      .ORObtn:hover {
+        background-color: $magentaFuerte;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .planesContainer {
+    .planes {
+      .plan {
+        width: 23rem;
+        height: 55rem;
+        .detalles {
+          padding: 2rem 1rem;
+        }
       }
     }
   }
