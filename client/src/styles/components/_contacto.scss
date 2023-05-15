@@ -74,6 +74,11 @@
           input::placeholder {
             color: rgba(255, 255, 255, 0.623);
           }
+          .celIn::-webkit-inner-spin-button,
+          .no-arrows::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+          }
         }
 
         textarea {

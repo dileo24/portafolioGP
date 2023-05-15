@@ -27,7 +27,11 @@ export default function ButtonExt() {
       </button>
       {menuOpen && (
         <div className="menu">
-          <a className="circle" href="#" target="_blank">
+          <a
+            className="circle"
+            href="https://wa.me/+543516863857"
+            target="_blank"
+          >
             <img src={iconoWpp} alt="imgWpp" className="icono" />
           </a>
           <a
