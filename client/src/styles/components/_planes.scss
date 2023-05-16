@@ -1,5 +1,5 @@
 .planesContainer {
-  padding-bottom: 4%;
+  padding-bottom: 8.5%;
   background-color: $grisClaro;
   .planesYPrecios {
     padding-top: 5rem;
@@ -8,7 +8,7 @@
     padding-bottom: 3rem;
 
     .text {
-      width: 40%;
+      width: 50%;
       .titulo {
         @include tituloMediano;
         text-align: center;
@@ -85,14 +85,14 @@
           left: 0;
           width: 100%;
 
-          .precioNum {
-            font-size: 3.3vw;
-            font-weight: bolder;
-            color: $magenta;
-          }
           .prec {
             @include centerRow;
             margin-bottom: -4%;
+            .precioNum {
+              font-size: 3.3vw;
+              font-weight: bolder;
+              color: $magenta;
+            }
             .moneda {
               color: black;
               font-size: 3.3vw;
@@ -136,7 +136,6 @@
         button:hover {
           background-color: $magenta;
           color: white;
-          border: 1.5px solid $magenta;
         }
         .ORObtn {
           background-color: $magenta;
@@ -145,6 +144,59 @@
         .ORObtn:hover {
           background-color: $magentaFuerte;
         }
+      }
+    }
+  }
+  .soporteTec {
+    border-radius: 0.5rem;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgb(238, 238, 238);
+    margin: 0 6% 0 6%;
+    padding: 0 2%;
+    @include centerRow;
+    .sopTecImg {
+      width: 7%;
+      padding: 0.5% 0;
+    }
+    .detalles {
+      width: 90%;
+      @include centerCol;
+      color: black;
+      .titulo {
+        font-size: 1.7vw;
+        font-weight: bolder;
+        margin-bottom: 0;
+      }
+      .text {
+        font-size: 1vw;
+        margin-bottom: 1%;
+        text-align: center;
+        width: 70%;
+      }
+    }
+    .precio {
+      @include centerCol;
+      .prec {
+        margin-top: 2%;
+        @include center;
+        .precioNum {
+          font-size: 2.3vw;
+          font-weight: bolder;
+          color: $magenta;
+          margin-bottom: 0;
+        }
+        .moneda {
+          color: black;
+          margin-bottom: 0;
+          font-size: 2.3vw;
+          font-weight: bolder;
+        }
+      }
+      .aclaracion {
+        font-size: 1.05vw;
+        font-weight: bolder;
+        color: $grisOscuro;
+        margin-bottom: 5%;
       }
     }
   }

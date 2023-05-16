@@ -1,11 +1,12 @@
 // Joaco
 
 import React from "react";
+/* import persona from "../multimedia/persona.png"; */
+import persona from "../multimedia/persona2.png";
 
 export default function Contacto() {
   return (
     <section className="contactoContainer" id="contacto">
-      <span></span>
       <div className="formContainer">
         <form
           action="https://formsubmit.co/gopagearg@gmail.com"
@@ -84,12 +85,15 @@ export default function Contacto() {
               id="message"
               name="message"
               required
-              placeholder="Contanos sobre tu empresa/negocio y lo que te gustaría conseguir con tu página, nosotros nos pondremos en contacto en cuanto podamos."
+              placeholder="Contanos sobre tu empresa/negocio y lo que te gustaría conseguir con tu página, nos pondremos en contacto en cuanto podamos."
             ></textarea>
 
             <input type="submit" value="Enviar" className="btnEnviar" />
           </div>
         </form>
+      </div>
+      <div className="imagen">
+        <img src={persona} alt="persona" />
       </div>
     </section>
   );

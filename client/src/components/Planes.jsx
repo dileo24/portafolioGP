@@ -2,6 +2,7 @@
 
 import React from "react";
 import check from "../multimedia/check.png";
+import sopTec from "../multimedia/sopTec2.png";
 
 export default function Planes() {
   return (
@@ -10,9 +11,12 @@ export default function Planes() {
         <div className="text">
           <p className="titulo">Planes y Precios</p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio eos,
-            magni fugit iusto possimus vero, odit essefasfasfasfasd consequat
-            incidunt assumenda reiciendis
+            Te presentamos nuestros tres planes estándar para ofrecer, pero
+            también se puede crear un plan personalizado según tus necesidades.
+            Si este es tu caso, simplemente dirígete a la sección de "Contacto"
+            y cuéntanos lo que tienes en mente para que podamos armarte un
+            presupuesto. <br />
+            ¡Estaremos encantados de ayudarte a crear el plan perfecto para ti!
           </p>
         </div>
       </div>
@@ -157,6 +161,24 @@ export default function Planes() {
           <a href="#contacto">
             <button>LO QUIERO</button>
           </a>
+        </div>
+      </div>
+      <div className="soporteTec">
+        <img src={sopTec} alt="sopTec" className="sopTecImg" />
+        <div className="detalles">
+          <p className="titulo">Soporte Técnico</p>
+          <div className="text">
+            Brindamos un servicio de soporte técnico que garantiza rápida
+            atención, flexibilidad en horarios, resolución de cualquier
+            problema/fallo y actualizaciones de información en tu página web.
+          </div>
+        </div>
+        <div className="precio">
+          <div className="prec">
+            <p className="moneda"> AR$</p>
+            <p className="precioNum">20.000 </p>
+          </div>
+          <p className="aclaracion">(Pago mensual)</p>
         </div>
       </div>
     </section>
