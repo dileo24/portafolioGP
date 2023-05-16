@@ -168,8 +168,8 @@ export default function Planes() {
         <div className="detalles">
           <p className="titulo">Soporte Técnico</p>
           <div className="text">
-            Brindamos un servicio de soporte técnico que garantiza rápida
-            atención, flexibilidad en horarios, resolución de cualquier
+            Brindamos soporte técnico <b>opcional</b> con el que garantizamos
+            rápida atención, flexibilidad en horarios, resolución de cualquier
             problema/fallo y actualizaciones de información en tu página web.
           </div>
         </div>
