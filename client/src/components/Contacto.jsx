@@ -1,7 +1,8 @@
 // Joaco
 
 import React from "react";
-import persona from "../multimedia/persona.png";
+/* import persona from "../multimedia/persona.png"; */
+import persona from "../multimedia/persona2.png";
 
 export default function Contacto() {
   return (
