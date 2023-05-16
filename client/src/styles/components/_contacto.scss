@@ -3,12 +3,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding: 8rem 0;
+  padding: 8.5% 0;
 
   .formContainer {
     position: relative;
-    height: 80vh;
-    width: 45%;
+    width: 50%;
     margin-left: 5vh;
     border-radius: 0.5rem 0 0.5rem 0.5rem;
     background-color: $magenta;
@@ -26,48 +25,46 @@
 
     form {
       @include centerCol;
-      height: 100%;
       color: white;
+      padding: 5%;
       .text {
-        position: absolute;
-        top: 3vh;
-        left: 2vw;
-        width: 50%;
         .titulo {
           font-size: 2.5vw;
           font-weight: 700;
           color: white;
           text-align: start;
-          width: 130%;
-          margin-bottom: 2rem;
+          margin-bottom: none;
         }
         .parrafo {
-          width: 130%;
+          margin-top: 2.5%;
+          font-size: $descrSize;
+          margin-bottom: 2.5%;
         }
       }
       .inputS {
-        position: absolute;
-        bottom: 2.5vh;
-        left: 2vw;
-        height: 60%;
-        width: 90.5%;
+        width: 100%;
         .sect {
-          width: 100%;
           @include centerRow;
           justify-content: space-between;
           padding-bottom: 1rem;
           input {
-            padding: 5px;
+            height: 0;
             width: 31%;
-            height: 6vh;
+            padding: 2.5% 0 2.5% 1%;
             border: 2px solid white;
             background-color: transparent;
             border-radius: 0.5rem;
+            border-radius: 0.5rem;
             resize: none;
             color: white;
+            -webkit-border-radius: 0.5rem;
+            -moz-border-radius: 0.5rem;
+            -ms-border-radius: 0.5rem;
+            -o-border-radius: 0.5rem;
           }
           input::placeholder {
             color: rgba(255, 255, 255, 0.623);
+            font-size: $descrSize;
           }
           .celIn::-webkit-inner-spin-button,
           .no-arrows::-webkit-outer-spin-button {
@@ -77,10 +74,9 @@
         }
 
         textarea {
-          padding: 5px;
           border-radius: 0.5rem;
           width: 100%;
-          height: 20vh;
+          padding: 1% 0 15% 1%;
           resize: none;
           border: 2px solid white;
           color: white;
@@ -88,42 +84,28 @@
         }
         textarea::placeholder {
           color: rgba(255, 255, 255, 0.623);
+          font-size: $descrSize;
         }
         .btnEnviar {
           background-color: white;
           color: $magenta;
           width: 100%;
-          height: 8vh;
+          padding: 2% 0;
           font-size: 1.3vw;
           border: none;
           color: $grisOscuro;
           border-radius: 0.5rem;
-          margin-top: 1.5rem;
+          margin-top: 3%;
           transition: all 0.2s;
+          -webkit-transition: all 0.2s;
+          -moz-transition: all 0.2s;
+          -ms-transition: all 0.2s;
+          -o-transition: all 0.2s;
         }
         .btnEnviar:hover {
           border: 1.5px solid white;
           background-color: $magentaFuerte;
           color: white;
-        }
-      }
-    }
-  }
-}
-
-@media only screen and (max-width: 1500px) {
-  .contactoContainer {
-    .formContainer {
-      form {
-        .text {
-          width: 70%;
-        }
-        .inputS {
-          /* height: 50%; */
-          .btnEnviar {
-            margin-top: 0;
-            font-size: 1vw;
-          }
         }
       }
     }
