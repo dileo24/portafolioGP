@@ -91,50 +91,6 @@
 
 ///// Responsive /////
 
-// Hasta monitores anchos (Televisores no: los TV tienen más de 1430px)
-// @media only screen and (max-width: 1430px) {
-//   // .titulo-inicio {
-//   //   padding-top: 7rem !important;
-//   // }
-//   .inicio {
-//     height: 110vh !important;
-//   }
-//   // altos
-//   @media only screen and (min-height: 740px) {
-//     .inicio {
-//       height: 100vh !important;
-//     }
-//   }
-//   // estricto
-//   @media only screen and (min-width: 1350px) {
-//     .inicio {
-//       height: 108vh !important;
-//     }
-//   }
-//   // bajos
-//   @media only screen and (min-height: 650px) and (max-height: 740px) {
-//     .inicio {
-//       height: 120vh !important;
-//     }
-//   }
-//   // muy bajos
-//   @media only screen and (min-height: 300px) and (max-height: 650px) {
-//     .inicio {
-//       height: 140vh !important;
-//     }
-//   }
-// }
-
-// // Hasta monitores delgados (también adquieren las propiedades de los monitores anchos)
-// @media only screen and (max-width: 1200px) {
-//   // altos
-//   @media only screen and (min-height: 590px) {
-//     .GPcontainer {
-//       top: 12rem !important;
-//     }
-//   }
-// }
-
 // Tablets
 @media only screen and (max-width: 992px) {
 }
