@@ -12,10 +12,10 @@ export default function Planes() {
           <p className="titulo">Planes y Precios</p>
           <p>
             Te presentamos nuestros tres planes estándar para ofrecer, pero
-            también se puede crear un plan personalizado según tus necesidades.
-            Si este es tu caso, simplemente dirígete a la sección de "Contacto"
-            y cuéntanos lo que tienes en mente para que podamos armarte un
-            presupuesto. <br />
+            también se puede crear un <b>plan personalizado</b> según tus
+            necesidades. Si este es tu caso, simplemente dirígete a la sección
+            de "Contacto" y cuéntanos lo que tienes en mente para que podamos
+            enviarte un presupuesto. <br />
             ¡Estaremos encantados de ayudarte a crear el plan perfecto para ti!
           </p>
         </div>

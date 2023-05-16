@@ -51,7 +51,7 @@ export default function ButtonExt() {
           >
             <img src={iconoLd} alt="linkedin" className="icono" />
           </a>
-          <a className="circle" href="./" target="_blank" rel="noreferrer">
+          <a className="circle" href="./help">
             <img src={ayuda} alt="ayuda" className="icono" />
           </a>
         </div>
