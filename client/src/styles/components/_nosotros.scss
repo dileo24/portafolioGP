@@ -3,30 +3,30 @@
   color: black;
 
   .inicio {
-    height: 120vh;
+    padding-bottom: 25%;
     background-color: rgba(255, 255, 255, 0);
     color: black;
     .titulo-inicio {
       font-size: 5vw;
-      padding: 10rem 0 0 4rem;
+      padding: 10% 0 0 4%;
     }
     .descr-inicio {
-      margin: 1.5rem 0 4rem 4rem;
+      margin: 1.5% 0 4% 4%;
       width: 45%;
       font-size: $descrSize;
       font-weight: 100;
-      line-height: 150%;
+      line-height: $descrLineHeight;
     }
     .button-inicio {
       @include botones;
-      margin-left: 4rem;
+      margin-left: 4%;
     }
     .button-inicio:hover {
       background-color: #ad3760;
     }
     .GPcontainer {
       position: absolute;
-      top: 10rem;
+      top: 21%;
       right: 1rem;
       .GP {
         width: 65vw;
@@ -65,6 +65,7 @@
       display: flex;
       flex-direction: row;
       margin-top: 2.8rem;
+      width: 100%;
 
       .item-info:not(:last-child) {
         padding-right: 1.5rem;
@@ -77,12 +78,12 @@
 
       .titulo-item {
         font-weight: bold;
-        font-size: 1.2rem;
+        font-size: $descrSize;
         margin-bottom: 1.5rem;
       }
 
       .descr-item {
-        font-size: 0.88rem;
+        font-size: 0.92vw;
       }
     }
   }
@@ -91,48 +92,48 @@
 ///// Responsive /////
 
 // Hasta monitores anchos (Televisores no: los TV tienen más de 1430px)
-@media only screen and (max-width: 1430px) {
-  // .titulo-inicio {
-  //   padding-top: 7rem !important;
-  // }
-  .inicio {
-    height: 110vh !important;
-  }
-  // altos
-  @media only screen and (min-height: 740px) {
-    .inicio {
-      height: 100vh !important;
-    }
-  }
-  // estricto
-  @media only screen and (min-width: 1350px) {
-    .inicio {
-      height: 108vh !important;
-    }
-  }
-  // bajos
-  @media only screen and (min-height: 650px) and (max-height: 740px) {
-    .inicio {
-      height: 120vh !important;
-    }
-  }
-  // muy bajos
-  @media only screen and (min-height: 300px) and (max-height: 650px) {
-    .inicio {
-      height: 140vh !important;
-    }
-  }
-}
+// @media only screen and (max-width: 1430px) {
+//   // .titulo-inicio {
+//   //   padding-top: 7rem !important;
+//   // }
+//   .inicio {
+//     height: 110vh !important;
+//   }
+//   // altos
+//   @media only screen and (min-height: 740px) {
+//     .inicio {
+//       height: 100vh !important;
+//     }
+//   }
+//   // estricto
+//   @media only screen and (min-width: 1350px) {
+//     .inicio {
+//       height: 108vh !important;
+//     }
+//   }
+//   // bajos
+//   @media only screen and (min-height: 650px) and (max-height: 740px) {
+//     .inicio {
+//       height: 120vh !important;
+//     }
+//   }
+//   // muy bajos
+//   @media only screen and (min-height: 300px) and (max-height: 650px) {
+//     .inicio {
+//       height: 140vh !important;
+//     }
+//   }
+// }
 
-// Hasta monitores delgados (también adquieren las propiedades de los monitores anchos)
-@media only screen and (max-width: 1200px) {
-  // altos
-  @media only screen and (min-height: 590px) {
-    .GPcontainer {
-      top: 12rem !important;
-    }
-  }
-}
+// // Hasta monitores delgados (también adquieren las propiedades de los monitores anchos)
+// @media only screen and (max-width: 1200px) {
+//   // altos
+//   @media only screen and (min-height: 590px) {
+//     .GPcontainer {
+//       top: 12rem !important;
+//     }
+//   }
+// }
 
 // Tablets
 @media only screen and (max-width: 992px) {
