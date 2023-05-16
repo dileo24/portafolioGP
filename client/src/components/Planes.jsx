@@ -25,7 +25,7 @@ export default function Planes() {
             perfectamente funcional en la que mostrar toda su informacion,
             productos y formas de contacto.
           </p>
-          <div className="detalles">
+          <div className="detalles detallesBronce">
             <div className="lista">
               <p>
                 <img src={check} alt="check" className="check" />
@@ -59,13 +59,13 @@ export default function Planes() {
           </a>
         </div>
         <div className="plan planOro">
-          <p className="nombrePlan">ORO</p>
+          <p className="nombrePlan ">ORO</p>
           <p className="text">
             Plan especializado para comercios en constante movimiento de
             clientes, precios, información... Mejorará ampliamente el control de
-            venta y podrá usted mismo gestionar cada dato.
+            venta y vos mismo vas a poder gestionar cada dato.
           </p>
-          <div className="detalles">
+          <div className="detalles detallesOro">
             <div className="lista">
               <p>
                 <img src={check} alt="check" className="check" />
@@ -81,7 +81,7 @@ export default function Planes() {
                 <br />
                 <br />
                 <img src={check} alt="check" className="check" />
-                Formularios ilimitados (contacto, cotizacion, etc).
+                Formularios ilimitados (contacto, cotización, etc).
                 <br />
                 <br />
                 <img src={check} alt="check" className="check" />
@@ -94,7 +94,7 @@ export default function Planes() {
                 <br />
                 <br />
                 <img src={check} alt="check" className="check" />
-                Autogestionable y sistema de registro/inicio de sesión.
+                Autogestionable y sistema de registro e inicio de sesión.
                 <br />
                 <br />
               </p>
@@ -118,7 +118,7 @@ export default function Planes() {
             productos o servicios especificos, ideal para llegar de mejor manera
             al cliente y agilizar procesos de ventas.
           </p>
-          <div className="detalles">
+          <div className="detalles detallesPlata">
             <div className="lista">
               <p>
                 <img src={check} alt="check" className="check" />
