@@ -82,11 +82,19 @@
         textarea {
           border-radius: 0.5rem;
           width: 100%;
-          padding: 1% 0 15% 1%;
+          padding: 0.3% 0 15% 1%;
           resize: none;
           border: 2px solid white;
           color: white;
           background-color: transparent;
+        }
+        textarea::-webkit-scrollbar {
+          width: 0.5vw;
+        }
+
+        textarea::-webkit-scrollbar-thumb {
+          background-color: #eb0455b2;
+          border-radius: 3vw;
         }
         textarea::placeholder {
           color: rgba(255, 255, 255, 0.623);
