@@ -159,6 +159,19 @@ export default function Planes() {
           </a>
         </div>
       </div>
+      <div className="soporteTec">
+        <div className="detalles detallesPlata">
+          <div className="lista">
+            <p>
+              Carga de información mas abundante (estilo Ecommerce por ejemplo).
+            </p>
+          </div>
+          <div className="precio">
+            <p className="moneda"> AR$</p>
+            <p className="precioNum">60.000 </p>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }
