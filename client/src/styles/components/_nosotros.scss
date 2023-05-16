@@ -7,20 +7,19 @@
     background-color: rgba(255, 255, 255, 0);
     color: black;
     .titulo-inicio {
-      font-size: 5.8vw;
-      font-weight: 400;
-      padding: 7.5rem 0 0 2.5rem;
+      font-size: 5vw;
+      padding: 10rem 0 0 4rem;
     }
     .descr-inicio {
-      margin: 1.5rem 44rem 4rem 2.75rem;
+      margin: 1.5rem 0 4rem 4rem;
+      width: 45%;
       font-size: $descrSize;
       font-weight: 100;
-      // line-height: 2.2rem;
-      line-height: $descrLineHeight;
+      line-height: 150%;
     }
     .button-inicio {
       @include botones;
-      margin-left: 2.75rem;
+      margin-left: 4rem;
     }
     .button-inicio:hover {
       background-color: #ad3760;
@@ -93,8 +92,8 @@
 
 // Hasta monitores anchos (Televisores no: los TV tienen más de 1430px)
 @media only screen and (max-width: 1430px) {
-  .descr-inicio {
-    margin-right: 36rem !important;
+  .titulo-inicio {
+    padding-top: 7rem !important;
   }
   .inicio {
     height: 110vh !important;
@@ -127,9 +126,6 @@
 
 // Hasta monitores delgados (también adquieren las propiedades de los monitores anchos)
 @media only screen and (max-width: 1200px) {
-  .descr-inicio {
-    margin-right: 31rem !important;
-  }
   // altos
   @media only screen and (min-height: 590px) {
     .GPcontainer {
