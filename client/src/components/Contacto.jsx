@@ -84,7 +84,7 @@ export default function Contacto() {
               id="message"
               name="message"
               required
-              placeholder="Cuéntenos sobre su empresa/negocio y lo que le gustaría conseguir con su página, nosotros nos pondremos en contacto en cuanto podamos..."
+              placeholder="Contanos sobre tu empresa/negocio y lo que te gustaría conseguir con tu página, nosotros nos pondremos en contacto en cuanto podamos."
             ></textarea>
 
             <input type="submit" value="Enviar" className="btnEnviar" />

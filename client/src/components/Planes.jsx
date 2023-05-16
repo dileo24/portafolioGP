@@ -63,7 +63,7 @@ export default function Planes() {
           <p className="text">
             Plan especializado para comercios en constante movimiento de
             clientes, precios, información... Mejorará ampliamente el control de
-            venta y podrá usted mismo gestionar cada dato!
+            venta y podrá usted mismo gestionar cada dato.
           </p>
           <div className="detalles">
             <div className="lista">
@@ -116,7 +116,7 @@ export default function Planes() {
           <p className="text">
             Plan enfocado en pequeñas empresas que necesitan hacer un listado de
             productos o servicios especificos, ideal para llegar de mejor manera
-            al cliente y agilizar procesos de ventas
+            al cliente y agilizar procesos de ventas.
           </p>
           <div className="detalles">
             <div className="lista">

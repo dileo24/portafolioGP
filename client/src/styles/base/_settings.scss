@@ -5,7 +5,7 @@ $fondoClaro: #f2f2f2;
 $grisClaro: #e7e7e7;
 $grisOscuro: #808080;
 $descrSize: 1.4vw;
-$descrLineHeight: 2.6vw;
+$descrLineHeight: 150%;
 
 @mixin center {
   display: flex;
@@ -53,6 +53,6 @@ html {
   scroll-behavior: smooth;
 }
 
-section[id] {
-  scroll-margin-top: 5rem;
-}
+// section[id] {
+//   scroll-margin-top: 5rem;
+// }
