@@ -1,11 +1,11 @@
 // Joaco
 
 import React from "react";
+import persona from "../multimedia/persona.png";
 
 export default function Contacto() {
   return (
     <section className="contactoContainer" id="contacto">
-      <span></span>
       <div className="formContainer">
         <form
           action="https://formsubmit.co/gopagearg@gmail.com"
@@ -90,6 +90,9 @@ export default function Contacto() {
             <input type="submit" value="Enviar" className="btnEnviar" />
           </div>
         </form>
+      </div>
+      <div className="imagen">
+        <img src={persona} alt="persona" />
       </div>
     </section>
   );

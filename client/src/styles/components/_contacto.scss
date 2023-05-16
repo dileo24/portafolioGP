@@ -1,13 +1,19 @@
 .contactoContainer {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   padding: 8.5% 0;
 
+  .imagen {
+    width: 30%;
+    padding-right: 2%;
+    img {
+      width: 100%;
+    }
+  }
   .formContainer {
     position: relative;
-    width: 50%;
+    width: 70%;
     margin-left: 5vh;
     border-radius: 0.5rem 0 0.5rem 0.5rem;
     background-color: $magenta;
@@ -36,9 +42,9 @@
           margin-bottom: none;
         }
         .parrafo {
-          margin-top: 2.5%;
-          font-size: $descrSize;
-          margin-bottom: 2.5%;
+          margin-top: 1.5%;
+          font-size: 1vw;
+          margin-bottom: 4%;
         }
       }
       .inputS {
@@ -64,7 +70,7 @@
           }
           input::placeholder {
             color: rgba(255, 255, 255, 0.623);
-            font-size: $descrSize;
+            font-size: 1vw;
           }
           .celIn::-webkit-inner-spin-button,
           .no-arrows::-webkit-outer-spin-button {
@@ -84,7 +90,7 @@
         }
         textarea::placeholder {
           color: rgba(255, 255, 255, 0.623);
-          font-size: $descrSize;
+          font-size: 1vw;
         }
         .btnEnviar {
           background-color: white;
