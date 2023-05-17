@@ -17,10 +17,9 @@ export default function Contacto() {
           <div className="text">
             <h1 className="titulo">Hablanos un poco más de vos...</h1>
             <p className="parrafo">
-              ¿Listo para dar el siguiente paso? Nuestro equipo está esperando
-              para brindarte la orientación que necesites, mientras tanto
-              contanos un poco de qué tenés pensado para tu proyecto. ¡Te
-              esperamos!
+              ¿Listo para dar el siguiente paso? Nuestro equipo espera para
+              brindarte la orientación que necesites, mientras tanto contanos un
+              poco de qué tenés pensado para tu proyecto. ¡Te esperamos!
             </p>
           </div>
           <input type="hidden" name="_subject" value="Go Page Portafolio" />
@@ -31,56 +30,57 @@ export default function Contacto() {
             value="https://gopage.vercel.app/#contacto"
           />
           <div className="inputS">
-            <div className="sect">
-              <input
-                type="text"
-                id="name"
-                name="name"
-                required
-                placeholder="Nombre y apellido"
-              />
-              <input
-                type="text"
-                id="empresa"
-                name="empresa"
-                required
-                placeholder="Nombre de empresa"
-              />
-              <input
-                type="text"
-                id="pais"
-                name="pais"
-                required
-                placeholder="País"
-              />
+            <div className="inputSContainer">
+              <div className="sect sect1">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  placeholder="Nombre y apellido"
+                />
+                <input
+                  type="text"
+                  id="empresa"
+                  name="empresa"
+                  required
+                  placeholder="Nombre de empresa"
+                />
+                <input
+                  type="text"
+                  id="pais"
+                  name="pais"
+                  required
+                  placeholder="País"
+                />
+              </div>
+
+              <div className="sect sect2">
+                <input
+                  type="text"
+                  id="ciud"
+                  name="ciud"
+                  required
+                  placeholder="Ciudad"
+                />
+
+                <input
+                  type="number"
+                  id="cel"
+                  name="cel"
+                  className="celIn"
+                  required
+                  placeholder="Celular"
+                />
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="Correo electrónico"
+                />
+              </div>
             </div>
-
-            <div className="sect">
-              <input
-                type="text"
-                id="ciud"
-                name="ciud"
-                required
-                placeholder="Ciudad"
-              />
-
-              <input
-                type="number"
-                id="cel"
-                name="cel"
-                className="celIn"
-                required
-                placeholder="Celular"
-              />
-              <input
-                type="email"
-                id="email"
-                name="email"
-                required
-                placeholder="Correo electrónico"
-              />
-            </div>
-
             <textarea
               id="message"
               name="message"
