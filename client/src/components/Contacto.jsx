@@ -7,7 +7,7 @@ import persona from "../multimedia/persona2.png";
 import enviadoCorr from "../multimedia/enviadoCorr.png";
 
 export default function Contacto() {
-  const [enviado, setEnviado] = useState(false);
+  const [, setEnviado] = useState(false);
   const [animProps, setAnimProps] = useSpring(() => ({
     opacity: 0,
     transform: "scale(0.5)",
@@ -44,15 +44,19 @@ export default function Contacto() {
       );
       if (response.data.success) {
         console.log("Se envió correctamente");
-        setAnimProps({
+        setAnimProps.start({
           opacity: 1,
           transform: "scale(1)",
           position: "absolute",
           display: "flex",
         });
         setTimeout(() => {
-          setAnimProps({ opacity: 0, transform: "scale(0.5)" });
-        }, 2000);
+          setAnimProps.start({
+            opacity: 0,
+            transform: "scale(0.5)",
+            display: "none",
+          });
+        }, 2500);
       } else {
         console.log(`Hubo un error: ${response.data}`);
       }
