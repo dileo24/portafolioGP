@@ -38,6 +38,9 @@
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    .bordeResp {
+      display: none;
+    }
     p {
       color: black;
       font-size: 1vw;
@@ -271,6 +274,7 @@
         }
       }
       .bordeResp {
+        display: block;
         margin-top: 15%;
       }
       padding-bottom: 15%;
