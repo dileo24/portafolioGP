@@ -24,7 +24,8 @@ export default function Planes() {
           </p>
         </div>
       </div>
-      {/* <span></span> */}
+
+      <span className="bordeResp"></span>
       <div className="planes">
         <div className="plan">
           <p className="nombrePlan">BRONCE</p>
