@@ -68,7 +68,7 @@
   }
 }
 
-@media only screen and (max-width: 1500px) {
+/* @media only screen and (max-width: 1500px) {
   .proyectosContainer {
     margin-bottom: 6rem;
 
@@ -79,18 +79,20 @@
       margin-bottom: 4rem;
     }
   }
-}
+} */
 
 @media only screen and (max-width: 700px) {
   .proyectosContainer {
     .titulo-proyectos {
       @include tituloMedianoResp;
       width: 80%;
+      padding-top: 7%;
     }
 
     .descr-proyectos {
       font-size: $descrSizeResp;
       padding: 0 5% 0 5%;
+      margin-bottom: 10%;
       text-align: center;
     }
 
