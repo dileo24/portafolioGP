@@ -100,12 +100,6 @@
     .card {
       height: 50vw;
       width: 80vw;
-      box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
-      border-radius: 0.5rem;
-      background-image: url("../../multimedia/santor.png");
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
       span {
         @include center;
         padding-top: 24%;
