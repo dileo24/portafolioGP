@@ -62,6 +62,8 @@ export default function Planes() {
             <button>LO QUIERO</button>
           </a>
         </div>
+
+        <span className="bordeResp"></span>
         <div className="plan planOro">
           <p className="nombrePlan ">ORO</p>
           <p className="text">
@@ -115,6 +117,8 @@ export default function Planes() {
             <button className="ORObtn">LO QUIERO</button>
           </a>
         </div>
+
+        <span className="bordeResp"></span>
         <div className="plan">
           <p className="nombrePlan">PLATA</p>
           <p className="text">
@@ -162,6 +166,7 @@ export default function Planes() {
             <button>LO QUIERO</button>
           </a>
         </div>
+        <span className="bordeResp"></span>
       </div>
       <div className="soporteTec">
         <img src={sopTec} alt="sopTec" className="sopTecImg" />

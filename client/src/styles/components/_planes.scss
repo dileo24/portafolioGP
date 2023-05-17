@@ -270,6 +270,10 @@
           }
         }
       }
+      .bordeResp {
+        margin-top: 15%;
+      }
+      padding-bottom: 15%;
     }
   }
   .soporteTec {
@@ -278,20 +282,19 @@
     flex-direction: column !important;
     height: 100%;
     .sopTecImg {
-      width: 7%;
+      width: 10% !important;
     }
     .detalles {
       width: 100%;
       .titulo {
-        font-size: 4vw !important;
-        font-weight: bolder;
+        font-size: 5vw !important;
         margin-bottom: 0;
       }
       .text {
-        font-size: 2vw !important;
+        font-size: 3vw !important;
         margin-bottom: 1%;
         text-align: center;
-        width: 70%;
+        width: 100% !important;
       }
     }
     .precio {
