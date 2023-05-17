@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div className="navContainer">
       <nav className="navbar navbar-expand-lg ">
-        <div className="container-fluid">
+        <div className="container-fluid containNav">
           <a className="navbar-brand" href="./">
             <img src={logo} alt="logo" className="logo" />
           </a>
