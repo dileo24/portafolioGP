@@ -135,7 +135,6 @@
       margin: 0 5% 0 5%;
       width: 90%;
       border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
-
       &::before {
         display: none;
       }
@@ -150,13 +149,31 @@
         }
         .inputS {
           width: 100%;
-          .sect {
-            input {
-              width: 32.5%;
+          .inputSContainer {
+            @include centerRow;
+            .sect {
+              @include centerCol;
+              width: 100%;
+              padding-bottom: 0;
+              input {
+                width: 90%;
+                height: 100%;
+                margin-bottom: 10%;
+              }
+              input::placeholder {
+                font-size: 3vw;
+                padding-bottom: 5%;
+              }
             }
-            input::placeholder {
-              font-size: 3vw;
-              padding-bottom: 5%;
+            .sect1 {
+              input {
+                margin-left: -10%;
+              }
+            }
+            .sect2 {
+              input {
+                margin-left: 10%;
+              }
             }
           }
           textarea::placeholder {
