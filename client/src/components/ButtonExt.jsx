@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import iconoImage from "../multimedia/iconoMenu.png";
 import iconoImageCerrado from "../multimedia/iconoMenuCerrado.png";
 import iconoWpp from "../multimedia/icon-wpp.png";
@@ -8,13 +8,26 @@ import ayuda from "../multimedia/ayuda.png";
 
 export default function ButtonExt() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const clickOutMenu = useRef(null);
 
   const handleButtonClick = () => {
     setMenuOpen(!menuOpen);
   };
 
+  const handleClickOut = (event) => {
+    if (clickOutMenu.current && !clickOutMenu.current.contains(event.target)) {
+      setMenuOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClickOut);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOut);
+    };
+  }, []);
   return (
-    <div className="buttonContainerr">
+    <div className="buttonContainerr" ref={clickOutMenu}>
       <button
         className={`buttonExt ${menuOpen && "open"}`}
         onClick={handleButtonClick}
