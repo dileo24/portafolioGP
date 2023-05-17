@@ -12,10 +12,10 @@
     justify-content: space-around;
     align-items: center;
     .navbar-brand {
-      width: 10%;
+      width: 9%;
       .logo {
         width: 100%;
-        margin-left: 1%;
+        padding-left: 2%;
       }
     }
     .navbar-nav {
@@ -23,7 +23,8 @@
       display: flex;
       justify-content: flex-end;
       .nav-link {
-        font-size: 1.3vw;
+        font-size: 1.1vw;
+        padding-right: 1%;
       }
     }
   }

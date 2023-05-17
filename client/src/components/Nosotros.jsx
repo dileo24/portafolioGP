@@ -17,7 +17,7 @@ export default function Nosotros() {
           flexibles para brindarte un servicio de calidad que supere tus
           expectativas.
         </p>
-        <a className="button-inicio" href="#info">
+        <a className="button-inicio" href="#planes">
           COMENCEMOS
         </a>
         <div className="GPcontainer">
