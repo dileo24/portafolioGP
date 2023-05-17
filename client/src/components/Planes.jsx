@@ -16,7 +16,7 @@ export default function Planes() {
             necesidades. Si este es tu caso, simplemente dirígete a la sección
             de "Contacto" y cuéntanos lo que tienes en mente para que podamos
             enviarte un presupuesto. <br />
-            ¡Estaremos encantados de ayudarte a crear el plan perfecto para ti!
+            ¡Estaremos encantados de ayudarte a crear el plan perfecto para vos!
           </p>
         </div>
       </div>
