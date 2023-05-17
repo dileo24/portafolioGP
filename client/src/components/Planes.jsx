@@ -11,16 +11,20 @@ export default function Planes() {
         <div className="text">
           <p className="titulo">Planes y Precios</p>
           <p>
-            Te presentamos nuestros tres planes estándar para ofrecer, pero
-            también se puede crear un <b>plan personalizado</b> según tus
-            necesidades. Si este es tu caso, simplemente dirígete a la sección
-            de "Contacto" y cuéntanos lo que tienes en mente para que podamos
-            enviarte un presupuesto. <br />
-            ¡Estaremos encantados de ayudarte a crear el plan perfecto para vos!
+            ¡Estaremos encantados de darte la página perfecta para vos y tu
+            empresa!
+            <br />
+            Te presentamos nuestros tres planes estándar para ofrecer, aunque
+            también por supuesto se puede crear un <b>
+              plan personalizado
+            </b>{" "}
+            según tus necesidades. Si este es tu caso, simplemente dirigite a la
+            sección de "Contacto" y contanos lo que tenés en mente para que
+            podamos enviarte un presupuesto.
           </p>
         </div>
       </div>
-      <span></span>
+      {/* <span></span> */}
       <div className="planes">
         <div className="plan">
           <p className="nombrePlan">BRONCE</p>
