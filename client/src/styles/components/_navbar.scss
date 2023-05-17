@@ -22,13 +22,14 @@
       width: 100%;
       display: flex;
       justify-content: flex-end;
+      padding-bottom: 0.5%;
       .nav-link {
         font-size: 1.1vw;
         margin-right: 1%;
         transition: all 0.3s;
+        padding-bottom: 0;
       }
       .nav-link:hover {
-        padding-bottom: 0;
         color: $magenta;
         border-bottom: 1px solid $magenta;
       }

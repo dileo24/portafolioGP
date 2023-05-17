@@ -22,7 +22,7 @@ export default function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <nav className="navbar-nav">
-              <a className="nav-link" aria-current="page" href="#info">
+              <a className="nav-link" href="#info">
                 Nosotros
               </a>
               <a className="nav-link" href="#proyectos">

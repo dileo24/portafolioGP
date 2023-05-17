@@ -23,10 +23,10 @@
       content: "";
       position: absolute;
       top: 0;
-      right: -2rem;
-      border-top: 1.5rem solid transparent;
-      border-bottom: 1.5rem solid transparent;
-      border-left: 2rem solid $magenta;
+      right: -2vw;
+      border-top: 1.5vw solid transparent;
+      border-bottom: 1.5vw solid transparent;
+      border-left: 2vw solid $magenta;
     }
 
     form {
@@ -120,6 +120,51 @@
           /* border: 1.5px solid white; */
           background-color: $magentaFuerte;
           color: white;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .contactoContainer {
+    .imagen {
+      display: none;
+    }
+    .formContainer {
+      margin: 0 5% 0 5%;
+      width: 90%;
+      border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+
+      &::before {
+        display: none;
+      }
+      form {
+        .text {
+          .titulo {
+            font-size: 5vw;
+          }
+          .parrafo {
+            font-size: 3vw;
+          }
+        }
+        .inputS {
+          width: 100%;
+          .sect {
+            input {
+              width: 32.5%;
+            }
+            input::placeholder {
+              font-size: 3vw;
+              padding-bottom: 5%;
+            }
+          }
+          textarea::placeholder {
+            font-size: 3vw;
+          }
+          .btnEnviar {
+            font-size: 4vw;
+          }
         }
       }
     }
