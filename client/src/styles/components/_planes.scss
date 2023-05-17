@@ -201,3 +201,113 @@
     }
   }
 }
+
+@media only screen and (max-width: 700px) {
+  .planesContainer {
+    .planesYPrecios {
+      .text {
+        width: 80%;
+        .titulo {
+          @include tituloMedianoResp;
+          text-align: center;
+          width: 100%;
+        }
+        p {
+          font-size: $descrSizeResp;
+        }
+      }
+    }
+    .planes {
+      @include centerCol;
+      padding: 0 3% 5% 3%;
+      p {
+        color: black;
+        font-size: 3.2vw;
+      }
+      .planOro {
+        margin-bottom: 0;
+      }
+      .plan {
+        width: 80%;
+        .nombrePlan {
+          font-size: 7vw;
+        }
+        .text {
+          padding: 0 0;
+        }
+        .detalles {
+          .precio {
+            .prec {
+              .precioNum {
+                font-size: 10vw;
+              }
+              .moneda {
+                font-size: 10vw;
+              }
+            }
+            .aclaracion {
+              font-size: 4vw;
+            }
+          }
+        }
+        a {
+          button {
+            font-size: 4vw;
+            background-color: $magenta;
+            color: white;
+          }
+          button:hover {
+            background-color: $magenta;
+            color: white;
+          }
+          .ORObtn {
+            background-color: $magenta;
+            color: white;
+          }
+          .ORObtn:hover {
+            background-color: $magenta;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  .soporteTec {
+    padding: 0 2%;
+    @include centerCol;
+    flex-direction: column !important;
+    height: 100%;
+    .sopTecImg {
+      width: 7%;
+    }
+    .detalles {
+      width: 100%;
+      .titulo {
+        font-size: 4vw !important;
+        font-weight: bolder;
+        margin-bottom: 0;
+      }
+      .text {
+        font-size: 2vw !important;
+        margin-bottom: 1%;
+        text-align: center;
+        width: 70%;
+      }
+    }
+    .precio {
+      @include centerCol;
+      .prec {
+        margin-top: 2%;
+        @include center;
+        .precioNum,
+        .moneda {
+          font-size: 5vw !important;
+        }
+      }
+      .aclaracion {
+        font-size: 2vw !important;
+        margin-bottom: 5%;
+      }
+    }
+  }
+}
