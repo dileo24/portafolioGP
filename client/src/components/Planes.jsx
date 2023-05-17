@@ -16,7 +16,7 @@ export default function Planes() {
             necesidades. Si este es tu caso, simplemente dirígete a la sección
             de "Contacto" y cuéntanos lo que tienes en mente para que podamos
             enviarte un presupuesto. <br />
-            ¡Estaremos encantados de ayudarte a crear el plan perfecto para ti!
+            ¡Estaremos encantados de ayudarte a crear el plan perfecto para vos!
           </p>
         </div>
       </div>
@@ -62,6 +62,8 @@ export default function Planes() {
             <button>LO QUIERO</button>
           </a>
         </div>
+
+        <span className="bordeResp"></span>
         <div className="plan planOro">
           <p className="nombrePlan ">ORO</p>
           <p className="text">
@@ -115,6 +117,8 @@ export default function Planes() {
             <button className="ORObtn">LO QUIERO</button>
           </a>
         </div>
+
+        <span className="bordeResp"></span>
         <div className="plan">
           <p className="nombrePlan">PLATA</p>
           <p className="text">
@@ -162,6 +166,7 @@ export default function Planes() {
             <button>LO QUIERO</button>
           </a>
         </div>
+        <span className="bordeResp"></span>
       </div>
       <div className="soporteTec">
         <img src={sopTec} alt="sopTec" className="sopTecImg" />
