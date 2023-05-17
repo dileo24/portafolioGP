@@ -12,10 +12,10 @@ export default function Planes() {
           <p className="titulo">Planes y Precios</p>
           <p>
             Te presentamos nuestros tres planes estándar para ofrecer, pero
-            también se puede crear un plan personalizado según tus necesidades.
-            Si este es tu caso, simplemente dirígete a la sección de "Contacto"
-            y cuéntanos lo que tienes en mente para que podamos armarte un
-            presupuesto. <br />
+            también se puede crear un <b>plan personalizado</b> según tus
+            necesidades. Si este es tu caso, simplemente dirígete a la sección
+            de "Contacto" y cuéntanos lo que tienes en mente para que podamos
+            enviarte un presupuesto. <br />
             ¡Estaremos encantados de ayudarte a crear el plan perfecto para ti!
           </p>
         </div>
@@ -25,7 +25,7 @@ export default function Planes() {
         <div className="plan">
           <p className="nombrePlan">BRONCE</p>
           <p className="text">
-            Plan ideal para su primera página, una opción económica pero
+            Ideal para su primera página, una opción económica pero
             perfectamente funcional en la que mostrar toda su informacion,
             productos y formas de contacto.
           </p>
@@ -65,9 +65,9 @@ export default function Planes() {
         <div className="plan planOro">
           <p className="nombrePlan ">ORO</p>
           <p className="text">
-            Plan especializado para comercios en constante movimiento de
-            clientes, precios, información... Mejorará ampliamente el control de
-            venta y vos mismo vas a poder gestionar cada dato.
+            Especializado para comercios en constante movimiento de clientes,
+            precios, información... Mejorará ampliamente el control de venta y
+            vos mismo vas a poder gestionar cada dato.
           </p>
           <div className="detalles detallesOro">
             <div className="lista">
@@ -118,7 +118,7 @@ export default function Planes() {
         <div className="plan">
           <p className="nombrePlan">PLATA</p>
           <p className="text">
-            Plan enfocado en pequeñas empresas que necesitan hacer un listado de
+            Enfocado en pequeñas empresas que necesitan hacer un listado de
             productos o servicios especificos, ideal para llegar de mejor manera
             al cliente y agilizar procesos de ventas.
           </p>

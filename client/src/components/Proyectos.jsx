@@ -18,24 +18,27 @@ export default function Proyectos() {
             className="card"
             target="_blank"
             rel="noreferrer"
+            style={{ textDecoration: "none" }}
           >
-            <span>url</span>
+            <span>SanTor - Multipágina - Informativa</span>
           </a>
           <a
             href="https://san-tor.vercel.app/index.html"
             className="card"
             target="_blank"
             rel="noreferrer"
+            style={{ textDecoration: "none" }}
           >
-            <span>url</span>
+            <span>SanTor - Multipágina - Informativa</span>
           </a>
           <a
             href="https://san-tor.vercel.app/index.html"
             className="card"
             target="_blank"
             rel="noreferrer"
+            style={{ textDecoration: "none" }}
           >
-            <span>url</span>
+            <span>SanTor - Multipágina - Informativa</span>
           </a>
         </div>
         {/* <a className="button-proyectos" href="">
