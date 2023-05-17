@@ -13,8 +13,8 @@ export default function Planes() {
           <p>
             Te presentamos nuestros tres planes estándar para ofrecer, pero
             también se puede crear un <b>plan personalizado</b> según tus
-            necesidades. Si este es tu caso, simplemente dirígete a la sección
-            de "Contacto" y cuéntanos lo que tienes en mente para que podamos
+            necesidades. Si este es tu caso, simplemente dirigite a la sección
+            de "Contacto" y contanos lo que tenés en mente para que podamos
             enviarte un presupuesto. <br />
             ¡Estaremos encantados de ayudarte a crear el plan perfecto para vos!
           </p>
