@@ -5,7 +5,7 @@ $fondoClaro: #f2f2f2;
 $grisClaro: #e7e7e7;
 $grisOscuro: #808080;
 $tituloSize: 2.5vw;
-$descrSize: 1.4vw;
+$descrSize: 1.3vw;
 $descrSizeResp: 3.6vw;
 $descrLineHeight: 150%;
 
@@ -30,12 +30,12 @@ $descrLineHeight: 150%;
 }
 
 @mixin botones {
-  padding: 0.7rem 2.2rem;
+  padding: 0.75% 2.2%;
   height: auto;
   width: fit-content;
   background-color: $magenta;
   color: white;
-  font-size: 1.1rem;
+  font-size: 1.15vw;
   text-decoration: none;
   border-radius: 0.5rem;
   -webkit-border-radius: 0.5rem;
@@ -43,11 +43,12 @@ $descrLineHeight: 150%;
   -ms-border-radius: 0.5rem;
   -o-border-radius: 0.5rem;
   text-decoration: none;
+  box-shadow: 0px 0px 0.8rem 0px rgba(0, 0, 0, 0.207);
 }
 
 @mixin tituloMediano {
   width: 50%;
-  font-size: 4vw;
+  font-size: 3.5vw;
   font-weight: 700;
 }
 
@@ -60,3 +61,8 @@ $descrLineHeight: 150%;
 html {
   scroll-behavior: smooth;
 }
+
+// * {
+//   background-color: black !important;
+//   color: white !important;
+// }

@@ -2,6 +2,7 @@
 
 import React from "react";
 import GP from "../multimedia/GP.png";
+import circulos3D from "../multimedia/circulos3D.png";
 
 export default function Nosotros() {
   return (
@@ -25,17 +26,48 @@ export default function Nosotros() {
         </div>
       </div>
 
+      <section className="beneficios">
+        <div className="box1">
+          <h1 className="titulo-beneficios">
+            ¿Por qué es tan <br /> importante tener <br /> un sitio web?
+          </h1>
+          <a className="button-beneficios" href="#beneficios">
+            VER MÁS
+          </a>
+        </div>
+        <div className="box2">
+          <div className="subtitulo-beneficios">
+            Una página web ofrece múltiples beneficios para tu negocio
+          </div>
+          <p className="descr-beneficios">
+            Presencia en línea las 24 horas, con un alcance global,
+            oportunidades de marketing y promoción. Dando credibilidad y
+            confianza, ventas en línea y atención al cliente, así como análisis
+            y mejora continua. Es una de las inversión clave para impulsar tu
+            negocio y poder alcanzar tus objetivos comerciales.
+          </p>
+        </div>
+        <div className="box3"></div>
+        <div className="circulos3D">
+          <img src={circulos3D} alt="circulos3D" />
+        </div>
+      </section>
+
       <section id="info" className="info">
         <div className="flex-info">
           <h1 className="titulo-info">
-            <span>G</span>o<span>P</span>age <br /> Desarrollo web
+            GoPage <br /> Desarrollo web
+            <br />
+            <span> ¿Quiénes somos?</span>
           </h1>
 
           <p className="descr-info">
-            A través de nuestros valores, creamos diseños web que cautivan y
-            transmiten la esencia de tu marca. Nos aseguramos de que cada
-            detalle esté cuidadosamente ejecutado, y de esta manera, garantizar
-            resultados que superen tus expectativas.
+            Somos una empresa de desarrollo web especializada en crear sitios
+            web a medida para negocios y emprendedores. Nuestro objetivo
+            principal es ayudarte a establecer una sólida presencia en línea al
+            proporcionarte soluciones profesionales. Confía en nosotros para
+            impulsar tu negocio en el mundo digital y brindar a tus clientes una
+            experiencia única y atractiva en línea.
           </p>
         </div>
 
@@ -43,38 +75,28 @@ export default function Nosotros() {
           <div className="item-info">
             <div className="titulo-item">Orden</div>
             <div className="descr-item">
-              Desde la planificación hasta la ejecución, valoramos la estructura
-              y la eficiencia, asegurando de que cada detalle esté en su lugar y
-              permitiéndonos entregar resultados de calidad y superar las
-              expectativas de nuestros clientes.
+              El orden es fundamental en nuestro trabajo. Planificación,
+              ejecución y atención al detalle.
             </div>
           </div>
           <div className="item-info">
             <div className="titulo-item">Flexibilidad</div>
             <div className="descr-item">
-              Entendemos que cada cliente y cada proyecto son únicos, por eso
-              nos ajustamos a tus necesidades y preferencias, ofreciendo
-              soluciones personalizadas y creando una experiencia satisfactoria
-              y sin complicaciones. Tu satisfacción es nuestra prioridad.
+              Valoramos la flexibilidad en nuestro enfoque y soluciones.
             </div>
           </div>
           <div className="item-info">
             <div className="titulo-item">Profesionalismo</div>
             <div className="descr-item">
-              Valoramos la integridad, la confidencialidad y la transparencia en
-              todo lo que hacemos. Puedes confiar en que serás atendido por
-              expertos altamente capacitados, comprometidos con brindarte un
-              servicio excepcional y resultados más que satisfactorios.
+              Nos comprometemos a brindar un servicio de alta calidad,
+              manteniendo la comunicación.
             </div>
           </div>
           <div className="item-info">
             <div className="titulo-item">Creatividad</div>
             <div className="descr-item">
-              Nuestro equipo de profesionales creativos está constantemente
-              buscando nuevas ideas y soluciones originales para llevar tus
-              proyectos al siguiente nivel. Con nuestra pasión por la
-              innovación, podemos ofrecerte propuestas frescas y sorprendentes
-              que marcarán la diferencia en tu industria.
+              Buscamos constantemente nuevas ideas y enfoques que destaquen tu
+              negocio en línea.
             </div>
           </div>
         </div>
