@@ -75,8 +75,8 @@ export default function Nosotros() {
           <div className="item-info">
             <div className="titulo-item">Orden</div>
             <div className="descr-item">
-              La planificación detallada para el mejor resultado posible es la
-              base de nuestro trabajo.
+              La planificación detallada y ordenada es el pilar de nuestros
+              trabajos.
             </div>
           </div>
           <div className="item-info">
