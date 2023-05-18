@@ -2,7 +2,7 @@
 
 import React from "react";
 import GP from "../multimedia/GP.png";
-import circulos3D from "../multimedia/circulos3D.png";
+import circulos3D from "../multimedia/figura6.png";
 
 export default function Nosotros() {
   return (
@@ -75,21 +75,22 @@ export default function Nosotros() {
           <div className="item-info">
             <div className="titulo-item">Orden</div>
             <div className="descr-item">
-              El orden es fundamental en nuestro trabajo. Planificación,
-              ejecución y atención al detalle.
+              La planificación detallada para el mejor resultado posible es la
+              base de nuestro trabajo.
             </div>
           </div>
           <div className="item-info">
             <div className="titulo-item">Flexibilidad</div>
             <div className="descr-item">
-              Valoramos la flexibilidad en nuestro enfoque y soluciones.
+              Valoramos la flexibilidad constante en nuestro enfoque y
+              soluciones.
             </div>
           </div>
           <div className="item-info">
             <div className="titulo-item">Profesionalismo</div>
             <div className="descr-item">
-              Nos comprometemos a brindar un servicio de alta calidad,
-              manteniendo la comunicación.
+              Nos comprometemos a brindar un servicio de alta calidad y
+              fiabilidad.
             </div>
           </div>
           <div className="item-info">

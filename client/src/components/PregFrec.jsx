@@ -6,35 +6,9 @@ import imgPreg from "../multimedia/pregFrec.png";
 import ojoAbierto from "../multimedia/ojoAbierto.png";
 import ojoCerrado from "../multimedia/ojoCerrado.png";
 import ButtonExt from "./ButtonExt";
+import preguntas from "../multimedia/preguntas.json";
 
 export default function PregFrec() {
-  const preguntas = [
-    {
-      titulo: "PREGUNTA NUMERO UNO",
-      resp: "holaaaaaaaa como va todo bien loco que onda axaoisjdfoajsd.",
-    },
-    {
-      titulo: "PREGUNTA NUMERO DOS",
-      resp: "difjgosdjfs qwue onda papsapspapspapapaaaaaaaaaaaaaaa",
-    },
-    {
-      titulo: "PREGUNTA NUMERO TRES",
-      resp: "holaaaaaaaa como va todo bien loco que onda axaoisjdfoajsd.",
-    },
-    {
-      titulo: "PREGUNTA NUMERO CUATRO",
-      resp: "difjgosdjfs qwue onda papsapspapspapapaaaaaaaaaaaaaaa",
-    },
-    {
-      titulo: "PREGUNTA NUMERO CINCO",
-      resp: "holaaaaaaaa como va todo bien loco que onda axaoisjdfoajsd.",
-    },
-    {
-      titulo: "PREGUNTA NUMERO SEIS",
-      resp: "difjgosdjfs qwue onda papsapspapspapapaaaaaaaaaaaaaaa",
-    },
-  ];
-
   const pagina = useLocation().pathname;
   const [mostrando, setMostrando] = useState(false);
 

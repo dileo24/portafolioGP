@@ -33,7 +33,7 @@
       .nav-link {
         // color: $magenta;
         color: black;
-        font-weight: bolder;
+        /* font-weight: bolder; */
         font-size: 1.1vw;
         margin-right: 1%;
         transition: all 0.3s;
@@ -41,7 +41,7 @@
       }
       .nav-link:hover {
         color: $magenta;
-        border-bottom: 1px solid $magenta;
+        /* border-bottom: 1px solid $magenta; */
       }
     }
   }
