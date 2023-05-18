@@ -1,4 +1,5 @@
 import React from "react";
+import { useLocation } from "react-router";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import ButtonExt from "./ButtonExt";
@@ -26,12 +27,14 @@ export default function Home() {
     });
   });
 
+  const pagina = useLocation().pathname;
+
   return (
     <div className="homeContainer">
       <Navbar />
       <div className="home-subContainer">
         <Nosotros />
-        <ButtonExt />
+        <ButtonExt pagina={pagina} />
         <Proyectos />
         <Planes />
         <Contacto />

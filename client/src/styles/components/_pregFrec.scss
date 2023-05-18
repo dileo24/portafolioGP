@@ -1,0 +1,41 @@
+.pregContainer {
+  // @include titulos;
+  background-color: $fondoClaro;
+
+  .inicio {
+    padding-bottom: 5%;
+    background-image: url("../../multimedia/fondo3.jpg");
+    background-size: cover;
+    color: black;
+    padding-top: 5%;
+    .titulo {
+      font-size: 5vw;
+      padding: 0% 25% 0 4%;
+      font-weight: 500;
+    }
+    .subText {
+      margin: 1.5% 0 4% 4%;
+      width: 45%;
+      font-size: $descrSize;
+      font-weight: 100;
+      line-height: $descrLineHeight;
+    }
+    .imgContainer {
+      position: absolute;
+      top: 07%;
+      right: 0;
+      img {
+        width: 55vw;
+        height: auto;
+      }
+    }
+  }
+  .pregContainer {
+    .preg {
+      .titulo {
+        @include tituloMediano;
+        font-size: $tituloSize;
+      }
+    }
+  }
+}
