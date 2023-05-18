@@ -1,15 +1,22 @@
 .nosotrosContainer {
   height: auto;
   color: black;
-
   .inicio {
-    padding-bottom: 25%;
-    // background-color: rgba(255, 255, 255, 0);
+    height: 100vh;
+    //padding-bottom: 25%;
+    //background-color: rgba(255, 255, 255, 0);
     // background-image: linear-gradient(135deg, #f5f7fa 0%, #e2c3cf 100%);
-    background-image: url("../../multimedia/fondo6.jpg");
-    background-position: start;
+    // background-image: linear-gradient(135deg, #f5f7fa 0%, #bedbf0 100%);
+    background-image: url("../../multimedia/ondas5-01.jpg");
+    // background-position: start;
     background-size: cover;
+    box-shadow: 0px 0px 0.8rem 0px rgba(0, 0, 0, 0.207);
     color: black;
+    border-radius: 0 0 4rem 4rem;
+    -webkit-border-radius: 0 0 4rem 4rem;
+    -moz-border-radius: 0 0 4rem 4rem;
+    -ms-border-radius: 0 0 4rem 4rem;
+    -o-border-radius: 0 0 4rem 4rem;
     .titulo-inicio {
       font-size: 5vw;
       padding: 10% 0 0 4%;
@@ -30,7 +37,7 @@
     }
     .GPcontainer {
       position: absolute;
-      top: 21%;
+      margin-top: -26%;
       right: 1rem;
       .GP {
         width: 65vw;
@@ -39,23 +46,108 @@
     }
   }
 
+  .beneficios {
+    padding: 7% 4% 22% 4%;
+    .box1 {
+      background-color: $magenta;
+      color: white;
+      // border: 1px solid rgb(160, 160, 160);
+      padding: 8% 5%;
+      border-radius: 0 4rem 0 4rem;
+      -webkit-border-radius: 0 4rem 0 4rem;
+      -moz-border-radius: 0 4rem 0 4rem;
+      -ms-border-radius: 0 4rem 0 4rem;
+      -o-border-radius: 0 4rem 0 4rem;
+      box-shadow: 0px 0px 0.8rem 0px rgba(0, 0, 0, 0.207);
+
+      .titulo-beneficios {
+        @include tituloMediano;
+        padding-bottom: 3.5%;
+      }
+      .button-beneficios {
+        @include botones;
+        background-color: white;
+        color: $magenta;
+      }
+      .button-beneficios:hover {
+        background-color: rgb(202, 202, 202);
+      }
+    }
+    .box2 {
+      border-radius: 4rem 0 4rem 4rem;
+      -webkit-border-radius: 4rem 0 4rem 4rem;
+      -moz-border-radius: 4rem 0 4rem 4rem;
+      -ms-border-radius: 4rem 0 4rem 4rem;
+      -o-border-radius: 4rem 0 4rem 4rem;
+      position: absolute;
+      right: 4%;
+      margin-top: -15%;
+      box-shadow: 0px 0px 0.8rem 0px rgba(0, 0, 0, 0.207);
+      width: 43%;
+      // border: 1px solid rgb(160, 160, 160);
+      padding: 4.5%;
+      z-index: 9;
+      background-color: $grisClaro;
+      // color: white;
+      .subtitulo-beneficios {
+        margin-bottom: 5%;
+        font-size: 1.65vw;
+      }
+      .descr-beneficios {
+        font-size: $descrSize;
+        font-weight: lighter;
+        line-height: $descrLineHeight;
+      }
+    }
+    .box3 {
+      width: 45%;
+      padding-bottom: 15%;
+      position: absolute;
+      left: 0;
+      margin-top: 9%;
+      background-color: $grisClaro;
+      border-radius: 0 4rem 0 0;
+      -webkit-border-radius: 0 4rem 0 0;
+      -moz-border-radius: 0 4rem 0 0;
+      -ms-border-radius: 0 4rem 0 0;
+      -o-border-radius: 0 4rem 0 0;
+    }
+    .circulos3D {
+      position: absolute;
+      left: 23%;
+      margin-top: 4%;
+      img {
+        width: 30vw;
+      }
+    }
+  }
+
   .info {
     background-color: $grisClaro;
     height: auto;
     color: black;
-    padding: 13.5vw;
+    padding: 12% 10%;
     padding-bottom: 8rem;
-
+    border-radius: 0 4rem 4rem 4rem;
+    -webkit-border-radius: 0 4rem 4rem 4rem;
+    -moz-border-radius: 0 4rem 4rem 4rem;
+    -ms-border-radius: 0 4rem 4rem 4rem;
+    -o-border-radius: 0 4rem 4rem 4rem;
+    box-shadow: 0px 8px 0.8rem 0px rgba(0, 0, 0, 0.086);
     .flex-info {
       display: flex;
       flex-direction: row;
+      padding-bottom: 12%;
+      border-bottom: 1px solid grey;
       .titulo-info {
         @include tituloMediano;
+        span {
+          font-size: 1.6vw;
+        }
       }
-      .titulo-info span {
-        color: $magenta;
-      }
-
+      // .titulo-info span {
+      //   color: $magenta;
+      // }
       .descr-info {
         width: 50%;
         padding-left: 2rem;
@@ -68,26 +160,29 @@
     .items-info {
       display: flex;
       flex-direction: row;
-      margin-top: 2.8rem;
+      margin-top: 3.7%;
       width: 100%;
 
+      .item-info {
+        width: 100%;
+      }
       .item-info:not(:last-child) {
-        padding-right: 1.5rem;
-        border-right: 1px solid black;
+        padding-right: 1.5%;
+        // border-right: 1px solid black;
       }
 
       .item-info:not(:first-child) {
-        padding-left: 1.5rem;
+        padding-left: 1.5%;
       }
 
       .titulo-item {
         font-weight: bold;
-        font-size: $descrSize;
+        font-size: 2vw;
         margin-bottom: 1.5rem;
       }
 
       .descr-item {
-        font-size: 0.92vw;
+        font-size: $descrSize;
       }
     }
   }

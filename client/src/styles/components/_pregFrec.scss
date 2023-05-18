@@ -31,10 +31,19 @@
     }
   }
   .pregContainer {
+    border: 1px solid red;
+    padding: 10%;
     .preg {
-      .titulo {
-        @include tituloMediano;
-        font-size: $tituloSize;
+      .superior {
+        @include centerRow;
+        justify-content: space-between;
+        .titulo {
+          @include tituloMediano;
+          font-size: $tituloSize;
+        }
+        img {
+          width: 3vw;
+        }
       }
     }
   }
