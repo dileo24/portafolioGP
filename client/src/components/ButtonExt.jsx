@@ -5,11 +5,11 @@ import iconoWpp from "../multimedia/icon-wpp.png";
 import iconoIg from "../multimedia/icon-instagram.png";
 import iconoLd from "../multimedia/icon-linkedin.png";
 import ayuda from "../multimedia/ayuda.png";
+import home from "../multimedia/home.png";
 
-export default function ButtonExt() {
+export default function ButtonExt({ pagina }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const clickOutMenu = useRef(null);
-
   const handleButtonClick = () => {
     setMenuOpen(!menuOpen);
   };
@@ -64,9 +64,15 @@ export default function ButtonExt() {
           >
             <img src={iconoLd} alt="linkedin" className="icono" />
           </a>
-          <a className="circle" href="./help">
-            <img src={ayuda} alt="ayuda" className="icono" />
-          </a>
+          {pagina !== "/help" ? (
+            <a className="circle" href="./help">
+              <img src={ayuda} alt="ayuda" className="icono" />
+            </a>
+          ) : (
+            <a className="circle" href="http://localhost:3000/">
+              <img src={home} alt="home" className="icono" />
+            </a>
+          )}
         </div>
       )}
     </div>

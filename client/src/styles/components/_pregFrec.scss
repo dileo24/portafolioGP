@@ -30,4 +30,12 @@
       }
     }
   }
+  .pregContainer {
+    .preg {
+      .titulo {
+        @include tituloMediano;
+        font-size: $tituloSize;
+      }
+    }
+  }
 }
