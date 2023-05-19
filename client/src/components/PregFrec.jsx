@@ -37,18 +37,60 @@ export default function PregFrec() {
         </div>
       </div>
       <div className="pregContainer">
-        {preguntas.map((preg, pregId) => (
-          <div className="preg">
-            <div className="superior" onClick={() => handlePreg(pregId)}>
-              <p className="titulo">{preg.titulo}</p>
-              <img
-                src={mostrando[pregId] ? ojoAbierto : ojoCerrado}
-                alt="ojo"
-              />
-            </div>
-            {mostrando[pregId] && <p>{preg.resp}</p>}
-          </div>
-        ))}
+        <div className="pregsPagina">
+          <h1>Preguntas de la Página</h1>
+          {preguntas.map(
+            (preg, pregId) =>
+              preg.tipo === "pagina" && (
+                <div className="preg" key={pregId}>
+                  <div className="superior" onClick={() => handlePreg(pregId)}>
+                    <p className="titulo">{preg.titulo}</p>
+                    <img
+                      src={mostrando[pregId] ? ojoAbierto : ojoCerrado}
+                      alt="ojo"
+                    />
+                  </div>
+                  {mostrando[pregId] && <p>{preg.resp}</p>}
+                </div>
+              )
+          )}
+        </div>
+        <div className="pregsPlanes">
+          <h1>Preguntas de Planes</h1>
+          {preguntas.map(
+            (preg, pregId) =>
+              preg.tipo === "planes" && (
+                <div className="preg" key={pregId}>
+                  <div className="superior" onClick={() => handlePreg(pregId)}>
+                    <p className="titulo">{preg.titulo}</p>
+                    <img
+                      src={mostrando[pregId] ? ojoAbierto : ojoCerrado}
+                      alt="ojo"
+                    />
+                  </div>
+                  {mostrando[pregId] && <p>{preg.resp}</p>}
+                </div>
+              )
+          )}
+        </div>
+        <div className="pregsCom">
+          <h1>Preguntas de comunicacion</h1>
+          {preguntas.map(
+            (preg, pregId) =>
+              preg.tipo === "comunicacion" && (
+                <div className="preg" key={pregId}>
+                  <div className="superior" onClick={() => handlePreg(pregId)}>
+                    <p className="titulo">{preg.titulo}</p>
+                    <img
+                      src={mostrando[pregId] ? ojoAbierto : ojoCerrado}
+                      alt="ojo"
+                    />
+                  </div>
+                  {mostrando[pregId] && <p>{preg.resp}</p>}
+                </div>
+              )
+          )}
+        </div>
       </div>
       <ButtonExt pagina={pagina} />
       <Footer />

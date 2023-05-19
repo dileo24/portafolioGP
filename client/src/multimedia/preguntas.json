@@ -1,26 +1,67 @@
 [
   {
-    "titulo": "PREGUNTA NUMERO UNO",
-    "resp": "holaaaaaaaa como va todo bien loco que onda axaoisjdfoajsd."
+    "titulo": "¿Cuándo voy a recibir respuesta?",
+    "resp": "Ante cualquier tipo de contacto (ya sea por Whatsapp, Instagram, Linkedin o nuestro formulario de contacto) nos comprometemos a responder lo antes posible. Recordá que podés hablarnos en cualquier hora del día, tu consulta nunca es molestia!",
+    "tipo": "comunicacion"
   },
   {
-    "titulo": "PREGUNTA NUMERO DOS",
-    "resp": "difjgosdjfs qwue onda papsapspapspapapaaaaaaaaaaaaaaa"
+    "titulo": "¿Puedo tener un plan personalizado?",
+    "resp": "¡Por supuesto! Los planes que tenemos en nuestra página son estándar, es decir que es lo que generalmente se puede aplicar para cualquier página, pero en caso de que quisieras armar la tuya desde cero y con especificaciones propias podremos reunirnos cuando quieras para escuchar tus solicitudes y presupuestar el proyecto terminado.",
+    "tipo": "planes"
   },
   {
-    "titulo": "PREGUNTA NUMERO TRES",
-    "resp": "holaaaaaaaa como va todo bien loco que onda axaoisjdfoajsd."
+    "titulo": "¿Cuánto tarda la página en estar lista?",
+    "resp": "La duración de cada proyecto variará dependiendo de las necesidades que tenga el cliente y la cantidad de proyectos que se estén realizando en ese momento, pero podemos aproximar una duración con cada plan estandar: BRONCE: 3 semanas. PLATA: 5 semanas. ORO: 6 semanas.",
+    "tipo": "pagina"
   },
   {
-    "titulo": "PREGUNTA NUMERO CUATRO",
-    "resp": "difjgosdjfs qwue onda papsapspapspapapaaaaaaaaaaaaaaa"
+    "titulo": "¿Cómo se realiza el pago del proyecto?",
+    "resp": "El pago del proyecto se realizará en tres instancias. La primera será el 20% del valor total (a modo de seña) apenas se confirme el proyecto e inicie su elaboración. El segundo pago se realizará en la mitad de la duración estimada del proyecto, siendo otro 30% del valor total. Finalmente el último pago se realizará cuando el proyecto ya haya sido entregado y finalizado, que sería el valor restante a pagar, es decir el 50% total.",
+    "tipo": "planes"
   },
   {
-    "titulo": "PREGUNTA NUMERO CINCO",
-    "resp": "holaaaaaaaa como va todo bien loco que onda axaoisjdfoajsd."
+    "titulo": "¿Es obligatorio pagar el soporte técnico?",
+    "resp": "difjgosdjfs qwue onda papsapspapspapapaaaaaaaaaaaaaaa",
+    "tipo": "planes"
   },
   {
-    "titulo": "PREGUNTA NUMERO SEIS",
-    "resp": "difjgosdjfs qwue onda papsapspapspapapaaaaaaaaaaaaaaa"
+    "titulo": "¿Como es el proceso tras confirmar el proyecto?",
+    "resp": "holaaaaaaaa como va todo bien loco que onda axaoisjdfoajsd.",
+    "tipo": "pagina"
+  },
+  {
+    "titulo": "¿Puedo cancelar el proyecto luego de que iniciara?",
+    "resp": "difjgosdjfs qwue onda papsapspapspapapaaaaaaaaaaaaaaa",
+    "tipo": "pagina"
+  },
+  {
+    "titulo": "¿Cuál es la ventaja del plan ORO (autogestionable)?",
+    "resp": "difjgosdjfs qwue onda papsapspapspapapaaaaaaaaaaaaaaa",
+    "tipo": "planes"
+  },
+  {
+    "titulo": "¿Pueden asesorarme si no entiendo como funcionaría la página?",
+    "resp": "holaaaaaaaa como va todo bien loco que onda axaoisjdfoajsd.",
+    "tipo": "comunicacion"
+  },
+  {
+    "titulo": "¿Cuál es la diferencia entre una Landing Page y una Multipágina?",
+    "resp": "holaaaaaaaa como va todo bien loco que onda axaoisjdfoajsd.",
+    "tipo": "pagina"
+  },
+  {
+    "titulo": "¿Cuándo puedo ver avances de la página?",
+    "resp": "holaaaaaaaa como va todo bien loco que onda axaoisjdfoajsd.",
+    "tipo": "pagina"
+  },
+  {
+    "titulo": "¿De dónde son? ¿Puedo pedir una página desde fuera y comunicarme online?",
+    "resp": "holaaaaaaaa como va todo bien loco que onda axaoisjdfoajsd.",
+    "tipo": "comunicacion"
+  },
+  {
+    "titulo": "¿Si pagué y recibí el Plan BRONCE, puedo luego una mejora al Plan PLATA u ORO?",
+    "resp": "holaaaaaaaa como va todo bien loco que onda axaoisjdfoajsd.",
+    "tipo": "planes"
   }
 ]

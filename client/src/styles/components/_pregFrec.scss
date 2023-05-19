@@ -31,18 +31,22 @@
     }
   }
   .pregContainer {
-    border: 1px solid red;
-    padding: 10%;
+    padding: 0 20% 0 20%;
     .preg {
+      margin-bottom: 3%;
+      border: 1px solid red;
       .superior {
+        width: 100%;
+        cursor: pointer;
         @include centerRow;
         justify-content: space-between;
         .titulo {
-          @include tituloMediano;
-          font-size: $tituloSize;
+          font-size: 1.8vw;
+          font-weight: bold;
+          margin-bottom: 0;
         }
         img {
-          width: 3vw;
+          width: 3.15vw;
         }
       }
     }
