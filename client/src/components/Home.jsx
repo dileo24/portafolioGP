@@ -10,9 +10,10 @@ import Contacto from "./Contacto";
 
 export default function Home() {
   window.addEventListener("DOMContentLoaded", function () {
-    var url = new URL(window.location.href);
-    console.log(url);
-    var hash = url.hash;
+    var url = window.location.href; // Obtiene la URL completa
+    var urlSplit = url.split("/");
+    var hash = urlSplit[urlSplit.length - 1];
+    console.log("hola");
     console.log(hash);
 
     // Verificar si hay un hash y si existe un elemento con ese ID
