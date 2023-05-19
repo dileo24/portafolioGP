@@ -11,7 +11,8 @@ import Contacto from "./Contacto";
 
 export default function Home() {
   useEffect(() => {
-    var url = window.location.href; // Obtiene la URL completa
+    // Obtener el último atributo de la URL
+    var url = window.location.href;
     var urlSplit = url.split("/");
     var hash = urlSplit[urlSplit.length - 1];
 
