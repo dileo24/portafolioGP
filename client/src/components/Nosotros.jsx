@@ -14,9 +14,11 @@ export default function Nosotros() {
         <p className="descr-inicio">
           En GoPage entendemos que cada cliente es diferente y tiene necesidades
           únicas. Por eso, nos adaptamos a tus requerimientos y creamos
-          soluciones personalizadas que se ajustan a tus necesidades. Somos
-          flexibles para brindarte un servicio de calidad que supere tus
-          expectativas.
+          soluciones personalizadas que se ajustan a tus necesidades.{" "}
+          <span>
+            Somos flexibles para brindarte un servicio de calidad que supere tus
+            expectativas.
+          </span>
         </p>
         <a className="button-inicio" href="#planes">
           COMENCEMOS
