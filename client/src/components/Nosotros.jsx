@@ -31,7 +31,7 @@ export default function Nosotros() {
           <h1 className="titulo-beneficios">
             ¿Por qué es tan <br /> importante tener <br /> un sitio web?
           </h1>
-          <a className="button-beneficios" href="#beneficios">
+          <a className="button-beneficios" href="./help">
             VER MÁS PREGUNTAS FRECUENTES
           </a>
         </div>
@@ -50,6 +50,17 @@ export default function Nosotros() {
         <div className="box3"></div>
         <div className="circulos3D">
           <img src={circulos3D} alt="circulos3D" />
+        </div>
+        <div className="frase">
+          <p>
+            <i>
+              {" "}
+              "Tu sitio web es tu tarjeta de presentación en el mundo digital.
+              Asegúrate de que sea memorable, funcional y refleje la esencia{" "}
+              <br /> de tu marca".
+            </i>{" "}
+            <br /> - Rand Fishkin, cofundador de Moz.
+          </p>
         </div>
       </section>
 
