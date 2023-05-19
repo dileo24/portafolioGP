@@ -2,10 +2,8 @@
   padding-bottom: 7%;
   background-color: $grisClaro;
   .planesYPrecios {
-    padding-top: 5rem;
-    // padding-bottom: 4rem;
     @include centerCol;
-    padding-bottom: 3rem;
+    padding: 5.3% 0 4% 0;
 
     .text {
       width: 50%;
@@ -33,11 +31,11 @@
     background-color: black;
   }
   .planes {
-    @include centerRow;
-    padding: 0 3% 0 3%;
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    padding: 0 3%;
     .bordeResp {
       display: none;
     }
@@ -46,7 +44,7 @@
       font-size: 1vw;
     }
     .planOro {
-      margin-bottom: 8rem;
+      margin-bottom: 9%;
     }
     .plan {
       @include centerCol;
@@ -54,32 +52,31 @@
       width: 29%;
       color: black;
       .nombrePlan {
-        margin: 3rem 0 0.5rem 0;
+        margin: 10% 0 0.5% 0;
         font-size: 2.9vw;
         font-weight: bolder;
       }
       .text {
-        padding: 0 2rem;
+        padding: 0 10%;
         text-align: center;
         margin: 0;
       }
 
       .detalles {
-        margin-top: 1.5rem;
+        margin-top: 6%;
         width: 100%;
         position: relative;
         border-radius: 0.5rem;
         box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
         background-color: rgb(238, 238, 238);
-        padding-right: 11%;
-        padding-left: 11%;
+        padding: 0 11%;
         @include center;
         .lista {
           padding-bottom: 25%;
         }
         .check {
-          width: 5%;
-          margin-right: 0.3rem;
+          width: 4%;
+          margin-right: 1.5%;
         }
         .precio {
           @include centerCol;
@@ -125,7 +122,7 @@
       a {
         width: 100%;
         button {
-          margin-top: 1.5rem;
+          margin-top: 6%;
           width: 100%;
           padding-top: 3.5%;
           padding-bottom: 3.5%;
@@ -155,19 +152,17 @@
     border-radius: 0.5rem;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
     background-color: rgb(238, 238, 238);
-    margin: 0 6% 0 6%;
+    margin: 0 6%;
     padding: 0 2%;
     @include centerRow;
     .sopTecImg {
       width: 7%;
       padding: 0.5%;
-      // margin-left: 7.2%;
     }
     .detalles {
       width: 90%;
       @include centerCol;
-      // margin-left: 1%;
-      margin-left: 8.2%;
+      margin-left: 6.3%;
       color: black;
       .titulo {
         font-size: 1.7vw;
@@ -183,8 +178,6 @@
     }
     .precio {
       @include centerCol;
-      // width: 12%;
-      // margin-right: 2%;
       .prec {
         margin-top: 2%;
         @include center;
@@ -214,12 +207,14 @@
 @media only screen and (max-width: 700px) {
   .planesContainer {
     .planesYPrecios {
+      padding: 14% 0 10% 0;
       .text {
         width: 80%;
         .titulo {
           @include tituloMedianoResp;
           text-align: center;
           width: 100%;
+          margin-bottom: 4%;
         }
         p {
           font-size: $descrSizeResp;
@@ -231,7 +226,8 @@
       padding: 0 3% 5% 3%;
       p {
         color: black;
-        font-size: 3.2vw;
+        font-size: $descrSizeResp;
+        font-weight: 300;
       }
       .planOro {
         margin-bottom: 0;
@@ -243,6 +239,7 @@
         }
         .text {
           padding: 0 0;
+          width: 105%;
         }
         .detalles {
           .precio {
@@ -292,18 +289,18 @@
     flex-direction: column !important;
     height: 100%;
     .sopTecImg {
-      width: 10% !important;
+      width: 20% !important;
     }
     .detalles {
       width: 100%;
       margin-left: 0 !important;
       .titulo {
-        font-size: 5vw !important;
-        margin-bottom: 0;
+        font-size: 8vw !important;
+        margin: 6% !important;
       }
       .text {
-        font-size: 3vw !important;
-        margin-bottom: 1%;
+        font-size: $descrSizeResp !important;
+        margin-bottom: 6% !important;
         text-align: center;
         width: 100% !important;
       }
@@ -315,12 +312,12 @@
         @include center;
         .precioNum,
         .moneda {
-          font-size: 5vw !important;
+          font-size: 10vw !important;
         }
       }
       .aclaracion {
-        font-size: 2vw !important;
-        margin-bottom: 5%;
+        font-size: 4vw !important;
+        margin-bottom: 0 !important;
       }
     }
   }

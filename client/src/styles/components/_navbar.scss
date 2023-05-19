@@ -1,13 +1,10 @@
 .navContainer {
   width: 100%;
   background-color: white;
-  //background-color: rgb(255, 255, 255);
-  // background-color: rgba($color: #000000, $alpha: 1);
   position: fixed;
   z-index: 9999;
   box-shadow: 0px 0px 0.8rem 0px rgba(0, 0, 0, 0.207);
-  padding-top: 1%;
-  padding-bottom: 1%;
+  padding: 1% 0;
   border-radius: 0 0 2.5rem 2.5rem;
   -webkit-border-radius: 0 0 2.5rem 2.5rem;
   -moz-border-radius: 0 0 2.5rem 2.5rem;
@@ -51,18 +48,28 @@
   color: $magenta !important;
 }
 
+///// Responsive /////
+
+// Celulares horizontal y tablets
 @media only screen and (min-width: 700px) and (max-width: 991px) {
   .navContainer {
+    padding: 0.5% 0;
     .navbar {
       .containNav {
         .navbar-brand {
-          width: 20%;
+          width: 18%;
+          .logo {
+            width: auto;
+            height: 2rem;
+          }
         }
         .navbar-toggler {
-          border: 1px solid $magentaClaro;
+          width: 10%;
+          border: none !important;
         }
         .navbar-toggler:focus {
           box-shadow: none;
+          border: none !important;
         }
         .navbar-collapse {
           .navbar-nav {
@@ -80,6 +87,7 @@
   }
 }
 
+// Celulares vertical
 @media only screen and (max-width: 700px) {
   .navContainer {
     .navbar {
@@ -88,7 +96,8 @@
           width: 40%;
         }
         .navbar-toggler {
-          border: 1px solid $magentaClaro;
+          border: none;
+          margin-right: 4%;
         }
         .navbar-toggler:focus {
           box-shadow: none;
