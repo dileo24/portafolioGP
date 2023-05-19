@@ -1,10 +1,9 @@
 .pregContainer {
-  // @include titulos;
   background-color: $fondoClaro;
-
+  height: 100%;
   .inicio {
-    padding-bottom: 5%;
-    background-image: url("../../multimedia/fondo3.jpg");
+    padding-bottom: 2%;
+    /*  background-image: url("../../multimedia/fondo3.jpg"); */
     background-size: cover;
     color: black;
     padding-top: 5%;
@@ -14,49 +13,100 @@
       font-weight: 500;
     }
     .subText {
-      margin: 1.5% 0 4% 4%;
-      width: 45%;
+      margin: 1.5% 58% 0% 3%;
       font-size: $descrSize;
       font-weight: 100;
-      line-height: $descrLineHeight;
+      color: white;
+      padding: 4% 3.8% 4% 3.8%;
+      border-radius: 4rem 4rem 0 0;
+      background-color: $magenta;
     }
     .imgContainer {
       position: absolute;
-      top: 07%;
+      top: 7%;
       right: 0;
       img {
         width: 55vw;
         height: auto;
       }
     }
-  }
-  .pregContainer {
-    @include centerCol;
-    padding: 0 20% 0 20%;
-    text-align: center;
-    .preg {
-      width: 70vw;
-      margin-bottom: 3%;
-      border-radius: 1rem;
-      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-      padding: 1% 2% 1% 2%;
-      .superior {
-        cursor: pointer;
-        @include centerRow;
-        justify-content: space-between;
-        .titulo {
-          font-size: 1.8vw;
+    .boxGeneral {
+      margin: 0% 3% 0 3%;
+      @include centerRow;
+      justify-content: space-between;
+      .links {
+        width: 70%;
+        padding: 6.6% 0 6.6% 3.8%;
+        background-color: $magenta;
+        border-radius: 0 0rem 0 4rem;
+        -webkit-border-radius: 0 0rem 0 4rem;
+        -moz-border-radius: 0 0rem 0 4rem;
+        -ms-border-radius: 0 0rem 0 4rem;
+        -o-border-radius: 0 0rem 0 4rem;
+        @include centerCol;
+        align-items: flex-start;
+        a {
+          font-size: 1.7vw;
           font-weight: bold;
-          margin-bottom: 0;
+          color: white;
+          transition: all 0.3s ease-in-out;
+          margin-bottom: 2.5%;
         }
-        img {
-          width: 3.15vw;
+        a:hover {
+          color: #ff6098;
+          padding-left: 5%;
         }
       }
-      .parrafo {
-        padding: 1% 2%;
-        font-size: 1vw;
-        text-align: start;
+      .box {
+        width: 100%;
+        background-color: $grisClaro;
+        padding: 9% 0 9% 3.8%;
+        border-radius: 0 4rem 0rem 0;
+        -webkit-border-radius: 0 4rem 0rem 0;
+        -moz-border-radius: 0 4rem 0rem 0;
+        -ms-border-radius: 0 4rem 0rem 0;
+        -o-border-radius: 0 4rem 0rem 0;
+        .subText1 {
+          font-size: $descrSize;
+          font-weight: 100;
+          line-height: $descrLineHeight;
+          width: 100%;
+          margin: 0;
+        }
+      }
+    }
+  }
+  .pregContainer {
+    .pregsPagina,
+    .pregsPlanes,
+    .pregsCom {
+      @include centerCol;
+      padding: 5% 20% 0 20%;
+      text-align: center;
+      .preg {
+        width: 70vw;
+        margin-bottom: 3%;
+        border-radius: 1rem;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+        padding: 1% 2% 1% 2%;
+        .superior {
+          cursor: pointer;
+          @include centerRow;
+          justify-content: space-between;
+          .titulo {
+            font-size: 1.8vw;
+            font-weight: bold;
+            margin-bottom: 0;
+          }
+          img {
+            width: 3.15vw;
+          }
+        }
+        .parrafo {
+          padding: 1% 2%;
+          font-size: 1vw;
+          text-align: start;
+        }
       }
     }
   }
