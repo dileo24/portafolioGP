@@ -10,22 +10,22 @@ import Contacto from "./Contacto";
 
 export default function Home() {
   /* class active por secciones */
-  const sectionAll = document.querySelectorAll("section[id]");
-  console.log(sectionAll);
-  window.addEventListener("scroll", () => {
-    const scrollY = window.pageYOffset;
-    sectionAll.forEach((current) => {
-      const sectionHeight = current.offsetHeight;
-      const sectionTop = current.offsetTop - 100;
-      const sectionId = current.getAttribute("id");
-      const hash = document.querySelector("nav a[href*=" + sectionId + "]");
-      if (scrollY >= sectionTop && scrollY <= sectionTop + sectionHeight) {
-        hash.classList.add("active");
-      } else {
-        hash.classList.remove("active");
-      }
-    });
-  });
+  // const sectionAll = document.querySelectorAll("section[id]");
+  // console.log(sectionAll);
+  // window.addEventListener("scroll", () => {
+  //   const scrollY = window.pageYOffset;
+  //   sectionAll.forEach((current) => {
+  //     const sectionHeight = current.offsetHeight;
+  //     const sectionTop = current.offsetTop - 100;
+  //     const sectionId = current.getAttribute("id");
+  //     const hash = document.querySelector("nav a[href*=" + sectionId + "]");
+  //     if (scrollY >= sectionTop && scrollY <= sectionTop + sectionHeight) {
+  //       hash.classList.add("active");
+  //     } else {
+  //       hash.classList.remove("active");
+  //     }
+  //   });
+  // });
 
   const pagina = useLocation().pathname;
 

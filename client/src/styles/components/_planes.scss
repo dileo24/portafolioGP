@@ -103,6 +103,7 @@
             font-size: 1.05vw;
             font-weight: bolder;
             color: $grisOscuro;
+            margin-bottom: 6%;
           }
         }
       }
@@ -214,7 +215,7 @@
           @include tituloMedianoResp;
           text-align: center;
           width: 100%;
-          margin-bottom: 4%;
+          margin-bottom: 5%;
         }
         p {
           font-size: $descrSizeResp;
