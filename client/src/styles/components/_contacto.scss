@@ -174,12 +174,14 @@
           width: 100%;
           .inputSContainer {
             @include centerRow;
+            padding: 0 2.2%;
+
             .sect {
               @include centerCol;
               width: 100%;
               padding-bottom: 0;
               input {
-                width: 90%;
+                width: 100%;
                 height: 100%;
                 margin-bottom: 10%;
               }
