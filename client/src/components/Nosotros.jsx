@@ -31,7 +31,7 @@ export default function Nosotros() {
           <h1 className="titulo-beneficios">
             ¿Por qué es tan <br /> importante tener <br /> un sitio web?
           </h1>
-          <a className="button-beneficios" href="#beneficios">
+          <a className="button-beneficios" href="./help">
             VER MÁS PREGUNTAS FRECUENTES
           </a>
         </div>
