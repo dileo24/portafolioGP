@@ -164,10 +164,10 @@
       form {
         .text {
           .titulo {
-            font-size: 5vw;
+            font-size: 7vw;
           }
           .parrafo {
-            font-size: 3vw;
+            font-size: $descrSizeResp;
           }
         }
         .inputS {
@@ -184,7 +184,7 @@
                 margin-bottom: 10%;
               }
               input::placeholder {
-                font-size: 3vw;
+                font-size: 4vw;
                 padding-bottom: 5%;
               }
             }
@@ -200,7 +200,7 @@
             }
           }
           textarea::placeholder {
-            font-size: 3vw;
+            font-size: 4vw;
           }
           .btnEnviar {
             font-size: 4vw;
