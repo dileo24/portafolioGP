@@ -50,7 +50,16 @@ export default function PregFrec() {
                       alt="ojo"
                     />
                   </div>
-                  {mostrando[pregId] && <p>{preg.resp}</p>}
+                  {mostrando[pregId] && (
+                    <p className="parrafo">
+                      {preg.resp.split("\n").map((linea, index) => (
+                        <React.Fragment key={index}>
+                          {linea}
+                          <br />
+                        </React.Fragment>
+                      ))}
+                    </p>
+                  )}
                 </div>
               )
           )}
@@ -68,7 +77,16 @@ export default function PregFrec() {
                       alt="ojo"
                     />
                   </div>
-                  {mostrando[pregId] && <p>{preg.resp}</p>}
+                  {mostrando[pregId] && (
+                    <p className="parrafo">
+                      {preg.resp.split("\n").map((linea, index) => (
+                        <React.Fragment key={index}>
+                          {linea}
+                          <br />
+                        </React.Fragment>
+                      ))}
+                    </p>
+                  )}
                 </div>
               )
           )}
@@ -86,7 +104,16 @@ export default function PregFrec() {
                       alt="ojo"
                     />
                   </div>
-                  {mostrando[pregId] && <p>{preg.resp}</p>}
+                  {mostrando[pregId] && (
+                    <p className="parrafo">
+                      {preg.resp.split("\n").map((linea, index) => (
+                        <React.Fragment key={index}>
+                          {linea}
+                          <br />
+                        </React.Fragment>
+                      ))}
+                    </p>
+                  )}
                 </div>
               )
           )}
