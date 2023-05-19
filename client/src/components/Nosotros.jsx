@@ -2,6 +2,7 @@
 
 import React from "react";
 import GP from "../multimedia/GP.png";
+import GP2 from "../multimedia/GP2.png";
 import circulos3D from "../multimedia/figura6.png";
 
 export default function Nosotros() {
@@ -25,6 +26,7 @@ export default function Nosotros() {
         </a>
         <div className="GPcontainer">
           <img src={GP} alt="GP" className="GP" />
+          <img src={GP2} alt="GP" className="GP2" />
         </div>
       </div>
 
