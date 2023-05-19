@@ -9,6 +9,20 @@ import Planes from "./Planes";
 import Contacto from "./Contacto";
 
 export default function Home() {
+  window.addEventListener("DOMContentLoaded", function () {
+    var hash = window.location.hash; // Obtener el hash de la URL
+
+    // Verificar si hay un hash y si existe un elemento con ese ID
+    if (hash && document.querySelector(hash)) {
+      var targetElement = document.querySelector(hash);
+
+      // Realizar el scroll suave hacia el elemento objetivo
+      targetElement.scrollIntoView({
+        behavior: "smooth",
+      });
+    }
+  });
+
   /* class active por secciones */
   // const sectionAll = document.querySelectorAll("section[id]");
   // console.log(sectionAll);
