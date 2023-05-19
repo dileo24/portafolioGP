@@ -22,22 +22,16 @@ export default function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <nav className="navbar-nav">
-              <a className="nav-link" href="https://gopage.vercel.app/#info">
+              <a className="nav-link" href="#info">
                 Nosotros
               </a>
-              <a
-                className="nav-link"
-                href="https://gopage.vercel.app/#proyectos"
-              >
+              <a className="nav-link" href="#proyectos">
                 Portafolio
               </a>
-              <a className="nav-link" href="https://gopage.vercel.app/#planes">
+              <a className="nav-link" href="#planes">
                 Planes
               </a>
-              <a
-                className="nav-link"
-                href="https://gopage.vercel.app/#contacto"
-              >
+              <a className="nav-link" href="#contacto">
                 Contacto
               </a>
             </nav>
