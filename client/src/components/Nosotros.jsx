@@ -32,7 +32,7 @@ export default function Nosotros() {
             ¿Por qué es tan <br /> importante tener <br /> un sitio web?
           </h1>
           <a className="button-beneficios" href="#beneficios">
-            VER MÁS
+            VER MÁS PREGUNTAS FRECUENTES
           </a>
         </div>
         <div className="box2">
