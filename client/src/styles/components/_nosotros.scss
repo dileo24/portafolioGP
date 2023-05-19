@@ -31,9 +31,10 @@
     .button-inicio {
       @include botones;
       margin-left: 4%;
+      transition: all 0.3s;
     }
     .button-inicio:hover {
-      background-color: #ad3760;
+      background-color: #eb105d;
     }
     .GPcontainer {
       position: absolute;
@@ -68,9 +69,11 @@
         @include botones;
         background-color: white;
         color: $magenta;
+        transition: all 0.3s;
       }
       .button-beneficios:hover {
-        background-color: rgb(202, 202, 202);
+        background-color: $magentaFuerte;
+        color: white;
       }
     }
     .box2 {
