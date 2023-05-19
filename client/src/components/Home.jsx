@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import { useLocation } from "react-router";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
@@ -9,7 +10,7 @@ import Planes from "./Planes";
 import Contacto from "./Contacto";
 
 export default function Home() {
-  window.addEventListener("DOMContentLoaded", function () {
+  useEffect(() => {
     var url = window.location.href; // Obtiene la URL completa
     var urlSplit = url.split("/");
     var hash = urlSplit[urlSplit.length - 1];
@@ -26,7 +27,7 @@ export default function Home() {
         behavior: "smooth",
       });
     }
-  });
+  }, []);
 
   /* class active por secciones */
   // const sectionAll = document.querySelectorAll("section[id]");
