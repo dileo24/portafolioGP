@@ -2,6 +2,15 @@ import React from "react";
 import logo from "../multimedia/logo2.PNG";
 
 export default function Navbar() {
+  function link(id) {
+    var url = window.location.href; // Obtener la URL actual
+
+    if (url.includes("help")) {
+      return `https://gopage.vercel.app/${id}`;
+    }
+    return id;
+  }
+
   return (
     <div className="navContainer">
       <nav className="navbar navbar-expand-lg ">
@@ -22,16 +31,16 @@ export default function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <nav className="navbar-nav">
-              <a className="nav-link" href="#info">
+              <a className="nav-link" href={link("#info")}>
                 Nosotros
               </a>
-              <a className="nav-link" href="#proyectos">
+              <a className="nav-link" href={link("#proyectos")}>
                 Portafolio
               </a>
-              <a className="nav-link" href="#planes">
+              <a className="nav-link" href={link("#planes")}>
                 Planes
               </a>
-              <a className="nav-link" href="#contacto">
+              <a className="nav-link" href={link("#contacto")}>
                 Contacto
               </a>
             </nav>
