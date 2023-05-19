@@ -237,10 +237,14 @@
     .inicio {
       background-size: cover;
       background-position: center;
-      height: 95vh;
       margin-bottom: 20%;
-      padding: 0 10%;
-      // padding-bottom: 15%;
+      padding: 0 9% 60% 9%;
+      border-radius: 0 0 1.5rem 1.5rem;
+      -webkit-border-radius: 0 0 1.5rem 1.5rem;
+      -moz-border-radius: 0 0 1.5rem 1.5rem;
+      -ms-border-radius: 0 0 1.5rem 1.5rem;
+      -o-border-radius: 0 0 1.5rem 1.5rem;
+      //padding-bottom: 15%;
       .titulo-inicio {
         font-size: 15vw;
         padding: 0;
@@ -260,6 +264,11 @@
         font-size: 5vw;
         padding: 2% 6%;
         margin: 0;
+        border-radius: 1rem;
+        -webkit-border-radius: 1rem;
+        -moz-border-radius: 1rem;
+        -ms-border-radius: 1rem;
+        -o-border-radius: 1rem;
       }
       .GPcontainer {
         position: absolute;
@@ -278,21 +287,54 @@
     }
 
     .beneficios {
+      padding: 0 4% 60% 4%;
+
       .box1 {
+        padding: 10% 0 70% 10%;
+        border-radius: 0 1.5rem 0 1.5rem;
+        -webkit-border-radius: 0 1.5rem 0 1.5rem;
+        -moz-border-radius: 0 1.5rem 0 1.5rem;
+        -ms-border-radius: 0 1.5rem 0 1.5rem;
+        -o-border-radius: 0 1.5rem 0 1.5rem;
         .titulo-beneficios {
+          margin-top: 15%;
+          font-size: 9vw;
+          width: 100%;
         }
         .button-beneficios {
-        }
-        .button-beneficios:hover {
+          font-size: $descrSizeResp;
+          padding: 2% 6%;
+          border-radius: 1rem;
+          -webkit-border-radius: 1rem;
+          -moz-border-radius: 1rem;
+          -ms-border-radius: 1rem;
+          -o-border-radius: 1rem;
+          span {
+            display: none;
+          }
         }
       }
       .box2 {
+        border-radius: 1.5rem 0 1.5rem 1.5rem;
+        -webkit-border-radius: 1.5rem 0 1.5rem 1.5rem;
+        -moz-border-radius: 1.5rem 0 1.5rem 1.5rem;
+        -ms-border-radius: 1.5rem 0 1.5rem 1.5rem;
+        -o-border-radius: 1.5rem 0 1.5rem 1.5rem;
+        margin-top: -50%;
+        width: 75%;
+        padding: 6%;
         .subtitulo-beneficios {
+          font-size: 140%;
+          font-weight: bolder;
+          line-height: 120%;
         }
         .descr-beneficios {
+          font-size: 100%;
+          font-weight: normal;
         }
       }
       .box3 {
+        margin-top: 50%;
       }
       .circulos3D {
         img {
