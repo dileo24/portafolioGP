@@ -6,7 +6,8 @@ export default function Navbar() {
     var url = window.location.href; // Obtener la URL actual
 
     if (url.includes("help")) {
-      return `https://gopage.vercel.app/${id}`;
+      var newUrl = url.replace("help", id);
+      return newUrl;
     }
     return id;
   }
