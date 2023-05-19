@@ -27,17 +27,35 @@ export default function PregFrec() {
           A continuación vas a poder ver las preguntas más importantes que hemos
           recibido de clientes, estas facilitarán el entender la importancia de
           digitalizar todo proceso productivo, de información o de compra.{" "}
-          <br />
-          Por supuesto, ante cualquier duda no planteada acá, recordá que podés
-          contactar con nosotros y responderemos lo antes posible!
         </p>
+        <div className="boxGeneral">
+          <div className="links">
+            <a href="#pregsPagina" style={{ textDecoration: "none" }}>
+              Preguntas sobre la página
+            </a>
+            <a href="#pregsPlanes" style={{ textDecoration: "none" }}>
+              Preguntas sobre la planes
+            </a>
+            <a href="#pregsCom" style={{ textDecoration: "none" }}>
+              Preguntas sobre comunicación
+            </a>
+          </div>
+          <div className="box">
+            <p className="subText1">
+              Acá vas a poder ver referencias para acercarte más rápido al tipo
+              de preguntas que tengas! Por supuesto, ante cualquier duda no
+              planteada acá, recordá que podés contactar con nosotros y
+              responderemos lo antes posible :)
+            </p>
+          </div>
+        </div>
 
         <div className="imgContainer">
           <img src={imgPreg} alt="img" />
         </div>
       </div>
       <div className="pregContainer">
-        <div className="pregsPagina">
+        <div className="pregsPagina" id="pregsPagina">
           <h1>Preguntas de la Página</h1>
           {preguntas.map(
             (preg, pregId) =>
@@ -64,7 +82,7 @@ export default function PregFrec() {
               )
           )}
         </div>
-        <div className="pregsPlanes">
+        <div className="pregsPlanes" id="pregsPlanes">
           <h1>Preguntas de Planes</h1>
           {preguntas.map(
             (preg, pregId) =>
@@ -91,7 +109,7 @@ export default function PregFrec() {
               )
           )}
         </div>
-        <div className="pregsCom">
+        <div className="pregsCom" id="pregsCom">
           <h1>Preguntas de comunicacion</h1>
           {preguntas.map(
             (preg, pregId) =>
