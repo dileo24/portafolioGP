@@ -160,11 +160,14 @@
     @include centerRow;
     .sopTecImg {
       width: 7%;
-      padding: 0.5% 0;
+      padding: 0.5%;
+      // margin-left: 7.2%;
     }
     .detalles {
       width: 90%;
       @include centerCol;
+      // margin-left: 1%;
+      margin-left: 8.2%;
       color: black;
       .titulo {
         font-size: 1.7vw;
@@ -175,11 +178,13 @@
         font-size: 1vw;
         margin-bottom: 1%;
         text-align: center;
-        width: 70%;
+        width: 80%;
       }
     }
     .precio {
       @include centerCol;
+      // width: 12%;
+      // margin-right: 2%;
       .prec {
         margin-top: 2%;
         @include center;
@@ -282,7 +287,7 @@
     }
   }
   .soporteTec {
-    padding: 0 2%;
+    padding: 6% 2% !important;
     @include centerCol;
     flex-direction: column !important;
     height: 100%;
@@ -291,6 +296,7 @@
     }
     .detalles {
       width: 100%;
+      margin-left: 0 !important;
       .titulo {
         font-size: 5vw !important;
         margin-bottom: 0;

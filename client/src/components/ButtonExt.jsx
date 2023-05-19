@@ -69,7 +69,7 @@ export default function ButtonExt({ pagina }) {
               <img src={ayuda} alt="ayuda" className="icono" />
             </a>
           ) : (
-            <a className="circle" href="http://localhost:3000/">
+            <a className="circle" href="../">
               <img src={home} alt="home" className="icono" />
             </a>
           )}

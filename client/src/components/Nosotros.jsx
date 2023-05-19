@@ -51,6 +51,17 @@ export default function Nosotros() {
         <div className="circulos3D">
           <img src={circulos3D} alt="circulos3D" />
         </div>
+        <div className="frase">
+          <p>
+            <i>
+              {" "}
+              "Tu sitio web es tu tarjeta de presentación en el mundo digital.
+              Asegúrate de que sea memorable, funcional y refleje la esencia{" "}
+              <br /> de tu marca".
+            </i>{" "}
+            <br /> - Rand Fishkin, cofundador de Moz.
+          </p>
+        </div>
       </section>
 
       <section id="info" className="info">
