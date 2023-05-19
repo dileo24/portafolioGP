@@ -14,13 +14,10 @@ export default function Home() {
     var url = window.location.href; // Obtiene la URL completa
     var urlSplit = url.split("/");
     var hash = urlSplit[urlSplit.length - 1];
-    console.log("hola");
-    console.log(hash);
 
     // Verificar si hay un hash y si existe un elemento con ese ID
     if (hash && document.querySelector(hash)) {
       var targetElement = document.querySelector(hash);
-      console.log(targetElement);
 
       // Realizar el scroll suave hacia el elemento objetivo
       targetElement.scrollIntoView({
