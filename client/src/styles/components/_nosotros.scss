@@ -129,14 +129,14 @@
     }
     .frase {
       display: none;
-      position: absolute;
-      left: 5%;
-      margin-top: 17.5%;
-      p {
-        width: 18vw;
-        font-size: 1.1vw;
-        font-weight: lighter;
-      }
+      // position: absolute;
+      // left: 5%;
+      // margin-top: 17.5%;
+      // p {
+      //   width: 18vw;
+      //   font-size: 1.1vw;
+      //   font-weight: lighter;
+      // }
     }
   }
 
@@ -284,7 +284,7 @@
     }
 
     .beneficios {
-      padding: 0 4% 80% 4%;
+      padding: 0 4% 90% 4%;
 
       .box1 {
         padding: 10% 0 70% 10%;
@@ -328,37 +328,83 @@
         }
       }
       .box3 {
-        margin-top: 70%;
+        border-radius: 0 1.5rem 0 0;
+        -webkit-border-radius: 0 1.5rem 0 0;
+        -moz-border-radius: 0 1.5rem 0 0;
+        -ms-border-radius: 0 1.5rem 0 0;
+        -o-border-radius: 0 1.5rem 0 0;
+        margin-top: 75%;
+        width: 50%;
       }
       .circulos3D {
+        position: absolute;
+        left: 25%;
+        margin-top: 65%;
         img {
+          width: 40vw;
         }
       }
-      .frase {
-        p {
-        }
-      }
+      // .frase {
+      //   p {
+      //   }
+      // }
     }
 
     .info {
+      border-radius: 0 1.5rem 1.5rem 1.5rem;
+      -webkit-border-radius: 0 1.5rem 1.5rem 1.5rem;
+      -moz-border-radius: 0 1.5rem 1.5rem 1.5rem;
+      -ms-border-radius: 0 1.5rem 1.5rem 1.5rem;
+      -o-border-radius: 0 1.5rem 1.5rem 1.5rem;
+      // padding-right: 8%;
       .flex-info {
+        display: inline-block;
+        border: none;
+
         .titulo-info {
+          font-size: 9vw;
+          width: 100%;
           span {
+            font-size: 6vw;
           }
         }
         .descr-info {
+          margin-top: 10%;
+          padding: 0;
+          width: 100%;
+          font-size: $descrSizeResp;
+          span {
+            display: none;
+          }
         }
       }
       .items-info {
+        display: inline-block;
         .item-info {
+          margin: 0;
+          padding: 0;
         }
         .item-info:not(:last-child) {
+          margin: 0;
+          padding: 0;
+          border-bottom: 1px solid rgb(170, 170, 170);
         }
         .item-info:not(:first-child) {
+          margin: 0;
+          padding: 0;
+          padding-top: 6%;
         }
         .titulo-item {
+          margin: 0;
+          margin-bottom: 3%;
+          padding: 0;
+          font-size: 6vw;
         }
         .descr-item {
+          margin: 0;
+          padding: 0;
+          font-size: $descrSizeResp;
+          padding-bottom: 6%;
         }
       }
     }
