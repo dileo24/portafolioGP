@@ -33,6 +33,7 @@
       @include botones;
       margin-left: 4%;
       transition: all 0.3s;
+      font-weight: $light;
     }
     .button-inicio:hover {
       background-color: #eb105d;
@@ -155,7 +156,7 @@
       display: flex;
       flex-direction: row;
       padding-bottom: 12%;
-      border-bottom: 1px solid grey;
+      border-bottom: 1px solid rgb(170, 170, 170);
       .titulo-info {
         @include tituloMediano;
         span {
@@ -255,20 +256,16 @@
         // padding: 0 6%;
         width: 100%;
         font-size: $descrSizeResp;
-        font-weight: 300;
+        // font-size: 130%;
+        font-weight: $light;
         span {
           display: none;
         }
       }
       .button-inicio {
-        font-size: 5vw;
+        font-size: 4vw;
         padding: 2% 6%;
         margin: 0;
-        border-radius: 1rem;
-        -webkit-border-radius: 1rem;
-        -moz-border-radius: 1rem;
-        -ms-border-radius: 1rem;
-        -o-border-radius: 1rem;
       }
       .GPcontainer {
         position: absolute;
@@ -287,7 +284,7 @@
     }
 
     .beneficios {
-      padding: 0 4% 60% 4%;
+      padding: 0 4% 80% 4%;
 
       .box1 {
         padding: 10% 0 70% 10%;
@@ -302,13 +299,8 @@
           width: 100%;
         }
         .button-beneficios {
-          font-size: $descrSizeResp;
+          font-size: 4vw;
           padding: 2% 6%;
-          border-radius: 1rem;
-          -webkit-border-radius: 1rem;
-          -moz-border-radius: 1rem;
-          -ms-border-radius: 1rem;
-          -o-border-radius: 1rem;
           span {
             display: none;
           }
@@ -325,16 +317,18 @@
         padding: 6%;
         .subtitulo-beneficios {
           font-size: 140%;
-          font-weight: bolder;
           line-height: 120%;
         }
         .descr-beneficios {
-          font-size: 100%;
-          font-weight: normal;
+          font-size: $descrSizeResp;
+          font-weight: $light;
+          span {
+            display: none;
+          }
         }
       }
       .box3 {
-        margin-top: 50%;
+        margin-top: 70%;
       }
       .circulos3D {
         img {

@@ -48,7 +48,7 @@ export default function Nosotros() {
             oportunidades de marketing y promoción. Dando credibilidad y
             confianza, ventas en línea y atención al cliente, así como análisis
             y mejora continua. Es una de las inversión clave para impulsar tu
-            negocio y poder alcanzar tus objetivos comerciales.
+            negocio y poder alcanzar tus objetivos<span> comerciales</span>.
           </p>
         </div>
         <div className="box3"></div>
