@@ -28,7 +28,7 @@
     height: 1px;
     width: 80%;
     margin: auto;
-    background-color: black;
+    background-color: rgb(170, 170, 170);
   }
   .planes {
     display: flex;
@@ -281,6 +281,7 @@
       .bordeResp {
         display: block;
         margin-top: 15%;
+        background-color: rgb(170, 170, 170);
       }
       padding-bottom: 15%;
     }
