@@ -41,7 +41,8 @@
     }
     p {
       color: black;
-      font-size: 1vw;
+      font-size: $descrSize;
+      font-weight: $light;
     }
     .planOro {
       margin-bottom: 9%;
@@ -57,7 +58,7 @@
         font-weight: bolder;
       }
       .text {
-        padding: 0 10%;
+        // padding: 0 10%;
         text-align: center;
         margin: 0;
       }
@@ -154,7 +155,7 @@
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
     background-color: rgb(238, 238, 238);
     margin: 0 6%;
-    padding: 0 2%;
+    padding: 1% 2%;
     @include centerRow;
     .sopTecImg {
       width: 7%;
@@ -171,7 +172,8 @@
         margin-bottom: 0;
       }
       .text {
-        font-size: 1vw;
+        font-size: $descrSize;
+        font-weight: $light;
         margin-bottom: 1%;
         text-align: center;
         width: 80%;
@@ -228,8 +230,8 @@
       padding: 0 3% 5% 3%;
       p {
         color: black;
-        font-size: 118%;
-        font-weight: 300;
+        font-size: $descrSizeResp;
+        font-weight: $light;
       }
       .planOro {
         margin-bottom: 0;

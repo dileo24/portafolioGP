@@ -79,10 +79,14 @@ export default function Nosotros() {
           <p className="descr-info">
             Somos una empresa de desarrollo web especializada en crear sitios
             web a medida para negocios y emprendedores. Nuestro objetivo
-            principal es ayudarte a establecer una sólida presencia en línea al
-            proporcionarte soluciones profesionales. Confía en nosotros para
-            impulsar tu negocio en el mundo digital y brindar a tus clientes una
-            experiencia única y atractiva en línea.
+            principal es ayudarte a establecer una sólida presencia en línea
+            <span>
+              {" "}
+              al proporcionarte soluciones profesionales. Confía en nosotros
+              para impulsar tu negocio en el mundo digital y brindar a tus
+              clientes una experiencia única y atractiva en línea
+            </span>
+            .
           </p>
         </div>
 
