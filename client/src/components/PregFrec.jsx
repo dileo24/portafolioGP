@@ -22,7 +22,7 @@ export default function PregFrec() {
     <div className="pregContainer">
       <Navbar />
       <div className="inicio">
-        <p className="titulo">Preguntas Frecuentes de Nuestros Clientes</p>
+        <h1 className="titulo">Preguntas Frecuentes de Nuestros Clientes</h1>
         <p className="subText">
           A continuación vas a poder ver las preguntas más importantes que hemos
           recibido de clientes, estas facilitarán el entender la importancia de
