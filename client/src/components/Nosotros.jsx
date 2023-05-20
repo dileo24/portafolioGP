@@ -36,7 +36,7 @@ export default function Nosotros() {
             ¿Por qué es tan <br /> importante tener <br /> un sitio web?
           </h1>
           <a className="button-beneficios" href="./help">
-            VER MÁS PREGUNTAS FRECUENTES
+            <span>VER MÁS</span> PREGUNTAS FRECUENTES
           </a>
         </div>
         <div className="box2">
@@ -48,7 +48,7 @@ export default function Nosotros() {
             oportunidades de marketing y promoción. Dando credibilidad y
             confianza, ventas en línea y atención al cliente, así como análisis
             y mejora continua. Es una de las inversión clave para impulsar tu
-            negocio y poder alcanzar tus objetivos comerciales.
+            negocio y poder alcanzar tus objetivos<span> comerciales</span>.
           </p>
         </div>
         <div className="box3"></div>
@@ -79,10 +79,14 @@ export default function Nosotros() {
           <p className="descr-info">
             Somos una empresa de desarrollo web especializada en crear sitios
             web a medida para negocios y emprendedores. Nuestro objetivo
-            principal es ayudarte a establecer una sólida presencia en línea al
-            proporcionarte soluciones profesionales. Confía en nosotros para
-            impulsar tu negocio en el mundo digital y brindar a tus clientes una
-            experiencia única y atractiva en línea.
+            principal es ayudarte a establecer una sólida presencia en línea
+            <span>
+              {" "}
+              al proporcionarte soluciones profesionales. Confía en nosotros
+              para impulsar tu negocio en el mundo digital y brindar a tus
+              clientes una experiencia única y atractiva en línea
+            </span>
+            .
           </p>
         </div>
 

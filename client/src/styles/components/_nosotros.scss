@@ -33,6 +33,7 @@
       @include botones;
       margin-left: 4%;
       transition: all 0.3s;
+      font-weight: $light;
     }
     .button-inicio:hover {
       background-color: #eb105d;
@@ -128,14 +129,14 @@
     }
     .frase {
       display: none;
-      position: absolute;
-      left: 5%;
-      margin-top: 17.5%;
-      p {
-        width: 18vw;
-        font-size: 1.1vw;
-        font-weight: lighter;
-      }
+      // position: absolute;
+      // left: 5%;
+      // margin-top: 17.5%;
+      // p {
+      //   width: 18vw;
+      //   font-size: 1.1vw;
+      //   font-weight: lighter;
+      // }
     }
   }
 
@@ -155,7 +156,7 @@
       display: flex;
       flex-direction: row;
       padding-bottom: 12%;
-      border-bottom: 1px solid grey;
+      border-bottom: 1px solid rgb(170, 170, 170);
       .titulo-info {
         @include tituloMediano;
         span {
@@ -237,10 +238,14 @@
     .inicio {
       background-size: cover;
       background-position: center;
-      height: 95vh;
       margin-bottom: 20%;
-      padding: 0 10%;
-      // padding-bottom: 15%;
+      padding: 0 9% 60% 9%;
+      border-radius: 0 0 1.5rem 1.5rem;
+      -webkit-border-radius: 0 0 1.5rem 1.5rem;
+      -moz-border-radius: 0 0 1.5rem 1.5rem;
+      -ms-border-radius: 0 0 1.5rem 1.5rem;
+      -o-border-radius: 0 0 1.5rem 1.5rem;
+      //padding-bottom: 15%;
       .titulo-inicio {
         font-size: 15vw;
         padding: 0;
@@ -251,13 +256,14 @@
         // padding: 0 6%;
         width: 100%;
         font-size: $descrSizeResp;
-        font-weight: 300;
+        // font-size: 130%;
+        font-weight: $light;
         span {
           display: none;
         }
       }
       .button-inicio {
-        font-size: 5vw;
+        font-size: 4vw;
         padding: 2% 6%;
         margin: 0;
       }
@@ -278,51 +284,127 @@
     }
 
     .beneficios {
+      padding: 0 4% 90% 4%;
+
       .box1 {
+        padding: 10% 0 70% 10%;
+        border-radius: 0 1.5rem 0 1.5rem;
+        -webkit-border-radius: 0 1.5rem 0 1.5rem;
+        -moz-border-radius: 0 1.5rem 0 1.5rem;
+        -ms-border-radius: 0 1.5rem 0 1.5rem;
+        -o-border-radius: 0 1.5rem 0 1.5rem;
         .titulo-beneficios {
+          margin-top: 15%;
+          font-size: 9vw;
+          width: 100%;
         }
         .button-beneficios {
-        }
-        .button-beneficios:hover {
+          font-size: 4vw;
+          padding: 2% 6%;
+          span {
+            display: none;
+          }
         }
       }
       .box2 {
+        border-radius: 1.5rem 0 1.5rem 1.5rem;
+        -webkit-border-radius: 1.5rem 0 1.5rem 1.5rem;
+        -moz-border-radius: 1.5rem 0 1.5rem 1.5rem;
+        -ms-border-radius: 1.5rem 0 1.5rem 1.5rem;
+        -o-border-radius: 1.5rem 0 1.5rem 1.5rem;
+        margin-top: -50%;
+        width: 75%;
+        padding: 6%;
         .subtitulo-beneficios {
+          font-size: 140%;
+          line-height: 120%;
         }
         .descr-beneficios {
+          font-size: $descrSizeResp;
+          font-weight: $light;
+          span {
+            display: none;
+          }
         }
       }
       .box3 {
+        border-radius: 0 1.5rem 0 0;
+        -webkit-border-radius: 0 1.5rem 0 0;
+        -moz-border-radius: 0 1.5rem 0 0;
+        -ms-border-radius: 0 1.5rem 0 0;
+        -o-border-radius: 0 1.5rem 0 0;
+        margin-top: 75%;
+        width: 50%;
       }
       .circulos3D {
+        position: absolute;
+        left: 25%;
+        margin-top: 65%;
         img {
+          width: 40vw;
         }
       }
-      .frase {
-        p {
-        }
-      }
+      // .frase {
+      //   p {
+      //   }
+      // }
     }
 
     .info {
+      border-radius: 0 1.5rem 1.5rem 1.5rem;
+      -webkit-border-radius: 0 1.5rem 1.5rem 1.5rem;
+      -moz-border-radius: 0 1.5rem 1.5rem 1.5rem;
+      -ms-border-radius: 0 1.5rem 1.5rem 1.5rem;
+      -o-border-radius: 0 1.5rem 1.5rem 1.5rem;
+      // padding-right: 8%;
       .flex-info {
+        display: inline-block;
+        border: none;
+
         .titulo-info {
+          font-size: 9vw;
+          width: 100%;
           span {
+            font-size: 6vw;
           }
         }
         .descr-info {
+          margin-top: 10%;
+          padding: 0;
+          width: 100%;
+          font-size: $descrSizeResp;
+          span {
+            display: none;
+          }
         }
       }
       .items-info {
+        display: inline-block;
         .item-info {
+          margin: 0;
+          padding: 0;
         }
         .item-info:not(:last-child) {
+          margin: 0;
+          padding: 0;
+          border-bottom: 1px solid rgb(170, 170, 170);
         }
         .item-info:not(:first-child) {
+          margin: 0;
+          padding: 0;
+          padding-top: 6%;
         }
         .titulo-item {
+          margin: 0;
+          margin-bottom: 3%;
+          padding: 0;
+          font-size: 6vw;
         }
         .descr-item {
+          margin: 0;
+          padding: 0;
+          font-size: $descrSizeResp;
+          padding-bottom: 6%;
         }
       }
     }

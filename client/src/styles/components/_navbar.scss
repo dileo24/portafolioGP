@@ -53,6 +53,11 @@
 // Celulares horizontal y tablets
 @media only screen and (min-width: 700px) and (max-width: 991px) {
   .navContainer {
+    border-radius: 0 0 1.5rem 1.5rem;
+    -webkit-border-radius: 0 0 1.5rem 1.5rem;
+    -moz-border-radius: 0 0 1.5rem 1.5rem;
+    -ms-border-radius: 0 0 1.5rem 1.5rem;
+    -o-border-radius: 0 0 1.5rem 1.5rem;
     padding: 0.5% 0;
     .navbar {
       .containNav {
@@ -90,14 +95,22 @@
 // Celulares vertical
 @media only screen and (max-width: 700px) {
   .navContainer {
+    border-radius: 0 0 1.5rem 1.5rem;
+    -webkit-border-radius: 0 0 1.5rem 1.5rem;
+    -moz-border-radius: 0 0 1.5rem 1.5rem;
+    -ms-border-radius: 0 0 1.5rem 1.5rem;
+    -o-border-radius: 0 0 1.5rem 1.5rem;
     .navbar {
       .containNav {
         .navbar-brand {
           width: 40%;
+          .logo {
+            margin-left: 5%;
+          }
         }
         .navbar-toggler {
           border: none;
-          margin-right: 4%;
+          margin-right: 0;
         }
         .navbar-toggler:focus {
           box-shadow: none;

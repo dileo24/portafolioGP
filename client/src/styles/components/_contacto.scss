@@ -64,7 +64,7 @@
         }
         .parrafo {
           margin-top: 1.5%;
-          font-size: 1vw;
+          font-size: $descrSize;
           margin-bottom: 4%;
         }
       }
@@ -92,7 +92,7 @@
           }
           input::placeholder {
             color: rgba(255, 255, 255, 0.623);
-            font-size: 1vw;
+            font-size: $descrSize;
           }
           .celIn::-webkit-inner-spin-button,
           .no-arrows::-webkit-outer-spin-button {
@@ -120,7 +120,7 @@
         }
         textarea::placeholder {
           color: rgba(255, 255, 255, 0.623);
-          font-size: 1vw;
+          font-size: $descrSize;
         }
         .btnEnviar {
           background-color: white;
@@ -169,6 +169,10 @@
           }
           .parrafo {
             font-size: $descrSizeResp;
+            margin: 10% 0;
+            span {
+              display: none;
+            }
           }
         }
         .inputS {
@@ -187,23 +191,34 @@
                 margin-bottom: 10%;
               }
               input::placeholder {
-                font-size: 4vw;
+                font-size: 100%;
                 padding-bottom: 5%;
+                // color: white;
               }
             }
             .sect1 {
               input {
                 margin-left: -10%;
+                border: 1.5px solid white;
+                padding: 5% 2%;
               }
             }
             .sect2 {
               input {
                 margin-left: 10%;
+                border: 1.5px solid white;
+                padding: 5% 2%;
               }
             }
           }
+          textarea {
+            padding: 0.3% 0 30% 1%;
+            border: 1.5px solid white;
+            margin-bottom: 10%;
+          }
           textarea::placeholder {
-            font-size: 4vw;
+            font-size: 100%;
+            // color: white;
           }
           .btnEnviar {
             font-size: 4vw;

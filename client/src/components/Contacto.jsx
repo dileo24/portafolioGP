@@ -86,7 +86,8 @@ export default function Contacto() {
             <p className="parrafo">
               ¿Listo para dar el siguiente paso? Nuestro equipo espera para
               brindarte la orientación que necesites, mientras tanto contanos un
-              poco de qué tenés pensado para tu proyecto. ¡Te esperamos!
+              poco de qué tenés pensado para tu proyecto.{" "}
+              <span>¡Te esperamos!</span>
             </p>
           </div>
           <div className="inputS">
