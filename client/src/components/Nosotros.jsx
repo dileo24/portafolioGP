@@ -1,5 +1,3 @@
-// Lauti
-
 import React from "react";
 import GP from "../multimedia/GP.png";
 import GP2 from "../multimedia/GP2.png";
@@ -13,9 +11,10 @@ export default function Nosotros() {
           Creamos soluciones <br /> a tu medida
         </h1>
         <p className="descr-inicio">
-          En GoPage entendemos que cada cliente es diferente y tiene necesidades
-          únicas. Por eso, nos adaptamos a tus requerimientos y creamos
-          soluciones personalizadas que se ajustan a tus necesidades.{" "}
+          En GoPage creamos páginas web a medida que se ajustan a tus
+          necesidades! Entendemos que cada cliente es diferente, por lo que nos
+          adaptamos a tus requerimientos y creamos soluciones personalizadas
+          ajustadas a tus solicitudes y gustos.{" "}
           <span>
             Somos flexibles para brindarte un servicio de calidad que supere tus
             expectativas.

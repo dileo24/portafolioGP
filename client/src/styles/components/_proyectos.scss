@@ -2,111 +2,138 @@
   height: auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  color: black;
-  padding-bottom: 30%;
-  .titulo-proyectos {
-    text-align: center;
-    margin-top: 7%;
-    margin-bottom: 1.5%;
-    @include tituloMediano;
-  }
-
-  .descr-proyectos {
-    margin-bottom: 4%;
-    font-size: $descrSize;
-    font-weight: 300;
-  }
-
-  .cards-flex {
+  color: white;
+  padding: 0% 4%;
+  .figura1 {
+    width: 13%;
     position: absolute;
-    right: 1%;
-    left: 1%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 2rem;
+    margin: 3% 0 0 58%;
+  }
+  .figura2 {
+    width: 18%;
+    position: absolute;
+    margin: -6% 0 0 72%;
   }
 
-  .card {
-    height: 18vw;
-    width: 28vw;
-    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
-    border-radius: 0.5rem;
-    background-image: url("../../multimedia/santor.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    -webkit-border-radius: 0.5rem;
-    -moz-border-radius: 0.5rem;
-    -ms-border-radius: 0.5rem;
-    -o-border-radius: 0.5rem;
-    span {
-      display: none;
-      padding-top: 25%;
-      transform: translate(0%, 85%);
-      text-align: center;
-      color: white;
-      filter: brightness(150%);
-      font-size: 1.5vw;
+  .proyectosCard {
+    background-color: $gris;
+    padding: 0 4% 26% 4%;
+    .titulo-proyectos {
+      margin-top: 8%;
+      margin-bottom: 1.5%;
+      @include tituloMediano;
     }
-  }
 
-  .card:hover {
-    margin-top: -2rem;
-    box-shadow: 0 50px 50px rgba(0, 0, 0, 0.2);
-    filter: brightness(75%);
-    -webkit-filter: brightness(75%);
-    span {
-      display: block;
+    .descr-proyectos {
+      margin-bottom: 4%;
+      font-size: $descrSize;
+      font-weight: 300;
+    }
+
+    .cards-flex {
+      position: absolute;
+      right: 8%;
+      left: 8%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-bottom: 8%;
+    }
+
+    .card {
+      height: 15vw;
+      width: 25vw;
+      box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+      border-radius: 0.5rem;
+      background-image: url("../../multimedia/santor.png");
+      background-color: $gris;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: all 0.5s;
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -ms-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      -webkit-border-radius: 0.5rem;
+      -moz-border-radius: 0.5rem;
+      -ms-border-radius: 0.5rem;
+      -o-border-radius: 0.5rem;
+      span {
+        display: none;
+        padding-top: 25%;
+        transform: translate(0%, 85%);
+        text-align: center;
+        color: white;
+        filter: brightness(150%);
+        font-size: 1.5vw;
+      }
+    }
+
+    .card:hover {
+      margin-top: -4%;
+      box-shadow: 0 50px 50px rgba(0, 0, 0, 0.2);
+      filter: brightness(75%);
+      -webkit-filter: brightness(75%);
+      span {
+        display: block;
+        margin-top: -4%;
+      }
     }
   }
 }
 
 @media only screen and (max-width: 700px) {
   .proyectosContainer {
-    padding-bottom: 20%;
-
-    .titulo-proyectos {
-      @include tituloMedianoResp;
-      width: 80%;
-      padding-top: 7%;
+    .figura1 {
+      width: 15%;
+      margin: 1% 0 0 48% !important;
+    }
+    .figura2 {
+      width: 25%;
+      margin: -12% 0 0 60% !important;
     }
 
-    .descr-proyectos {
-      font-size: $descrSizeResp;
-      padding: 4% 10%;
-      text-align: center;
-    }
+    .proyectosCard {
+      padding-bottom: 10%;
 
-    .cards-flex {
-      @include centerCol;
-      position: static;
-    }
-
-    .card {
-      height: 50vw;
-      width: 80vw;
-      span {
-        @include center;
-        padding-top: 22%;
-        transform: translate(0, 100%);
-        color: rgb(255, 255, 255);
-        font-weight: bold;
-        font-size: $descrSizeResp;
+      .titulo-proyectos {
+        @include tituloMedianoResp;
+        width: 100%;
+        padding: 7% 0 0 4%;
       }
-    }
 
-    .card:hover {
-      margin-top: 0;
-      filter: brightness(100%);
-      -webkit-filter: brightness(100%);
+      .descr-proyectos {
+        font-size: $descrSizeResp;
+        padding: 4%;
+        // text-align: center;
+      }
+
+      .cards-flex {
+        @include centerCol;
+        position: static;
+      }
+
+      .card {
+        height: 50vw;
+        width: 80vw;
+        margin-bottom: 6%;
+        span {
+          @include center;
+          padding-top: 22%;
+          transform: translate(0, 100%);
+          color: rgb(255, 255, 255);
+          font-weight: bold;
+          font-size: $descrSizeResp;
+        }
+      }
+
+      .card:hover {
+        margin-top: 0;
+        filter: brightness(100%);
+        -webkit-filter: brightness(100%);
+      }
     }
   }
 }

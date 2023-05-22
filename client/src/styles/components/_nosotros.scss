@@ -1,6 +1,7 @@
 .nosotrosContainer {
   height: auto;
   color: black;
+  background-color: black;
   .inicio {
     // height: 100vh;
     padding-bottom: 15%;
@@ -54,7 +55,7 @@
   .beneficios {
     padding: 7% 4% 22% 4%;
     .box1 {
-      background-color: $magenta;
+      background-color: $gris;
       color: white;
       // border: 1px solid rgb(160, 160, 160);
       padding: 8% 5%;
@@ -71,13 +72,13 @@
       }
       .button-beneficios {
         @include botones;
-        background-color: white;
-        color: $magenta;
+        background-color: $magenta;
+        color: white;
         transition: all 0.3s;
       }
       .button-beneficios:hover {
-        background-color: $magentaFuerte;
-        color: white;
+        background-color: $grisClaro;
+        color: $magenta;
       }
     }
     .box2 {
@@ -284,7 +285,7 @@
     }
 
     .beneficios {
-      padding: 0 4% 90% 4%;
+      padding: 0 4% 35% 4%;
 
       .box1 {
         padding: 10% 0 70% 10%;
@@ -307,14 +308,15 @@
         }
       }
       .box2 {
-        border-radius: 1.5rem 0 1.5rem 1.5rem;
-        -webkit-border-radius: 1.5rem 0 1.5rem 1.5rem;
-        -moz-border-radius: 1.5rem 0 1.5rem 1.5rem;
-        -ms-border-radius: 1.5rem 0 1.5rem 1.5rem;
-        -o-border-radius: 1.5rem 0 1.5rem 1.5rem;
+        position: static;
+        border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+        -webkit-border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+        -moz-border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+        -ms-border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+        -o-border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
         margin-top: -50%;
-        width: 75%;
-        padding: 6%;
+        width: 100%;
+        padding: 10%;
         .subtitulo-beneficios {
           font-size: 140%;
           line-height: 120%;
@@ -333,13 +335,13 @@
         -moz-border-radius: 0 1.5rem 0 0;
         -ms-border-radius: 0 1.5rem 0 0;
         -o-border-radius: 0 1.5rem 0 0;
-        margin-top: 75%;
+        margin-top: 21%;
         width: 50%;
       }
       .circulos3D {
         position: absolute;
         left: 25%;
-        margin-top: 65%;
+        margin-top: 10%;
         img {
           width: 40vw;
         }

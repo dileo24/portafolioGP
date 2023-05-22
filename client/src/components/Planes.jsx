@@ -1,5 +1,3 @@
-// Joaco
-
 import React from "react";
 import check from "../multimedia/check.png";
 import sopTec from "../multimedia/sopTec2.png";

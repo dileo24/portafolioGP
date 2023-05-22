@@ -1,5 +1,3 @@
-// Joaco
-
 import React, { useState } from "react";
 import axios from "axios";
 import { useSpring, animated } from "react-spring";
@@ -20,10 +18,21 @@ export default function Contacto() {
     celular: "",
     email: "",
     mensaje: "",
+    planTipo: "",
   });
 
   const handlerChange = (e) => {
     setInput({ ...input, [e.target.name]: e.target.value });
+  };
+
+  const handlerSelectPlan = (e) => {
+    if (!input.planTipo.includes(e.target.id)) {
+      setInput({
+        ...input,
+        planTipo: e.target.id,
+      });
+    }
+    console.log(e.target.id);
   };
 
   const handleSubmit = async (event) => {
@@ -73,6 +82,7 @@ export default function Contacto() {
         celular: "",
         email: "",
         mensaje: "",
+        planTipo: "",
       });
     }, 500);
   };
@@ -109,7 +119,7 @@ export default function Contacto() {
                   value={input.empresa}
                   onChange={(e) => handlerChange(e)}
                   required
-                  placeholder="Nombre de empresa"
+                  placeholder="Empresa"
                 />
                 <input
                   type="text"
@@ -153,6 +163,48 @@ export default function Contacto() {
                   placeholder="Correo electrónico"
                 />
               </div>
+            </div>
+            <div className="checkbox">
+              <label htmlFor="Oro">
+                Oro
+                <input
+                  type="radio"
+                  name="planTipo"
+                  id="Oro"
+                  value={input.planTipo}
+                  onChange={(e) => handlerSelectPlan(e)}
+                />
+              </label>
+              <label htmlFor="Plata">
+                Plata
+                <input
+                  type="radio"
+                  name="planTipo"
+                  id="Plata"
+                  value={input.planTipo}
+                  onChange={(e) => handlerSelectPlan(e)}
+                />
+              </label>
+              <label htmlFor="Bronce">
+                Bronce
+                <input
+                  type="radio"
+                  name="planTipo"
+                  id="Bronce"
+                  value={input.planTipo}
+                  onChange={(e) => handlerSelectPlan(e)}
+                />
+              </label>
+              <label htmlFor="Personalizado">
+                Personalizado
+                <input
+                  type="radio"
+                  name="planTipo"
+                  id="Personalizado"
+                  value={input.planTipo}
+                  onChange={(e) => handlerSelectPlan(e)}
+                />
+              </label>
             </div>
             <textarea
               id="message"
