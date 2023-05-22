@@ -70,6 +70,7 @@
         box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
         background-color: rgb(238, 238, 238);
         padding: 0 11%;
+        height: 100vh; //lo puse porque si no queda distinto cada plan
         @include center;
         .lista {
           padding-bottom: 25%;
@@ -107,9 +108,10 @@
           }
         }
       }
-      .detallesBronce {
-        padding-top: 40%;
-        padding-bottom: 30%;
+      //lo saco porque si no queda distinto cada plan
+      /* .detallesBronce {
+        padding-top: 45%;
+        padding-bottom: 40%;
       }
       .detallesOro {
         padding-top: 10%;
@@ -118,7 +120,7 @@
       .detallesPlata {
         padding-top: 21%;
         padding-bottom: 21%;
-      }
+      } */
 
       a {
         width: 100%;
@@ -153,6 +155,7 @@
     border-radius: 0.5rem;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
     background-color: rgb(238, 238, 238);
+    color: black;
     margin: 0 6%;
     padding: 1% 2%;
     @include centerRow;
@@ -164,7 +167,6 @@
       width: 90%;
       @include centerCol;
       margin-left: 6.3%;
-      color: black;
       .titulo {
         font-size: 1.7vw;
         font-weight: bolder;
@@ -190,7 +192,6 @@
           margin-bottom: 0;
         }
         .moneda {
-          color: black;
           margin-bottom: 0;
           font-size: 2.3vw;
           font-weight: bolder;

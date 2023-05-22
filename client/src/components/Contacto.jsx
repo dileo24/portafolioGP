@@ -152,6 +152,29 @@ export default function Contacto() {
                 />
               </div>
             </div>
+            <div class="checkbox">
+              <label for="Oro">
+                Oro
+                <input type="radio" name="pago" id="Oro" value="Oro" />
+              </label>
+              <label for="Plata">
+                Plata
+                <input type="radio" name="pago" id="Plata" value="Plata" />
+              </label>
+              <label for="Bronce">
+                Bronce
+                <input type="radio" name="pago" id="Bronce" value="Bronce" />
+              </label>
+              <label for="Personalizado">
+                Personalizado
+                <input
+                  type="radio"
+                  name="pago"
+                  id="Personalizado"
+                  value="Personalizado"
+                />
+              </label>
+            </div>
             <textarea
               id="message"
               name="mensaje"
