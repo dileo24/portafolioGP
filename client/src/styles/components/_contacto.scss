@@ -236,8 +236,7 @@
           .checkbox {
             display: flex;
             flex-wrap: wrap;
-            justify-content: center;
-            gap: 5%;
+            justify-content: space-between;
             label {
               background-color: $magentaFuerte;
               justify-content: space-between;
