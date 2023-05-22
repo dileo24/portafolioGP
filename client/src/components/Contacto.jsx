@@ -119,7 +119,7 @@ export default function Contacto() {
                   value={input.empresa}
                   onChange={(e) => handlerChange(e)}
                   required
-                  placeholder="Nombre de empresa"
+                  placeholder="Empresa"
                 />
                 <input
                   type="text"
