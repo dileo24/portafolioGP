@@ -74,7 +74,7 @@
         .sect {
           @include centerRow;
           justify-content: space-between;
-          padding-bottom: 1rem;
+          margin-bottom: 5%;
           input {
             height: 0;
             width: 31%;
@@ -104,7 +104,7 @@
         .checkbox {
           @include center;
           justify-content: space-between;
-          margin-bottom: 1rem;
+          margin-bottom: 5%;
           label {
             @include center;
             justify-content: space-evenly;
@@ -127,6 +127,7 @@
           border: 2px solid white;
           color: white;
           background-color: transparent;
+          margin-bottom: 5%;
         }
         textarea::-webkit-scrollbar {
           width: 0.5vw;
@@ -149,7 +150,6 @@
           border: none;
           color: $grisOscuro;
           border-radius: 0.5rem;
-          margin-top: 3%;
           transition: all 0.2s;
           -webkit-transition: all 0.2s;
           -moz-transition: all 0.2s;
