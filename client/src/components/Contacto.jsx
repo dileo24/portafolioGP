@@ -164,7 +164,7 @@ export default function Contacto() {
                 />
               </div>
             </div>
-            <div class="checkbox">
+            <div className="checkbox">
               <label htmlFor="Oro">
                 Oro
                 <input

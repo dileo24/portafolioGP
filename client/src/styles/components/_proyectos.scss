@@ -2,12 +2,8 @@
   height: auto;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  /*  align-items: start; */
-  // color: black;
   color: white;
   padding: 0% 4%;
-  background-color: black;
   .figura1 {
     width: 13%;
     position: absolute;
@@ -22,9 +18,7 @@
   .proyectosCard {
     background-color: $gris;
     padding: 0 4% 26% 4%;
-    // margin-top: -2%;
     .titulo-proyectos {
-      /* text-align: center; */
       margin-top: 8%;
       margin-bottom: 1.5%;
       @include tituloMediano;
@@ -102,7 +96,7 @@
     }
 
     .proyectosCard {
-      padding-bottom: 7%;
+      padding-bottom: 10%;
 
       .titulo-proyectos {
         @include tituloMedianoResp;
