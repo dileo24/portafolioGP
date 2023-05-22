@@ -34,7 +34,6 @@
       @include centerCol;
       color: white;
       padding: 5%;
-      font-size: $descrSize;
       .animac {
         display: none;
         background-color: rgba(172, 4, 82, 0.753);
@@ -65,6 +64,7 @@
         }
         .parrafo {
           margin-top: 1.5%;
+          font-size: $descrSize;
           margin-bottom: 4%;
         }
       }
