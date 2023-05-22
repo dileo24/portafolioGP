@@ -54,7 +54,7 @@
   .beneficios {
     padding: 7% 4% 22% 4%;
     .box1 {
-      background-color: $magenta;
+      background-color: $gris;
       color: white;
       // border: 1px solid rgb(160, 160, 160);
       padding: 8% 5%;
@@ -71,13 +71,13 @@
       }
       .button-beneficios {
         @include botones;
-        background-color: white;
-        color: $magenta;
+        background-color: $magenta;
+        color: white;
         transition: all 0.3s;
       }
       .button-beneficios:hover {
-        background-color: $magentaFuerte;
-        color: white;
+        background-color: $grisClaro;
+        color: $magenta;
       }
     }
     .box2 {

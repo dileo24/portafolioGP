@@ -7,9 +7,9 @@
 
     .text {
       width: 50%;
+      text-align: center;
       .titulo {
         @include tituloMediano;
-        text-align: center;
         width: 100%;
         color: black;
       }
@@ -17,7 +17,6 @@
         color: black;
         font-size: $descrSize;
         line-height: $descrLineHeight;
-        text-align: center;
         font-weight: 300;
         margin: 0;
       }

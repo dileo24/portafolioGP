@@ -1,5 +1,3 @@
-// Joaco
-
 import React, { useState } from "react";
 import axios from "axios";
 import { useSpring, animated } from "react-spring";
