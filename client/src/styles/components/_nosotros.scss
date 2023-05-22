@@ -1,6 +1,7 @@
 .nosotrosContainer {
   height: auto;
   color: black;
+  background-color: black;
   .inicio {
     // height: 100vh;
     padding-bottom: 15%;
@@ -146,11 +147,11 @@
     color: black;
     padding: 12% 10%;
     padding-bottom: 9%;
-    border-radius: 0 4rem 4rem 4rem;
-    -webkit-border-radius: 0 4rem 4rem 4rem;
-    -moz-border-radius: 0 4rem 4rem 4rem;
-    -ms-border-radius: 0 4rem 4rem 4rem;
-    -o-border-radius: 0 4rem 4rem 4rem;
+    border-radius: 0 4rem 0 0;
+    -webkit-border-radius: 0 4rem 0 0;
+    -moz-border-radius: 0 4rem 0 0;
+    -ms-border-radius: 0 4rem 0 0;
+    -o-border-radius: 0 4rem 0 0;
     box-shadow: 0px 8px 0.8rem 0px rgba(0, 0, 0, 0.086);
     .flex-info {
       display: flex;

@@ -70,7 +70,7 @@
         box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
         background-color: rgb(238, 238, 238);
         padding: 0 11%;
-        height: 100vh; //lo puse porque si no queda distinto cada plan
+        // height: 100vh; //lo puse porque si no queda distinto cada plan
         @include center;
         .lista {
           padding-bottom: 25%;
@@ -109,7 +109,7 @@
         }
       }
       //lo saco porque si no queda distinto cada plan
-      /* .detallesBronce {
+      .detallesBronce {
         padding-top: 45%;
         padding-bottom: 40%;
       }
@@ -120,7 +120,7 @@
       .detallesPlata {
         padding-top: 21%;
         padding-bottom: 21%;
-      } */
+      }
 
       a {
         width: 100%;
