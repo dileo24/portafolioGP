@@ -7,45 +7,47 @@ export default function Proyectos() {
     <section id="proyectos" className="proyectosContainer">
       <img src={figura1} className="figura1" alt="figura" />
       <img src={figura2} className="figura2" alt="figura" />
-      <h1 className="titulo-proyectos">
-        Descubre más sobre <br /> nuestros trabajos
-      </h1>
-      <div className="descr-proyectos">
-        Aquí podrás ver y elegir entre todos nuestros trabajos realizados.
-      </div>
-      <div className="cards">
-        <div className="cards-flex">
-          <a
-            href="https://san-tor.vercel.app/index.html"
-            className="card"
-            target="_blank"
-            rel="noreferrer"
-            style={{ textDecoration: "none" }}
-          >
-            <span>SanTor - Multipágina - Informativa</span>
-          </a>
-          <a
-            href="https://san-tor.vercel.app/index.html"
-            className="card"
-            target="_blank"
-            rel="noreferrer"
-            style={{ textDecoration: "none" }}
-          >
-            <span>SanTor - Multipágina - Informativa</span>
-          </a>
-          <a
-            href="https://san-tor.vercel.app/index.html"
-            className="card"
-            target="_blank"
-            rel="noreferrer"
-            style={{ textDecoration: "none" }}
-          >
-            <span>SanTor - Multipágina - Informativa</span>
-          </a>
+      <div className="proyectosCard">
+        <h1 className="titulo-proyectos">
+          Descubre más sobre <br /> nuestros trabajos
+        </h1>
+        <div className="descr-proyectos">
+          Aquí podrás ver y elegir entre todos nuestros trabajos realizados.
         </div>
-        {/* <a className="button-proyectos" href="">
-          VER MÁS
-        </a> */}
+        <div className="cards">
+          <div className="cards-flex">
+            <a
+              href="https://san-tor.vercel.app/index.html"
+              className="card"
+              target="_blank"
+              rel="noreferrer"
+              style={{ textDecoration: "none" }}
+            >
+              <span>SanTor - Multipágina - Informativa</span>
+            </a>
+            <a
+              href="https://san-tor.vercel.app/index.html"
+              className="card"
+              target="_blank"
+              rel="noreferrer"
+              style={{ textDecoration: "none" }}
+            >
+              <span>SanTor - Multipágina - Informativa</span>
+            </a>
+            <a
+              href="https://san-tor.vercel.app/index.html"
+              className="card"
+              target="_blank"
+              rel="noreferrer"
+              style={{ textDecoration: "none" }}
+            >
+              <span>SanTor - Multipágina - Informativa</span>
+            </a>
+          </div>
+          {/* <a className="button-proyectos" href="">
+            VER MÁS
+          </a> */}
+        </div>
       </div>
     </section>
   );
