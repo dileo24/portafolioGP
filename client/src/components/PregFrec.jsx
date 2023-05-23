@@ -22,7 +22,9 @@ export default function PregFrec() {
     <div className="pregContainer">
       <Navbar />
       <div className="inicio">
-        <h1 className="titulo">Preguntas Frecuentes de Nuestros Clientes</h1>
+        <h1 className="titulo">
+          Preguntas frecuentes <br /> de nuestros clientes
+        </h1>
         <div className="boxsContainer">
           <div className="boxIzquierda">
             <p>

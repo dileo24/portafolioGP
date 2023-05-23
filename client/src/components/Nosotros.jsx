@@ -12,13 +12,14 @@ export default function Nosotros() {
         </h1>
         <p className="descr-inicio">
           En GoPage creamos páginas web a medida que se ajustan a tus
-          necesidades! Entendemos que cada cliente es diferente, por lo que nos
+          necesidades. Entendemos que cada cliente es diferente, por lo que nos
           adaptamos a tus requerimientos y creamos soluciones personalizadas
-          ajustadas a tus solicitudes y gustos.{" "}
           <span>
-            Somos flexibles para brindarte un servicio de calidad que supere tus
-            expectativas.
+            {" "}
+            ajustadas a tus solicitudes y gustos. Somos flexibles para brindarte
+            un servicio de calidad que supere tus expectativas
           </span>
+          .
         </p>
         <a className="button-inicio" href="#planes">
           COMENCEMOS
