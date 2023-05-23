@@ -4,12 +4,12 @@
   background-color: black;
   .inicio {
     // height: 100vh;
-    padding-bottom: 15%;
     //background-color: rgba(255, 255, 255, 0);
     // background-image: linear-gradient(135deg, #f5f7fa 0%, #e2c3cf 100%);
     // background-image: linear-gradient(135deg, #f5f7fa 0%, #bedbf0 100%);
-    background-image: url("../../multimedia/fondo1.png");
     // background-position: start;
+    padding-bottom: 15%;
+    background-image: url("../../multimedia/fondo1.png");
     background-size: cover;
     box-shadow: 0px 0px 0.8rem 0px rgba(0, 0, 0, 0.207);
     color: black;
@@ -202,6 +202,7 @@
 
       .descr-item {
         font-size: $descrSize;
+        font-weight: $light;
       }
     }
   }
@@ -209,26 +210,106 @@
 
 ///// Responsive /////
 
-// Celulares horizontal y tablets
-@media only screen and (min-width: 700px) and (max-width: 991px) {
+// Monitores chicos
+@media only screen and (max-width: 1500px) {
   .nosotrosContainer {
     .inicio {
+      border-radius: 0 0 3rem 3rem;
+      -webkit-border-radius: 0 0 3rem 3rem;
+      -moz-border-radius: 0 0 3rem 3rem;
+      -ms-border-radius: 0 0 3rem 3rem;
+      -o-border-radius: 0 0 3rem 3rem;
       .titulo-inicio {
         padding: 8% 0 0 4%;
       }
       .descr-inicio {
         font-weight: normal;
       }
-      .GPcontainer {
-        // margin-top: -30%;
-      }
     }
     .beneficios {
+      .box1 {
+        border-radius: 0 3rem 0 3rem;
+        -webkit-border-radius: 0 3rem 0 3rem;
+        -moz-border-radius: 0 3rem 0 3rem;
+        -ms-border-radius: 0 3rem 0 3rem;
+        -o-border-radius: 0 3rem 0 3rem;
+      }
       .box2 {
+        border-radius: 3rem 0 3rem 3rem;
+        -webkit-border-radius: 3rem 0 3rem 3rem;
+        -moz-border-radius: 3rem 0 3rem 3rem;
+        -ms-border-radius: 3rem 0 3rem 3rem;
+        -o-border-radius: 3rem 0 3rem 3rem;
         .descr-beneficios {
           font-weight: normal;
         }
       }
+      .box3 {
+        border-radius: 0 3rem 0 0;
+        -webkit-border-radius: 0 3rem 0 0;
+        -moz-border-radius: 0 3rem 0 0;
+        -ms-border-radius: 0 3rem 0 0;
+        -o-border-radius: 0 3rem 0 0;
+      }
+    }
+    .info {
+      border-radius: 0 3rem 3rem 3rem;
+      -webkit-border-radius: 0 3rem 3rem 3rem;
+      -moz-border-radius: 0 3rem 3rem 3rem;
+      -ms-border-radius: 0 3rem 3rem 3rem;
+      -o-border-radius: 0 3rem 3rem 3rem;
+    }
+  }
+}
+
+// Celulares horizontal y tablets
+@media only screen and (min-width: 700px) and (max-width: 991px) {
+  .nosotrosContainer {
+    .inicio {
+      border-radius: 0 0 2.5rem 2.5rem;
+      -webkit-border-radius: 0 0 2.5rem 2.5rem;
+      -moz-border-radius: 0 0 2.5rem 2.5rem;
+      -ms-border-radius: 0 0 2.5rem 2.5rem;
+      -o-border-radius: 0 0 2.5rem 2.5rem;
+      .titulo-inicio {
+        padding: 8% 0 0 4%;
+      }
+      .descr-inicio {
+        font-weight: normal;
+      }
+    }
+    .beneficios {
+      .box1 {
+        border-radius: 0 2.5rem 0 2.5rem;
+        -webkit-border-radius: 0 2.5rem 0 2.5rem;
+        -moz-border-radius: 0 2.5rem 0 2.5rem;
+        -ms-border-radius: 0 2.5rem 0 2.5rem;
+        -o-border-radius: 0 2.5rem 0 2.5rem;
+      }
+      .box2 {
+        border-radius: 2.5rem 0 2.5rem 2.5rem;
+        -webkit-border-radius: 2.5rem 0 2.5rem 2.5rem;
+        -moz-border-radius: 2.5rem 0 2.5rem 2.5rem;
+        -ms-border-radius: 2.5rem 0 2.5rem 2.5rem;
+        -o-border-radius: 2.5rem 0 2.5rem 2.5rem;
+        .descr-beneficios {
+          font-weight: normal;
+        }
+      }
+      .box3 {
+        border-radius: 0 2.5rem 0 0;
+        -webkit-border-radius: 0 2.5rem 0 0;
+        -moz-border-radius: 0 2.5rem 0 0;
+        -ms-border-radius: 0 2.5rem 0 0;
+        -o-border-radius: 0 2.5rem 0 0;
+      }
+    }
+    .info {
+      border-radius: 0 2.5rem 2.5rem 2.5rem;
+      -webkit-border-radius: 0 2.5rem 2.5rem 2.5rem;
+      -moz-border-radius: 0 2.5rem 2.5rem 2.5rem;
+      -ms-border-radius: 0 2.5rem 2.5rem 2.5rem;
+      -o-border-radius: 0 2.5rem 2.5rem 2.5rem;
     }
   }
 }
@@ -346,10 +427,6 @@
           width: 40vw;
         }
       }
-      // .frase {
-      //   p {
-      //   }
-      // }
     }
 
     .info {
@@ -382,6 +459,8 @@
       }
       .items-info {
         display: inline-block;
+        padding-bottom: 10%;
+
         .item-info {
           margin: 0;
           padding: 0;

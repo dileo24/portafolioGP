@@ -22,31 +22,38 @@ export default function PregFrec() {
     <div className="pregContainer">
       <Navbar />
       <div className="inicio">
-        <h1 className="titulo">Preguntas Frecuentes de Nuestros Clientes</h1>
-        <p className="subText">
-          A continuación vas a poder ver las preguntas más importantes que hemos
-          recibido de clientes, estas facilitarán el entender la importancia de
-          digitalizar todo proceso productivo, de información o de compra.{" "}
-        </p>
-        <div className="boxGeneral">
-          <div className="links">
-            <a href="#pregsPagina" style={{ textDecoration: "none" }}>
-              Preguntas sobre la página
-            </a>
-            <a href="#pregsPlanes" style={{ textDecoration: "none" }}>
-              Preguntas sobre la planes
-            </a>
-            <a href="#pregsCom" style={{ textDecoration: "none" }}>
-              Preguntas sobre comunicación
-            </a>
-          </div>
-          <div className="box">
-            <p className="subText1">
-              Acá vas a poder ver referencias para acercarte más rápido al tipo
-              de preguntas que tengas! Por supuesto, ante cualquier duda no
-              planteada acá, recordá que podés contactar con nosotros y
-              responderemos lo antes posible :)
+        <h1 className="titulo">
+          Preguntas frecuentes <br /> de nuestros clientes
+        </h1>
+        <div className="boxsContainer">
+          <div className="boxIzquierda">
+            <p>
+              A continuación vas a poder ver las preguntas más importantes que
+              hemos recibido de clientes, estas facilitarán el entender la
+              importancia de digitalizar todo proceso productivo, de información
+              o de compra.{" "}
             </p>
+            <div className="links">
+              <a href="#pregsPagina" style={{ textDecoration: "none" }}>
+                Preguntas sobre la página
+              </a>
+              <a href="#pregsPlanes" style={{ textDecoration: "none" }}>
+                Preguntas sobre la planes
+              </a>
+              <a href="#pregsCom" style={{ textDecoration: "none" }}>
+                Preguntas sobre comunicación
+              </a>
+            </div>
+          </div>
+          <div className="boxDerecha">
+            <div className="box">
+              <p className="subText1">
+                Acá vas a poder ver referencias para acercarte más rápido al
+                tipo de preguntas que tengas! Por supuesto, ante cualquier duda
+                no planteada acá, recordá que podés contactar con nosotros y
+                responderemos lo antes posible.
+              </p>
+            </div>
           </div>
         </div>
 
@@ -54,6 +61,7 @@ export default function PregFrec() {
           <img src={imgPreg} alt="img" />
         </div>
       </div>
+
       <div className="pregContainer">
         <div className="pregsPagina" id="pregsPagina">
           <h1>Preguntas de la Página</h1>

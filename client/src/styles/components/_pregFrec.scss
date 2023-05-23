@@ -2,89 +2,102 @@
   background-color: $fondoClaro;
   height: auto;
   .inicio {
-    padding-bottom: 2%;
+    padding: 6% 0 2% 0;
     background-size: cover;
     color: black;
-    padding-top: 5%;
+
     .titulo {
       font-size: 5vw;
       padding: 1.5% 25% 0 4%;
-      margin-bottom: 3%;
+      margin-bottom: 6%;
     }
-    .subText {
-      font-size: $descrSize;
-      font-weight: 100;
-      color: white;
-      padding: 4%;
-      margin: 0 59.4% 0 3%;
-      padding: 5%;
-      border-radius: 4rem 4rem 0 0;
-      background-color: $magenta;
+
+    .boxsContainer {
+      display: flex;
+      margin: 0 3%;
+      align-items: end;
+      .boxIzquierda {
+        width: 100%;
+        font-size: $descrSize;
+        font-weight: 100;
+        color: white;
+        padding: 5% 5%;
+        background-color: $magenta;
+        border-radius: 4rem 4rem 0 4rem;
+        -webkit-border-radius: 4rem 4rem 0 4rem;
+        -moz-border-radius: 4rem 4rem 0 4rem;
+        -ms-border-radius: 4rem 4rem 0 4rem;
+        -o-border-radius: 4rem 4rem 0 4rem;
+        .links {
+          @include centerCol;
+          align-items: flex-start;
+          padding-top: 20%;
+          a {
+            font-size: 1.7vw;
+            font-weight: bold;
+            color: white;
+            transition: all 0.3s ease-in-out;
+            margin-bottom: 2.5%;
+            -webkit-transition: all 0.3s ease-in-out;
+            -moz-transition: all 0.3s ease-in-out;
+            -ms-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+          }
+          a:hover {
+            color: #ff6098;
+            padding-left: 5%;
+          }
+        }
+      }
+      .boxDerecha {
+        @include centerRow;
+        justify-content: space-between;
+        .box {
+          background-color: $grisClaro;
+          padding: 10% 2%;
+          border-radius: 0 4rem 0rem 0;
+          -webkit-border-radius: 0 4rem 0rem 0;
+          -moz-border-radius: 0 4rem 0rem 0;
+          -ms-border-radius: 0 4rem 0rem 0;
+          -o-border-radius: 0 4rem 0rem 0;
+          .subText1 {
+            font-size: $descrSize;
+            font-weight: 100;
+            line-height: $descrLineHeight;
+            margin: 0;
+            padding: 0 5%;
+          }
+        }
+      }
     }
+
     .imgContainer {
       position: absolute;
-      top: 7%;
+      top: 11.5vw;
       right: 0;
       img {
         width: 55vw;
         height: auto;
       }
     }
-    .boxGeneral {
-      margin: 0% 3% 0 3%;
-      @include centerRow;
-      justify-content: space-between;
-      .links {
-        background-color: $magenta;
-        border-radius: 0 0rem 0 4rem;
-        -webkit-border-radius: 0 0rem 0 4rem;
-        -moz-border-radius: 0 0rem 0 4rem;
-        -ms-border-radius: 0 0rem 0 4rem;
-        -o-border-radius: 0 0rem 0 4rem;
-        width: 80%;
-        padding: 5%;
-        @include centerCol;
-        align-items: flex-start;
-        a {
-          font-size: 1.7vw;
-          font-weight: bold;
-          color: white;
-          transition: all 0.3s ease-in-out;
-          margin-bottom: 2.5%;
-          width: 100%;
-        }
-        a:hover {
-          color: #ff6098;
-          padding-left: 5%;
-        }
-      }
-      .box {
-        background-color: $grisClaro;
-        padding: 7% 2% 7% 2%;
-        border-radius: 0 4rem 0rem 0;
-        -webkit-border-radius: 0 4rem 0rem 0;
-        -moz-border-radius: 0 4rem 0rem 0;
-        -ms-border-radius: 0 4rem 0rem 0;
-        -o-border-radius: 0 4rem 0rem 0;
-        .subText1 {
-          font-size: $descrSize;
-          font-weight: 100;
-          line-height: $descrLineHeight;
-          margin: 0;
-          padding: 0 5% 0 5%;
-        }
-      }
-    }
   }
+
   .pregContainer {
+    padding-bottom: 5%;
     .pregsPagina,
     .pregsPlanes,
     .pregsCom {
-      @include centerCol;
-      padding: 5% 20% 0 20%;
+      // @include centerCol;
+      padding: 5% 10% 0 10%;
       color: black;
+      h1 {
+        font-size: 2vw;
+        margin: 0;
+        padding-bottom: 2%;
+        font-weight: bold;
+      }
       .preg {
-        width: 70vw;
+        width: 100%;
         margin-bottom: 3%;
         border-radius: 1rem;
         box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
@@ -95,8 +108,7 @@
           @include centerRow;
           justify-content: space-between;
           .titulo {
-            font-size: 1.8vw;
-            font-weight: bold;
+            font-size: 1.5vw;
             margin-bottom: 0;
           }
           img {
