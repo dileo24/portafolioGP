@@ -101,12 +101,12 @@
       .titulo-proyectos {
         @include tituloMedianoResp;
         width: 100%;
-        padding: 7% 0 0 4%;
+        padding: 16% 0 0 4%;
       }
 
       .descr-proyectos {
         font-size: $descrSizeResp;
-        padding: 4%;
+        padding: 10% 4%;
         // text-align: center;
       }
 
@@ -118,7 +118,7 @@
       .card {
         height: 50vw;
         width: 80vw;
-        margin-bottom: 6%;
+        margin-bottom: 10%;
         span {
           @include center;
           padding-top: 22%;
