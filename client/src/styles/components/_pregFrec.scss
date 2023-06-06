@@ -3,7 +3,6 @@
   height: auto;
   .inicio {
     padding: 6% 0 2% 0;
-    background-size: cover;
     color: black;
 
     .titulo {
@@ -124,6 +123,120 @@
       .preg:hover {
         img {
           content: url("../../multimedia/ojoSemiAb.png");
+        }
+      }
+    }
+  }
+}
+
+// Celulares vertical
+@media only screen and (max-width: 700px) {
+  .pregContainer {
+    .inicio {
+      margin-bottom: 20%;
+      padding: 0 4% 20% 4%;
+      margin-bottom: 0;
+
+      .titulo {
+        font-size: 15vw;
+        padding: 30% 6% 20% 6%;
+        margin: 0;
+      }
+
+      .boxsContainer {
+        display: inline-block;
+        .boxIzquierda {
+          font-size: $descrSizeResp;
+          padding: 10% 10% 20% 10%;
+          border-radius: 1.5rem 1.5rem 0 0;
+          -webkit-border-radius: 1.5rem 1.5rem 0 0;
+          -moz-border-radius: 1.5rem 1.5rem 0 0;
+          -ms-border-radius: 1.5rem 1.5rem 0 0;
+          -o-border-radius: 1.5rem 1.5rem 0 0;
+          .links {
+            padding-top: 20%;
+
+            a {
+              font-size: $descrSizeResp;
+              transition: none;
+              -webkit-transition: none;
+              -moz-transition: none;
+              -ms-transition: none;
+              -o-transition: none;
+            }
+            a:hover {
+              color: #ff6098;
+              padding-left: 0;
+            }
+          }
+        }
+        .boxDerecha {
+          .box {
+            background-color: $grisClaro;
+            padding: 20% 10%;
+            border-radius: 0 0 1.5rem 1.5rem;
+            -webkit-border-radius: 0 0 1.5rem 1.5rem;
+            -moz-border-radius: 0 0 1.5rem 1.5rem;
+            -ms-border-radius: 0 0 1.5rem 1.5rem;
+            -o-border-radius: 0 0 1.5rem 1.5rem;
+            .subText1 {
+              font-size: $descrSizeResp;
+              padding: 0;
+            }
+          }
+        }
+      }
+
+      .imgContainer {
+        display: none;
+      }
+    }
+
+    .pregContainer {
+      padding-bottom: 5%;
+      .pregsPagina,
+      .pregsPlanes,
+      .pregsCom {
+        // @include centerCol;
+        padding: 5% 10% 10% 10%;
+        color: black;
+        h1 {
+          font-size: 6vw;
+          margin: 0;
+          padding-bottom: 5%;
+          font-weight: bold;
+        }
+        .preg {
+          width: 100%;
+          margin-bottom: 10%;
+          border-radius: 1rem;
+          box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+          padding: 6%;
+          transition: all 0.3s ease-in-out;
+          .superior {
+            cursor: pointer;
+            @include centerRow;
+            justify-content: space-between;
+            .titulo {
+              font-size: $descrSizeResp;
+              margin-bottom: 0;
+            }
+            img {
+              width: 8vw;
+              margin-left: 2%;
+            }
+          }
+          .parrafo {
+            padding: 10% 6%;
+            margin: 0;
+            text-align: start;
+            font-size: $descrSizeResp;
+          }
+        }
+        .preg:hover {
+          img {
+            content: url("../../multimedia/ojoAbierto.png");
+          }
         }
       }
     }
