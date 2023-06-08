@@ -213,9 +213,34 @@
   }
 }
 
+//// Responsive ////
+
+// Monitores chicos
+@media only screen and (max-width: 1500px) {
+  .planesContainer {
+    border-radius: 3rem 3rem 0 0;
+    -webkit-border-radius: 3rem 3rem 0 0;
+    -moz-border-radius: 3rem 3rem 0 0;
+    -ms-border-radius: 3rem 3rem 0 0;
+    -o-border-radius: 3rem 3rem 0 0;
+  }
+}
+
+// Celulares horizontal y tablets
+@media only screen and (min-width: 700px) and (max-width: 991px) {
+  .planesContainer {
+    border-radius: 2.5rem 2.5rem 0 0;
+    -webkit-border-radius: 2.5rem 2.5rem 0 0;
+    -moz-border-radius: 2.5rem 2.5rem 0 0;
+    -ms-border-radius: 2.5rem 2.5rem 0 0;
+    -o-border-radius: 2.5rem 2.5rem 0 0;
+  }
+}
+
+// Celulares vertical
 @media only screen and (max-width: 700px) {
   .planesContainer {
-    padding-bottom: 14%;
+    padding-bottom: 20%;
     border-radius: 1.5rem 1.5rem 0 0;
     -webkit-border-radius: 1.5rem 1.5rem 0 0;
     -moz-border-radius: 1.5rem 1.5rem 0 0;
@@ -238,7 +263,7 @@
     }
     .planes {
       @include centerCol;
-      padding: 0 3% 5% 3%;
+      padding: 0 0 5% 0;
       p {
         color: black;
         font-size: $descrSizeResp;
@@ -248,13 +273,13 @@
         margin-bottom: 0;
       }
       .plan {
-        width: 80%;
+        width: 85%;
         .nombrePlan {
           font-size: 7vw;
         }
         .text {
           padding: 0 0;
-          width: 105%;
+          width: 100%;
         }
         .detalles {
           .precio {
@@ -298,42 +323,44 @@
       }
       padding-bottom: 15%;
     }
-  }
-  .soporteTec {
-    padding: 6% 2% !important;
-    @include centerCol;
-    flex-direction: column !important;
-    height: 100%;
-    .sopTecImg {
-      width: 20% !important;
-    }
-    .detalles {
-      width: 100%;
-      margin-left: 0 !important;
-      .titulo {
-        font-size: 8vw !important;
-        margin: 6% !important;
-      }
-      .text {
-        font-size: $descrSizeResp !important;
-        margin-bottom: 6% !important;
-        text-align: center;
-        width: 100% !important;
-      }
-    }
-    .precio {
+    .soporteTec {
+      padding: 6% 9%;
       @include centerCol;
-      .prec {
-        margin-top: 2%;
-        @include center;
-        .precioNum,
-        .moneda {
-          font-size: 10vw !important;
+      flex-direction: column;
+      height: 100%;
+      width: 85%;
+      margin: auto;
+      .sopTecImg {
+        width: 20%;
+      }
+      .detalles {
+        width: 100%;
+        margin-left: 0;
+        .titulo {
+          font-size: 8vw;
+          margin: 6% 0;
+        }
+        .text {
+          font-size: $descrSizeResp;
+          margin-bottom: 6%;
+          text-align: center;
+          width: 100%;
         }
       }
-      .aclaracion {
-        font-size: 4vw !important;
-        margin-bottom: 0 !important;
+      .precio {
+        @include centerCol;
+        .prec {
+          margin-top: 2%;
+          @include center;
+          .precioNum,
+          .moneda {
+            font-size: 10vw;
+          }
+        }
+        .aclaracion {
+          font-size: 4vw;
+          margin-bottom: 0;
+        }
       }
     }
   }

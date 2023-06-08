@@ -22,7 +22,9 @@ export default function PregFrec() {
     <div className="pregContainer">
       <Navbar />
       <div className="inicio">
-        <h1 className="titulo">Preguntas Frecuentes de Nuestros Clientes</h1>
+        <h1 className="titulo">
+          Preguntas frecuentes <br /> de nuestros clientes
+        </h1>
         <div className="boxsContainer">
           <div className="boxIzquierda">
             <p>
@@ -33,13 +35,13 @@ export default function PregFrec() {
             </p>
             <div className="links">
               <a href="#pregsPagina" style={{ textDecoration: "none" }}>
-                Preguntas sobre la página
+                Preguntas sobre la Página
               </a>
               <a href="#pregsPlanes" style={{ textDecoration: "none" }}>
-                Preguntas sobre la planes
+                Preguntas de Planes
               </a>
               <a href="#pregsCom" style={{ textDecoration: "none" }}>
-                Preguntas sobre comunicación
+                Preguntas de Comunicación
               </a>
             </div>
           </div>
@@ -62,7 +64,7 @@ export default function PregFrec() {
 
       <div className="pregContainer">
         <div className="pregsPagina" id="pregsPagina">
-          <h1>Preguntas de la Página</h1>
+          <h1>Preguntas sobre la Página</h1>
           {preguntas.map(
             (preg, pregId) =>
               preg.tipo === "pagina" && (
@@ -116,7 +118,7 @@ export default function PregFrec() {
           )}
         </div>
         <div className="pregsCom" id="pregsCom">
-          <h1>Preguntas de comunicacion</h1>
+          <h1>Preguntas de Comunicación</h1>
           {preguntas.map(
             (preg, pregId) =>
               preg.tipo === "comunicacion" && (

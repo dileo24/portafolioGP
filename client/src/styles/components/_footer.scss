@@ -1,5 +1,7 @@
 .footerContainer {
-  background-color: rgb(150, 150, 150);
+  // background-color: rgb(150, 150, 150);
+  background-color: black;
+  color: white;
   padding: 3% 0;
   p {
     @include centerCol;
