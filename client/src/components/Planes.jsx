@@ -56,7 +56,7 @@ export default function Planes() {
             <div className="precio">
               <div className="prec">
                 <p className="moneda"> AR$</p>
-                <p className="precioNum">40.000 </p>
+                <p className="precioNum">50.000 </p>
               </div>
               <p className="aclaracion">(Precio final)</p>
             </div>
@@ -111,7 +111,7 @@ export default function Planes() {
             <div className="precio">
               <div className="prec">
                 <p className="moneda"> AR$</p>
-                <p className="precioNum">100.000 </p>
+                <p className="precioNum">120.000 </p>
               </div>
               <p className="aclaracion">(Precio final)</p>
             </div>
@@ -160,7 +160,7 @@ export default function Planes() {
             <div className="precio">
               <div className="prec">
                 <p className="moneda"> AR$</p>
-                <p className="precioNum">60.000 </p>
+                <p className="precioNum">70.000 </p>
               </div>
               <p className="aclaracion">(Precio final)</p>
             </div>
@@ -184,7 +184,7 @@ export default function Planes() {
         <div className="precio">
           <div className="prec">
             <p className="moneda"> AR$</p>
-            <p className="precioNum">20.000 </p>
+            <p className="precioNum">30.000 </p>
           </div>
           <p className="aclaracion">(Pago mensual)</p>
         </div>
