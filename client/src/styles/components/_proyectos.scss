@@ -62,9 +62,6 @@
       &.santor {
         background-image: url("../../multimedia/santor.png");
       }
-      &.quickBites {
-        background-image: url("../../multimedia/quickbites.jpg");
-      }
       span {
         display: none;
         padding-top: 25%;
@@ -73,6 +70,12 @@
         color: white;
         filter: brightness(150%);
         font-size: 1.5vw;
+      }
+      &.quickBites {
+        background-image: url("../../multimedia/quickbites.jpg");
+        span {
+          color: black;
+        }
       }
     }
 
