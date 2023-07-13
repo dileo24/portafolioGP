@@ -18,7 +18,7 @@ export default function Proyectos() {
           <div className="cards-flex">
             <a
               href="https://san-tor.vercel.app/index.html"
-              className="card"
+              className="card santor"
               target="_blank"
               rel="noreferrer"
               style={{ textDecoration: "none" }}
@@ -26,22 +26,13 @@ export default function Proyectos() {
               <span>SanTor - Multipágina - Informativa</span>
             </a>
             <a
-              href="https://san-tor.vercel.app/index.html"
-              className="card"
+              href="https://drive.google.com/file/d/1xUDvR8zUedQkcGDA92OiHaVwqCYUlrUi/view?usp=sharing"
+              className="card quickBites"
               target="_blank"
               rel="noreferrer"
               style={{ textDecoration: "none" }}
             >
-              <span>SanTor - Multipágina - Informativa</span>
-            </a>
-            <a
-              href="https://san-tor.vercel.app/index.html"
-              className="card"
-              target="_blank"
-              rel="noreferrer"
-              style={{ textDecoration: "none" }}
-            >
-              <span>SanTor - Multipágina - Informativa</span>
+              <span>QuickBites - Aplicación Web</span>
             </a>
           </div>
           {/* <a className="button-proyectos" href="">

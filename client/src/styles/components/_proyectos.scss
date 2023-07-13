@@ -36,19 +36,18 @@
       left: 8%;
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: space-around;
       flex-wrap: wrap;
       margin-bottom: 8%;
     }
 
     .card {
-      height: 15vw;
-      width: 25vw;
+      height: 20vw;
+      width: 30vw;
       box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
       border-radius: 0.5rem;
-      background-image: url("../../multimedia/santor.png");
-      background-color: $gris;
       background-size: cover;
+      background-color: $gris;
       background-position: center;
       background-repeat: no-repeat;
       transition: all 0.5s;
@@ -60,6 +59,12 @@
       -moz-border-radius: 0.5rem;
       -ms-border-radius: 0.5rem;
       -o-border-radius: 0.5rem;
+      &.santor {
+        background-image: url("../../multimedia/santor.png");
+      }
+      &.quickBites {
+        background-image: url("../../multimedia/quickbites.jpg");
+      }
       span {
         display: none;
         padding-top: 25%;
